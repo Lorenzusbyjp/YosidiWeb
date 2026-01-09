@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "YoSiDi CAD - CAD Drawing App for iPad and iPhone",
+    "description": "YoSiDi CAD is a professional CAD drawing application for iPad and iPhone, specialized in quick and efficient surveying of existing spaces and buildings.",
+    "og_title": "YoSiDi CAD - CAD Drawing App for iPad and iPhone",
+    "og_description": "Professional CAD application for surveying spaces and buildings. Essential tools, area calculation, and more.",
+    "twitter_title": "YoSiDi CAD - CAD Drawing App for iPad and iPhone",
+    "twitter_description": "Professional CAD application for surveying spaces and buildings. Essential tools, area calculation, and more."
+  },
+  "nav": {
+    "features": "Features",
+    "gallery": "Gallery",
+    "download": "Download"
+  },
+  "hero": {
+    "title": "Draw professional plans on your iPad",
+    "subtitle": "YoSiDi CAD is the ultimate app for surveying existing spaces and buildings quickly and efficiently.",
+    "download_btn": "Download on App Store",
+    "learn_more": "Learn more"
+  },
+  "features": {
+    "title": "Key Features",
+    "subtitle": "Professional tools designed for architects and design professionals",
+    "tools": {
+      "title": "Essential Tools",
+      "description": "Parallel, fillet, trim, extend, copy, move, rotate, and stretch. Everything you need for professional technical drawing."
+    },
+    "areas": {
+      "title": "Automatic Area Calculation",
+      "description": "Automatically calculate areas of your spaces and add labels with a single click."
+    },
+    "openings": {
+      "title": "Smart Openings",
+      "description": "Place parametric doors and windows with a single click. Fully configurable."
+    },
+    "blocks": {
+      "title": "Block Library",
+      "description": "Quick insertion of typical blocks: furniture, fixtures, architectural elements, and more."
+    },
+    "formats": {
+      "title": "Professional Formats",
+      "description": "Standard drawing formats with configurable title block for professional presentations."
+    },
+    "units": {
+      "title": "Metric and Imperial Systems",
+      "description": "Work with your preferred units. Full support for both measurement systems."
+    }
+  },
+  "gallery": {
+    "title": "Screenshots",
+    "subtitle": "Discover YoSiDi CAD's intuitive and professional interface"
+  },
+  "download": {
+    "title": "Download YoSiDi CAD Today",
+    "subtitle": "Available for iPad and iPhone. Start creating professional plans in minutes.",
+    "button": "Download on App Store",
+    "follow": "Follow us:"
+  },
+  "footer": {
+    "tagline": "Professional CAD drawing on your iOS device",
+    "app_store": "App Store",
+    "rights": "All rights reserved."
+  }
+}

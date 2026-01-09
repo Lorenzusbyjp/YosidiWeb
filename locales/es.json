@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "YoSiDi CAD - Aplicación de Dibujo CAD para iPad e iPhone",
+    "description": "YoSiDi CAD es una aplicación profesional de dibujo CAD para iPad e iPhone, especializada en levantamientos de espacios y edificios existentes de forma rápida y eficaz.",
+    "og_title": "YoSiDi CAD - Aplicación de Dibujo CAD para iPad e iPhone",
+    "og_description": "Aplicación profesional de CAD para levantamientos de espacios y edificios. Herramientas esenciales, cálculo de áreas, y más.",
+    "twitter_title": "YoSiDi CAD - Aplicación de Dibujo CAD para iPad e iPhone",
+    "twitter_description": "Aplicación profesional de CAD para levantamientos de espacios y edificios. Herramientas esenciales, cálculo de áreas, y más."
+  },
+  "nav": {
+    "features": "Características",
+    "gallery": "Galería",
+    "download": "Descargar"
+  },
+  "hero": {
+    "title": "Dibuja planos profesionales en tu iPad",
+    "subtitle": "YoSiDi CAD es la aplicación definitiva para hacer levantamientos de espacios y edificios existentes de manera rápida y eficaz.",
+    "download_btn": "Descargar en App Store",
+    "learn_more": "Conoce más"
+  },
+  "features": {
+    "title": "Características principales",
+    "subtitle": "Herramientas profesionales diseñadas para arquitectos y profesionales del diseño",
+    "tools": {
+      "title": "Herramientas esenciales",
+      "description": "Paralela, empalme, recorte, alargar, copiar, mover, rotar y estirar. Todo lo necesario para dibujo técnico profesional."
+    },
+    "areas": {
+      "title": "Cálculo de áreas automático",
+      "description": "Calcula automáticamente las áreas de tus espacios y añade etiquetas con un solo clic."
+    },
+    "openings": {
+      "title": "Huecos inteligentes",
+      "description": "Coloca puertas y ventanas parametrizadas con un solo clic. Totalmente configurables."
+    },
+    "blocks": {
+      "title": "Biblioteca de bloques",
+      "description": "Inserción rápida de bloques típicos: mobiliario, sanitarios, elementos arquitectónicos y más."
+    },
+    "formats": {
+      "title": "Formatos profesionales",
+      "description": "Formatos de dibujo estándar con cajetín configurable para presentaciones profesionales."
+    },
+    "units": {
+      "title": "Sistema métrico e imperial",
+      "description": "Trabaja con las unidades que prefieras. Soporte completo para ambos sistemas de medición."
+    }
+  },
+  "gallery": {
+    "title": "Capturas de pantalla",
+    "subtitle": "Descubre la interfaz intuitiva y profesional de YoSiDi CAD"
+  },
+  "download": {
+    "title": "Descarga YoSiDi CAD hoy",
+    "subtitle": "Disponible para iPad e iPhone. Empieza a crear planos profesionales en minutos.",
+    "button": "Descargar en App Store",
+    "follow": "Síguenos en:"
+  },
+  "footer": {
+    "tagline": "Dibujo CAD profesional en tu dispositivo iOS",
+    "app_store": "App Store",
+    "rights": "Todos los derechos reservados."
+  }
+}
