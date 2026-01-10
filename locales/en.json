@@ -1,49 +1,82 @@
 {
   "meta": {
     "title": "YoSiDi CAD - CAD Drawing App for iPad and iPhone",
-    "description": "YoSiDi CAD is a professional CAD drawing application for iPad and iPhone, specialized in quick and efficient surveying of existing spaces and buildings.",
+    "description": "YoSiDi CAD is a professional CAD drawing app for iPad and iPhone. Fast surveying with DXF and PDF export. From site to final plan in minutes.",
     "og_title": "YoSiDi CAD - CAD Drawing App for iPad and iPhone",
-    "og_description": "Professional CAD application for surveying spaces and buildings. Essential tools, area calculation, and more.",
+    "og_description": "Fast surveying with DXF and PDF export. Professional CAD tools on your iPad.",
     "twitter_title": "YoSiDi CAD - CAD Drawing App for iPad and iPhone",
-    "twitter_description": "Professional CAD application for surveying spaces and buildings. Essential tools, area calculation, and more."
+    "twitter_description": "Fast surveying with DXF and PDF export. Professional CAD tools on your iPad."
   },
   "nav": {
     "features": "Features",
+    "workflow": "Workflow",
     "gallery": "Gallery",
     "download": "Download"
   },
   "hero": {
-    "title": "Draw professional plans on your iPad",
-    "subtitle": "YoSiDi CAD is the ultimate app for surveying existing spaces and buildings quickly and efficiently.",
+    "title": "From surveying to DXF in minutes",
+    "subtitle": "YoSiDi CAD is the ultimate tool for professionals. Draw on site, export to DXF or PDF with title block, and send to client. Fast, professional, effective.",
     "download_btn": "Download on App Store",
     "learn_more": "Learn more"
   },
+  "workflow": {
+    "title": "Professional workflow",
+    "subtitle": "Designed for professionals who need speed and precision.",
+    "step1": {
+      "title": "Draw on site",
+      "description": "Professional CAD tools optimized for iPad. Take measurements and draw directly on your device."
+    },
+    "step2": {
+      "title": "Calculate and annotate",
+      "description": "Automatic area calculation. Add labels and all necessary information for the plan."
+    },
+    "step3": {
+      "title": "Export to DXF or PDF",
+      "description": "Export to DXF to continue in your desktop CAD software. Or generate a complete PDF with title block ready to deliver."
+    },
+    "step4": {
+      "title": "Send to client",
+      "description": "Professional plans finished in minutes. From surveying to delivery, all from your iPad and iPhone."
+    }
+  },
   "features": {
-    "title": "Key Features",
-    "subtitle": "Professional tools designed for architects and design professionals",
+    "title": "Key features",
+    "subtitle": "Professional tools designed for field work",
     "tools": {
-      "title": "Essential Tools",
-      "description": "Parallel, fillet, trim, extend, copy, move, rotate, and stretch. Everything you need for professional technical drawing."
+      "title": "Essential CAD tools",
+      "description": "Parallel, fillet, trim, extend, copy, move, rotate, stretch, array, and more. Everything you need for professional technical drawing."
     },
     "areas": {
-      "title": "Automatic Area Calculation",
-      "description": "Automatically calculate areas of your spaces and add labels with a single click."
+      "title": "Automatic area calculation",
+      "description": "Automatically calculate areas of your spaces and generate labels. Get areas instantly."
     },
     "openings": {
-      "title": "Smart Openings",
-      "description": "Place parametric doors and windows with a single click. Fully configurable."
+      "title": "Smart openings",
+      "description": "Place parametric doors and windows with one click. Adjust dimensions, opening direction, and type from the properties panel."
     },
     "blocks": {
-      "title": "Block Library",
-      "description": "Quick insertion of typical blocks: furniture, fixtures, architectural elements, and more."
+      "title": "Block library",
+      "description": "Quick insertion of furniture, fixtures, appliances, and architectural elements. Blocks optimized for surveying."
     },
     "formats": {
-      "title": "Professional Formats",
-      "description": "Standard drawing formats with configurable title block for professional presentations."
+      "title": "Formats with title block",
+      "description": "Standard formats (ISO: A4-A0, ANSI: Letter, Tabloid, Arch: C, D) with customizable title block. Add your logo, project data, and signature."
+    },
+    "layers": {
+      "title": "Layer system",
+      "description": "Organize your drawing with professional CAD layers. Control visibility, color, and properties of each layer independently."
+    },
+    "export": {
+      "title": "DXF and PDF export",
+      "description": "Export to DXF to work in your favorite desktop CAD software. Or generate final PDFs with title block to send directly to client."
+    },
+    "bluetooth": {
+      "title": "Bluetooth laser measures",
+      "description": "Connect compatible laser distance meters via Bluetooth. Take precise measurements and transfer them directly to your drawing without typing."
     },
     "units": {
-      "title": "Metric and Imperial Systems",
-      "description": "Work with your preferred units. Full support for both measurement systems."
+      "title": "Metric and imperial systems",
+      "description": "Work with your preferred units. Switch between systems anytime without losing precision."
     }
   },
   "gallery": {
@@ -51,14 +84,91 @@
     "subtitle": "Discover YoSiDi CAD's intuitive and professional interface"
   },
   "download": {
-    "title": "Download YoSiDi CAD Today",
-    "subtitle": "Available for iPad and iPhone. Start creating professional plans in minutes.",
+    "title": "Download YoSiDi CAD today",
+    "subtitle": "Available for iPad and iPhone. All drawing tools are free. Export when you need it.",
     "button": "Download on App Store",
     "follow": "Follow us:"
   },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "Your privacy is our priority. YoSiDi works 100% offline.",
+    "no_data": {
+      "title": "No data collection",
+      "description": "YoSiDi does not collect or store any personal information. The app works entirely offline. Your drawings and files are saved only on your device and are never uploaded to any external server."
+    },
+    "no_permissions": {
+      "title": "No unnecessary permissions",
+      "description": "The app does not access your location, contacts, microphone, camera, or any other personal data. It does not require you to create an account or log in."
+    },
+    "payments": {
+      "title": "Secure payments",
+      "description": "All in-app purchases are handled securely by the App Store. We do not store or process any payment information directly."
+    },
+    "website": {
+      "title": "Website & Cookies",
+      "description": "Our website (www.yosidi.com) uses Google Analytics to collect anonymous usage statistics. This helps us improve user experience. You will be asked to consent to cookies on your first visit. No cookies are activated unless explicitly accepted. We do not use advertising cookies or share data with third parties."
+    },
+    "revoke": "You can revoke your consent at any time by clearing your browser's cache and cookies.",
+    "contact": "For any questions or concerns, contact us at",
+    "terms_link": "Our Terms of Use are available at"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "If you have any questions, need help, or want to share feedback, feel free to contact us at",
+    "email": "support@yosidi.com"
+  },
   "footer": {
-    "tagline": "Professional CAD drawing on your iOS device",
+    "tagline": "Professional CAD drawing on your iOS device. Designed by architects.",
     "app_store": "App Store",
+    "privacy": "Privacy",
+    "contact": "Contact",
+    "terms": "Terms",
     "rights": "All rights reserved."
+  },
+  "privacy_page": {
+    "back": "Back to home",
+    "title": "Privacy Policy",
+    "intro": "Your privacy is our priority. YoSiDi CAD works 100% offline and does not collect any personal data.",
+    "no_data": {
+      "title": "No Data Collection",
+      "description": "YoSiDi CAD does not collect, store, or process any personal information. The app works completely offline without an internet connection. Your drawings, files, and settings are saved only on your device and are never uploaded to any external server."
+    },
+    "no_permissions": {
+      "title": "No Unnecessary Permissions",
+      "description": "The app does not access your location, contacts, microphone, camera, photos, or any other personal data. It does not require you to create an account, provide an email address, or log in. You can use YoSiDi CAD completely anonymously."
+    },
+    "data_storage": {
+      "title": "Data Storage",
+      "description": "All your drawings and settings are stored locally on your iOS device using the app's local file system. This data remains on your device and only you have access to it. If you uninstall the app, all stored data will be automatically deleted."
+    },
+    "icloud": {
+      "title": "iCloud (Optional)",
+      "description": "If you choose to enable iCloud syncing in your device settings, your drawings will automatically sync between your Apple devices via iCloud Drive. This synchronization is managed directly by Apple and protected by your iCloud account. We do not have access to this data. You can disable this feature at any time from your device settings."
+    },
+    "payments": {
+      "title": "Secure Payments",
+      "description": "All in-app purchases (DXF/PDF exports) are processed securely by Apple through the App Store. We do not store, process, or have access to any payment information such as credit card numbers or banking details. All payment information is managed exclusively by Apple."
+    },
+    "bluetooth": {
+      "title": "Bluetooth Laser Measures",
+      "description": "If you use the Bluetooth laser measure connection feature, the app will request permission to access your device's Bluetooth. This connection is used solely to receive measurements from compatible laser devices. No personal data is transmitted via Bluetooth, and the connection is local between your iPad/iPhone and the laser measure."
+    },
+    "website": {
+      "title": "Website & Cookies",
+      "description": "Our website (www.yosidi.com) uses Google Analytics to collect anonymous usage statistics in order to improve user experience. You will be asked to consent to cookies on your first visit. Cookies are not activated unless you explicitly accept them. We do not use advertising cookies or share data with third parties beyond Google Analytics.",
+      "revoke": "You can revoke your consent at any time by clearing your browser's cache and cookies."
+    },
+    "children": {
+      "title": "Children's Privacy",
+      "description": "YoSiDi CAD is safe for users of all ages. Since we do not collect any personal information, the app complies with all child protection regulations including COPPA (Children's Online Privacy Protection Act)."
+    },
+    "changes": {
+      "title": "Changes to This Policy",
+      "description": "We may update this privacy policy occasionally. Changes will be posted on this page. We recommend reviewing this policy periodically."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "If you have any questions or concerns about this privacy policy, you can contact us at:"
+    }
   }
 }

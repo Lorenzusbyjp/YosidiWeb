@@ -1,49 +1,82 @@
 {
   "meta": {
     "title": "YoSiDi CAD - Aplicación de Dibujo CAD para iPad e iPhone",
-    "description": "YoSiDi CAD es una aplicación profesional de dibujo CAD para iPad e iPhone, especializada en levantamientos de espacios y edificios existentes de forma rápida y eficaz.",
+    "description": "YoSiDi CAD es una aplicación profesional de dibujo CAD para iPad e iPhone. Levantamientos rápidos con exportación a DXF y PDF. Del sitio al plano final en minutos.",
     "og_title": "YoSiDi CAD - Aplicación de Dibujo CAD para iPad e iPhone",
-    "og_description": "Aplicación profesional de CAD para levantamientos de espacios y edificios. Herramientas esenciales, cálculo de áreas, y más.",
+    "og_description": "Levantamientos rápidos con exportación a DXF y PDF. Herramientas profesionales CAD en tu iPad.",
     "twitter_title": "YoSiDi CAD - Aplicación de Dibujo CAD para iPad e iPhone",
-    "twitter_description": "Aplicación profesional de CAD para levantamientos de espacios y edificios. Herramientas esenciales, cálculo de áreas, y más."
+    "twitter_description": "Levantamientos rápidos con exportación a DXF y PDF. Herramientas profesionales CAD en tu iPad."
   },
   "nav": {
     "features": "Características",
+    "workflow": "Flujo de trabajo",
     "gallery": "Galería",
     "download": "Descargar"
   },
   "hero": {
-    "title": "Dibuja planos profesionales en tu iPad",
-    "subtitle": "YoSiDi CAD es la aplicación definitiva para hacer levantamientos de espacios y edificios existentes de manera rápida y eficaz.",
+    "title": "Del levantamiento al DXF en minutos",
+    "subtitle": "YoSiDi CAD es la herramienta definitiva para profesionales. Dibuja en el sitio, exporta a DXF o PDF con cajetín, y envía al cliente. Rápido, profesional, eficaz.",
     "download_btn": "Descargar en App Store",
     "learn_more": "Conoce más"
   },
+  "workflow": {
+    "title": "Flujo de trabajo profesional",
+    "subtitle": "Diseñado para profesionales que necesitan velocidad y precisión.",
+    "step1": {
+      "title": "Dibuja en el sitio",
+      "description": "Herramientas CAD profesionales optimizadas para iPad. Toma medidas y dibuja directamente en tu dispositivo."
+    },
+    "step2": {
+      "title": "Calcula y anota",
+      "description": "Cálculo automático de áreas. Añade etiquetas y toda la información necesaria para el plano."
+    },
+    "step3": {
+      "title": "Exporta a DXF o PDF",
+      "description": "Exporta a DXF para continuar en tu programa CAD de escritorio. O genera un PDF completo con cajetín listo para entregar."
+    },
+    "step4": {
+      "title": "Envía al cliente",
+      "description": "Planos profesionales terminados en minutos. Desde el levantamiento hasta la entrega, todo desde tu iPad e iPhone."
+    }
+  },
   "features": {
     "title": "Características principales",
-    "subtitle": "Herramientas profesionales diseñadas para arquitectos y profesionales del diseño",
+    "subtitle": "Herramientas profesionales diseñadas para el trabajo de campo",
     "tools": {
-      "title": "Herramientas esenciales",
-      "description": "Paralela, empalme, recorte, alargar, copiar, mover, rotar y estirar. Todo lo necesario para dibujo técnico profesional."
+      "title": "Herramientas CAD esenciales",
+      "description": "Parallel, empalme, recorte, alargar, copiar, mover, rotar, estirar, matriz y más. Todo lo necesario para dibujo técnico profesional."
     },
     "areas": {
       "title": "Cálculo de áreas automático",
-      "description": "Calcula automáticamente las áreas de tus espacios y añade etiquetas con un solo clic."
+      "description": "Calcula automáticamente las áreas de tus espacios y genera etiquetas. Obtén superficies al instante."
     },
     "openings": {
       "title": "Huecos inteligentes",
-      "description": "Coloca puertas y ventanas parametrizadas con un solo clic. Totalmente configurables."
+      "description": "Coloca puertas y ventanas parametrizadas con un clic. Ajusta dimensiones, sentido de apertura y tipo desde el panel de propiedades."
     },
     "blocks": {
       "title": "Biblioteca de bloques",
-      "description": "Inserción rápida de bloques típicos: mobiliario, sanitarios, elementos arquitectónicos y más."
+      "description": "Inserción rápida de mobiliario, sanitarios, electrodomésticos y elementos arquitectónicos. Bloques optimizados para levantamientos."
     },
     "formats": {
-      "title": "Formatos profesionales",
-      "description": "Formatos de dibujo estándar con cajetín configurable para presentaciones profesionales."
+      "title": "Formatos con cajetín",
+      "description": "Formatos estándar (ISO: A4-A0, ANSI: Letter, Tabloid, Arch: C, D) con cajetín personalizable. Añade tu logo, datos del proyecto y firma."
+    },
+    "layers": {
+      "title": "Sistema de capas",
+      "description": "Organiza tu dibujo con capas CAD profesionales. Controla visibilidad, color y propiedades de cada capa independientemente."
+    },
+    "export": {
+      "title": "Exportación DXF y PDF",
+      "description": "Exporta a DXF para trabajar en tu programa CAD de escritorio favorito. O genera PDFs finales con cajetín para enviar directamente al cliente."
+    },
+    "bluetooth": {
+      "title": "Medidores láser Bluetooth",
+      "description": "Conecta medidores láser compatibles por Bluetooth. Toma medidas precisas y transfiérelas directamente a tu dibujo sin teclear."
     },
     "units": {
       "title": "Sistema métrico e imperial",
-      "description": "Trabaja con las unidades que prefieras. Soporte completo para ambos sistemas de medición."
+      "description": "Trabaja con las unidades que prefieras. Cambia entre sistemas en cualquier momento sin perder precisión."
     }
   },
   "gallery": {
@@ -52,13 +85,90 @@
   },
   "download": {
     "title": "Descarga YoSiDi CAD hoy",
-    "subtitle": "Disponible para iPad e iPhone. Empieza a crear planos profesionales en minutos.",
+    "subtitle": "Disponible para iPad e iPhone. Todas las herramientas de dibujo son gratuitas. Exporta cuando lo necesites.",
     "button": "Descargar en App Store",
     "follow": "Síguenos en:"
   },
+  "privacy": {
+    "title": "Política de privacidad",
+    "intro": "Tu privacidad es nuestra prioridad. YoSiDi funciona 100% offline.",
+    "no_data": {
+      "title": "Sin recopilación de datos",
+      "description": "YoSiDi no recopila ni almacena ninguna información personal. La aplicación funciona completamente offline. Tus dibujos y archivos se guardan únicamente en tu dispositivo y nunca se suben a ningún servidor externo."
+    },
+    "no_permissions": {
+      "title": "Sin permisos innecesarios",
+      "description": "La aplicación no accede a tu ubicación, contactos, micrófono, cámara ni ningún otro dato personal. No requiere que crees una cuenta ni que inicies sesión."
+    },
+    "payments": {
+      "title": "Pagos seguros",
+      "description": "Todas las compras dentro de la aplicación son gestionadas de forma segura por la App Store. No almacenamos ni procesamos ninguna información de pago directamente."
+    },
+    "website": {
+      "title": "Sitio web y cookies",
+      "description": "Nuestro sitio web (www.yosidi.com) utiliza Google Analytics para recopilar estadísticas de uso anónimas. Esto nos ayuda a mejorar la experiencia del usuario. Se te pedirá consentimiento para las cookies en tu primera visita. No se activan cookies a menos que se acepten explícitamente. No utilizamos cookies publicitarias ni compartimos datos con terceros."
+    },
+    "revoke": "Puedes revocar tu consentimiento en cualquier momento limpiando la caché y las cookies de tu navegador.",
+    "contact": "Para cualquier pregunta o inquietud, contáctanos en",
+    "terms_link": "Nuestros Términos de Uso están disponibles en"
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "¿Tienes preguntas, necesitas ayuda o quieres compartir tu opinión? Escríbenos a",
+    "email": "support@yosidi.com"
+  },
   "footer": {
-    "tagline": "Dibujo CAD profesional en tu dispositivo iOS",
+    "tagline": "Dibujo CAD profesional en tu dispositivo iOS. Diseñada por arquitectos.",
     "app_store": "App Store",
+    "privacy": "Privacidad",
+    "contact": "Contacto",
+    "terms": "Términos",
     "rights": "Todos los derechos reservados."
+  },
+  "privacy_page": {
+    "back": "Volver a inicio",
+    "title": "Política de Privacidad",
+    "intro": "Tu privacidad es nuestra prioridad. YoSiDi CAD funciona 100% offline y no recopila ningún dato personal.",
+    "no_data": {
+      "title": "Sin Recopilación de Datos",
+      "description": "YoSiDi CAD no recopila, almacena ni procesa ninguna información personal. La aplicación funciona completamente offline sin conexión a internet. Tus dibujos, archivos y configuraciones se guardan únicamente en tu dispositivo y nunca se suben a ningún servidor externo."
+    },
+    "no_permissions": {
+      "title": "Sin Permisos Innecesarios",
+      "description": "La aplicación no accede a tu ubicación, contactos, micrófono, cámara, fotos ni ningún otro dato personal. No requiere que crees una cuenta, proporciones un correo electrónico o inicies sesión. Puedes usar YoSiDi CAD de forma completamente anónima."
+    },
+    "data_storage": {
+      "title": "Almacenamiento de Datos",
+      "description": "Todos tus dibujos y configuraciones se almacenan localmente en tu dispositivo iOS utilizando el sistema de archivos local de la aplicación. Estos datos permanecen en tu dispositivo y solo tú tienes acceso a ellos. Si desinstalas la aplicación, todos los datos almacenados se eliminarán automáticamente."
+    },
+    "icloud": {
+      "title": "iCloud (Opcional)",
+      "description": "Si decides habilitar la sincronización con iCloud en la configuración de tu dispositivo, tus dibujos se sincronizarán automáticamente entre tus dispositivos Apple mediante iCloud Drive. Esta sincronización es gestionada directamente por Apple y está protegida por tu cuenta de iCloud. Nosotros no tenemos acceso a estos datos. Puedes desactivar esta función en cualquier momento desde la configuración de tu dispositivo."
+    },
+    "payments": {
+      "title": "Pagos Seguros",
+      "description": "Todas las compras dentro de la aplicación (exportaciones de DXF/PDF) son procesadas de forma segura por Apple a través de la App Store. No almacenamos, procesamos ni tenemos acceso a ninguna información de pago como números de tarjeta de crédito o datos bancarios. Toda la información de pago es gestionada exclusivamente por Apple."
+    },
+    "bluetooth": {
+      "title": "Medidores Láser Bluetooth",
+      "description": "Si utilizas la función de conexión con medidores láser Bluetooth, la aplicación solicitará permiso para acceder al Bluetooth de tu dispositivo. Esta conexión se utiliza únicamente para recibir mediciones del dispositivo láser compatible. No se transmite ningún dato personal a través de Bluetooth y la conexión es local entre tu iPad/iPhone y el medidor láser."
+    },
+    "website": {
+      "title": "Sitio Web y Cookies",
+      "description": "Nuestro sitio web (www.yosidi.com) utiliza Google Analytics para recopilar estadísticas de uso anónimas con el fin de mejorar la experiencia del usuario. Se te pedirá consentimiento para las cookies en tu primera visita. No se activan cookies a menos que las aceptes explícitamente. No utilizamos cookies publicitarias ni compartimos datos con terceros más allá de Google Analytics.",
+      "revoke": "Puedes revocar tu consentimiento en cualquier momento limpiando la caché y las cookies de tu navegador."
+    },
+    "children": {
+      "title": "Privacidad de Menores",
+      "description": "YoSiDi CAD es segura para usuarios de todas las edades. Dado que no recopilamos ningún tipo de información personal, la aplicación cumple con todas las regulaciones de protección de menores incluyendo COPPA (Children's Online Privacy Protection Act)."
+    },
+    "changes": {
+      "title": "Cambios en Esta Política",
+      "description": "Podemos actualizar esta política de privacidad ocasionalmente. Los cambios se publicarán en esta página. Te recomendamos revisar esta política periódicamente."
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "Si tienes cualquier pregunta o inquietud sobre esta política de privacidad, puedes contactarnos en:"
+    }
   }
 }

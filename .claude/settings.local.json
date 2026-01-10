@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nUpdate content: more inclusive messaging, remove brand mentions, add architect tagline\n\n- Changed workflow subtitle to be more inclusive: \"professionals\" instead of \"architects and engineers\"\n- Removed AutoCAD/BricsCAD brand mentions, replaced with generic \"desktop CAD software\"\n- Added \"Designed by architects\" tagline in footer for credibility\n- Removed redundant \"áreas y superficies\" - simplified to just \"áreas\"\n- Changed \"Offset\" to \"Parallel\" for consistency\n- Simplified area calculation description: \"Get areas instantly\"\n- Added \"iPad e iPhone\" mention in workflow\n- Cleaned up footer links: removed non-functional Contact and Terms links\n- Fixed privacy.html footer to remove redundant Privacy link\n- Simplified privacy policy changes section: removed notification promise\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}

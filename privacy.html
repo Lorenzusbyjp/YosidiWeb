@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title data-i18n="meta.title">Política de Privacidad - YoSiDi CAD</title>
+    <meta name="description" content="Política de privacidad de YoSiDi CAD. Tu privacidad es nuestra prioridad. La aplicación funciona 100% offline.">
+
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <style>
+        .privacy-page {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--spacing-xl) var(--spacing-md);
+        }
+
+        .privacy-page h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: var(--spacing-md);
+            color: var(--color-text);
+        }
+
+        .privacy-page .intro {
+            font-size: 1.125rem;
+            color: var(--color-text-secondary);
+            margin-bottom: var(--spacing-lg);
+            padding: var(--spacing-md);
+            background: var(--color-background-secondary);
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--color-primary);
+        }
+
+        .privacy-page h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: var(--spacing-lg);
+            margin-bottom: var(--spacing-sm);
+            color: var(--color-text);
+        }
+
+        .privacy-page p {
+            font-size: 1rem;
+            color: var(--color-text-secondary);
+            line-height: 1.8;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .privacy-page a {
+            color: var(--color-primary);
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
+        .privacy-page a:hover {
+            color: var(--color-primary-dark);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            color: var(--color-primary);
+            font-weight: 600;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .back-link:hover {
+            color: var(--color-primary-dark);
+        }
+
+        .last-updated {
+            font-size: 0.875rem;
+            color: var(--color-text-secondary);
+            font-style: italic;
+            margin-top: var(--spacing-lg);
+            padding-top: var(--spacing-md);
+            border-top: 1px solid var(--color-border);
+        }
+    </style>
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button id="lang-es" class="lang-btn active" aria-label="Cambiar a español">ES</button>
+        <button id="lang-en" class="lang-btn" aria-label="Switch to English">EN</button>
+    </div>
+
+    <div class="privacy-page">
+        <a href="index.html" class="back-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6"/>
+            </svg>
+            <span data-i18n="privacy_page.back">Volver a inicio</span>
+        </a>
+
+        <h1 data-i18n="privacy_page.title">Política de Privacidad</h1>
+
+        <div class="intro" data-i18n="privacy_page.intro">
+            Tu privacidad es nuestra prioridad. YoSiDi CAD funciona 100% offline y no recopila ningún dato personal.
+        </div>
+
+        <h2 data-i18n="privacy_page.no_data.title">Sin Recopilación de Datos</h2>
+        <p data-i18n="privacy_page.no_data.description">
+            YoSiDi CAD no recopila, almacena ni procesa ninguna información personal. La aplicación funciona completamente offline sin conexión a internet. Tus dibujos, archivos y configuraciones se guardan únicamente en tu dispositivo y nunca se suben a ningún servidor externo.
+        </p>
+
+        <h2 data-i18n="privacy_page.no_permissions.title">Sin Permisos Innecesarios</h2>
+        <p data-i18n="privacy_page.no_permissions.description">
+            La aplicación no accede a tu ubicación, contactos, micrófono, cámara, fotos ni ningún otro dato personal. No requiere que crees una cuenta, proporciones un correo electrónico o inicies sesión. Puedes usar YoSiDi CAD de forma completamente anónima.
+        </p>
+
+        <h2 data-i18n="privacy_page.data_storage.title">Almacenamiento de Datos</h2>
+        <p data-i18n="privacy_page.data_storage.description">
+            Todos tus dibujos y configuraciones se almacenan localmente en tu dispositivo iOS utilizando el sistema de archivos local de la aplicación. Estos datos permanecen en tu dispositivo y solo tú tienes acceso a ellos. Si desinstalas la aplicación, todos los datos almacenados se eliminarán automáticamente.
+        </p>
+
+        <h2 data-i18n="privacy_page.icloud.title">iCloud (Opcional)</h2>
+        <p data-i18n="privacy_page.icloud.description">
+            Si decides habilitar la sincronización con iCloud en la configuración de tu dispositivo, tus dibujos se sincronizarán automáticamente entre tus dispositivos Apple mediante iCloud Drive. Esta sincronización es gestionada directamente por Apple y está protegida por tu cuenta de iCloud. Nosotros no tenemos acceso a estos datos. Puedes desactivar esta función en cualquier momento desde la configuración de tu dispositivo.
+        </p>
+
+        <h2 data-i18n="privacy_page.payments.title">Pagos Seguros</h2>
+        <p data-i18n="privacy_page.payments.description">
+            Todas las compras dentro de la aplicación (exportaciones de DXF/PDF) son procesadas de forma segura por Apple a través de la App Store. No almacenamos, procesamos ni tenemos acceso a ninguna información de pago como números de tarjeta de crédito o datos bancarios. Toda la información de pago es gestionada exclusivamente por Apple.
+        </p>
+
+        <h2 data-i18n="privacy_page.bluetooth.title">Medidores Láser Bluetooth</h2>
+        <p data-i18n="privacy_page.bluetooth.description">
+            Si utilizas la función de conexión con medidores láser Bluetooth, la aplicación solicitará permiso para acceder al Bluetooth de tu dispositivo. Esta conexión se utiliza únicamente para recibir mediciones del dispositivo láser compatible. No se transmite ningún dato personal a través de Bluetooth y la conexión es local entre tu iPad/iPhone y el medidor láser.
+        </p>
+
+        <h2 data-i18n="privacy_page.website.title">Sitio Web y Cookies</h2>
+        <p data-i18n="privacy_page.website.description">
+            Nuestro sitio web (www.yosidi.com) utiliza Google Analytics para recopilar estadísticas de uso anónimas con el fin de mejorar la experiencia del usuario. Se te pedirá consentimiento para las cookies en tu primera visita. No se activan cookies a menos que las aceptes explícitamente. No utilizamos cookies publicitarias ni compartimos datos con terceros más allá de Google Analytics.
+        </p>
+        <p data-i18n="privacy_page.website.revoke">
+            Puedes revocar tu consentimiento en cualquier momento limpiando la caché y las cookies de tu navegador.
+        </p>
+
+        <h2 data-i18n="privacy_page.children.title">Privacidad de Menores</h2>
+        <p data-i18n="privacy_page.children.description">
+            YoSiDi CAD es segura para usuarios de todas las edades. Dado que no recopilamos ningún tipo de información personal, la aplicación cumple con todas las regulaciones de protección de menores incluyendo COPPA (Children's Online Privacy Protection Act).
+        </p>
+
+        <h2 data-i18n="privacy_page.changes.title">Cambios en Esta Política</h2>
+        <p data-i18n="privacy_page.changes.description">
+            Podemos actualizar esta política de privacidad ocasionalmente. Te notificaremos sobre cualquier cambio publicando la nueva política en esta página y actualizando la fecha de "Última actualización" a continuación. Te recomendamos revisar esta política periódicamente.
+        </p>
+
+        <h2 data-i18n="privacy_page.contact.title">Contacto</h2>
+        <p data-i18n="privacy_page.contact.description">
+            Si tienes cualquier pregunta o inquietud sobre esta política de privacidad, puedes contactarnos en:
+        </p>
+        <p>
+            <strong>Email:</strong> <a href="mailto:support@yosidi.com">support@yosidi.com</a>
+        </p>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="./images/logo.png" alt="YoSiDi CAD Logo" class="footer-logo">
+                    <p class="footer-text" data-i18n="footer.tagline">Dibujo CAD profesional en tu dispositivo iOS</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="https://apps.apple.com/es/app/yosidi-cad/id6743679420" target="_blank" rel="noopener noreferrer" data-i18n="footer.app_store">App Store</a>
+                    <a href="https://www.youtube.com/@YoSiDi-CAD" target="_blank" rel="noopener noreferrer">YouTube</a>
+                    <a href="https://www.tiktok.com/@yosidi_cad" target="_blank" rel="noopener noreferrer">TikTok</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> YoSiDi CAD. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/i18n.js"></script>
+    <script>
+        // Set current year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

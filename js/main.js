@@ -39,6 +39,12 @@ function initScrollAnimations() {
     featureCards.forEach(card => {
         observer.observe(card);
     });
+
+    // Observe all workflow steps
+    const workflowSteps = document.querySelectorAll('.workflow-step');
+    workflowSteps.forEach(step => {
+        observer.observe(step);
+    });
 }
 
 // ========================================
