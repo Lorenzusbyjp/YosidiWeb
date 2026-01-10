@@ -10,12 +10,11 @@
   "nav": {
     "features": "Características",
     "workflow": "Flujo de trabajo",
-    "gallery": "Galería",
-    "download": "Descargar"
+    "gallery": "Galería"
   },
   "hero": {
-    "title": "Del levantamiento al DXF en minutos",
-    "subtitle": "YoSiDi CAD es la herramienta definitiva para profesionales. Dibuja en el sitio, exporta a DXF o PDF con cajetín, y envía al cliente. Rápido, profesional, eficaz.",
+    "title": "Levantamientos CAD in situ en minutos",
+    "subtitle": "Dibuja directamente en obra y olvídate del lápiz y el papel. Ahorra tiempo, evita errores y reduce el esfuerzo físico. Exporta DXF y PDF con cajetín profesional y envíalo al cliente al instante.",
     "download_btn": "Descargar en App Store",
     "learn_more": "Conoce más"
   },
@@ -24,7 +23,7 @@
     "subtitle": "Diseñado para profesionales que necesitan velocidad y precisión.",
     "step1": {
       "title": "Dibuja en el sitio",
-      "description": "Herramientas CAD profesionales optimizadas para iPad. Toma medidas y dibuja directamente en tu dispositivo."
+      "description": "Herramientas CAD profesionales optimizadas para iOS. Toma medidas y dibuja directamente en tu dispositivo."
     },
     "step2": {
       "title": "Calcula y anota",
@@ -43,12 +42,12 @@
     "title": "Características principales",
     "subtitle": "Herramientas profesionales diseñadas para el trabajo de campo",
     "tools": {
-      "title": "Herramientas CAD esenciales",
-      "description": "Parallel, empalme, recorte, alargar, copiar, mover, rotar, estirar, matriz y más. Todo lo necesario para dibujo técnico profesional."
+      "title": "Herramientas CAD profesionales",
+      "description": "Paralela, empalme, recortar, alargar, editar, copiar, mover, estirar, rotar, medir y más. Sistema de capas con control de visibilidad, color y tipo de línea."
     },
     "areas": {
       "title": "Cálculo de áreas automático",
-      "description": "Calcula automáticamente las áreas de tus espacios y genera etiquetas. Obtén superficies al instante."
+      "description": "Calcula áreas de espacios y coloca etiquetas de superficies automáticamente."
     },
     "openings": {
       "title": "Huecos inteligentes",
@@ -60,11 +59,11 @@
     },
     "formats": {
       "title": "Formatos con cajetín",
-      "description": "Formatos estándar (ISO: A4-A0, ANSI: Letter, Tabloid, Arch: C, D) con cajetín personalizable. Añade tu logo, datos del proyecto y firma."
+      "description": "Formatos estándar (ISO: A4-A0, ANSI: Letter, Tabloid, Arch: C, D) con cajetín personalizable. Añade datos del proyecto y firma."
     },
-    "layers": {
-      "title": "Sistema de capas",
-      "description": "Organiza tu dibujo con capas CAD profesionales. Controla visibilidad, color y propiedades de cada capa independientemente."
+    "tutorials": {
+      "title": "Tutoriales interactivos",
+      "description": "Aprende a usar la app con tutoriales paso a paso integrados. Sistema de guías interactivas para dominar todas las herramientas rápidamente."
     },
     "export": {
       "title": "Exportación DXF y PDF",
@@ -76,7 +75,7 @@
     },
     "units": {
       "title": "Sistema métrico e imperial",
-      "description": "Trabaja con las unidades que prefieras. Cambia entre sistemas en cualquier momento sin perder precisión."
+      "description": "Trabaja con las unidades que prefieras. El sistema maneja métrico e imperial tanto con decimales como fraccionales."
     }
   },
   "gallery": {
@@ -84,9 +83,7 @@
     "subtitle": "Descubre la interfaz intuitiva y profesional de YoSiDi CAD"
   },
   "download": {
-    "title": "Descarga YoSiDi CAD hoy",
-    "subtitle": "Disponible para iPad e iPhone. Todas las herramientas de dibujo son gratuitas. Exporta cuando lo necesites.",
-    "button": "Descargar en App Store",
+    "button": "YoSiDi CAD en App Store",
     "follow": "Síguenos en:"
   },
   "privacy": {

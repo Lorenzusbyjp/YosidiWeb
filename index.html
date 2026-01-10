@@ -42,13 +42,12 @@
         <nav class="nav container">
             <div class="nav-logo">
                 <img src="./images/logo.png" alt="YoSiDi CAD Logo" class="logo">
-                <span class="logo-text">YoSiDi CAD</span>
+                <span class="logo-text">YoSiDi</span>
             </div>
             <ul class="nav-menu">
                 <li><a href="#workflow" class="nav-link" data-i18n="nav.workflow">Flujo de trabajo</a></li>
                 <li><a href="#features" class="nav-link" data-i18n="nav.features">Características</a></li>
                 <li><a href="#gallery" class="nav-link" data-i18n="nav.gallery">Galería</a></li>
-                <li><a href="#download" class="nav-link nav-link-cta" data-i18n="nav.download">Descargar</a></li>
             </ul>
         </nav>
     </header>
@@ -227,14 +226,13 @@
 
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="2" y="3" width="20" height="5" rx="1"/>
-                            <rect x="2" y="10" width="20" height="5" rx="1"/>
-                            <rect x="2" y="17" width="20" height="5" rx="1"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
                         </svg>
                     </div>
-                    <h3 class="feature-title" data-i18n="features.layers.title">Sistema de capas</h3>
-                    <p class="feature-description" data-i18n="features.layers.description">Organiza tu dibujo con capas CAD profesionales. Controla visibilidad, color y propiedades de cada capa independientemente.</p>
+                    <h3 class="feature-title" data-i18n="features.tutorials.title">Tutoriales interactivos</h3>
+                    <p class="feature-description" data-i18n="features.tutorials.description">Aprende a usar la app con tutoriales paso a paso integrados. Sistema de guías interactivas para dominar todas las herramientas rápidamente.</p>
                 </div>
 
                 <div class="feature-card">
@@ -279,6 +277,24 @@
                     <div class="gallery-item">
                         <img src="./images/screenshot3.png" alt="YoSiDi CAD Screenshot 3" loading="lazy">
                     </div>
+                    <div class="gallery-item">
+                        <img src="./images/screenshot4.png" alt="YoSiDi CAD Screenshot 4" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./images/screenshot5.png" alt="YoSiDi CAD Screenshot 5" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./images/screenshot6.png" alt="YoSiDi CAD Screenshot 6" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./images/screenshot7.png" alt="YoSiDi CAD Screenshot 7" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./images/screenshot8.png" alt="YoSiDi CAD Screenshot 8" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./images/screenshot9.png" alt="YoSiDi CAD Screenshot 9" loading="lazy">
+                    </div>
                 </div>
 
                 <button class="carousel-btn carousel-btn-next" aria-label="Next screenshot">
@@ -292,39 +308,12 @@
                 <button class="dot active" data-index="0" aria-label="Go to screenshot 1"></button>
                 <button class="dot" data-index="1" aria-label="Go to screenshot 2"></button>
                 <button class="dot" data-index="2" aria-label="Go to screenshot 3"></button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Download Section -->
-    <section class="download" id="download">
-        <div class="container">
-            <div class="download-content">
-                <h2 class="section-title" data-i18n="download.title">Descarga YoSiDi CAD hoy</h2>
-                <p class="section-subtitle" data-i18n="download.subtitle">Disponible para iPad e iPhone. Empieza a crear planos profesionales en minutos.</p>
-
-                <a href="https://apps.apple.com/es/app/yosidi-cad/id6743679420" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
-                    <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
-                    </svg>
-                    <span data-i18n="download.button">Descargar en App Store</span>
-                </a>
-
-                <div class="social-links">
-                    <p class="social-title" data-i18n="download.follow">Síguenos en:</p>
-                    <div class="social-icons">
-                        <a href="https://www.youtube.com/@YoSiDi-CAD" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-                            </svg>
-                        </a>
-                        <a href="https://www.tiktok.com/@yosidi_cad" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="TikTok">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+                <button class="dot" data-index="3" aria-label="Go to screenshot 4"></button>
+                <button class="dot" data-index="4" aria-label="Go to screenshot 5"></button>
+                <button class="dot" data-index="5" aria-label="Go to screenshot 6"></button>
+                <button class="dot" data-index="6" aria-label="Go to screenshot 7"></button>
+                <button class="dot" data-index="7" aria-label="Go to screenshot 8"></button>
+                <button class="dot" data-index="8" aria-label="Go to screenshot 9"></button>
             </div>
         </div>
     </section>
@@ -350,14 +339,34 @@
                     <p class="footer-text" data-i18n="footer.tagline">Dibujo CAD profesional en tu dispositivo iOS</p>
                 </div>
                 <div class="footer-links">
-                    <a href="https://apps.apple.com/es/app/yosidi-cad/id6743679420" target="_blank" rel="noopener noreferrer" data-i18n="footer.app_store">App Store</a>
-                    <a href="https://www.youtube.com/@YoSiDi-CAD" target="_blank" rel="noopener noreferrer">YouTube</a>
-                    <a href="https://www.tiktok.com/@yosidi_cad" target="_blank" rel="noopener noreferrer">TikTok</a>
-                    <a href="privacy.html" data-i18n="footer.privacy">Privacidad</a>
+                    <a href="https://apps.apple.com/es/app/yosidi-cad/id6743679420" target="_blank" rel="noopener noreferrer" class="footer-link">
+                        <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+                        </svg>
+                        <span data-i18n="footer.app_store">App Store</span>
+                    </a>
+                    <a href="https://www.youtube.com/@YoSiDi-CAD" target="_blank" rel="noopener noreferrer" class="footer-link" aria-label="YouTube">
+                        <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                        <span>YouTube</span>
+                    </a>
+                    <a href="https://www.tiktok.com/@yosidi_cad" target="_blank" rel="noopener noreferrer" class="footer-link" aria-label="TikTok">
+                        <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                        </svg>
+                        <span>TikTok</span>
+                    </a>
+                    <a href="privacy.html" class="footer-link">
+                        <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                        <span data-i18n="footer.privacy">Privacidad</span>
+                    </a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; <span id="current-year"></span> YoSiDi CAD. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+                <p>&copy; YoSiDi CAD. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
             </div>
         </div>
     </footer>

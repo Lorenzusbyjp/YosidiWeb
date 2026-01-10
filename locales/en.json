@@ -10,12 +10,11 @@
   "nav": {
     "features": "Features",
     "workflow": "Workflow",
-    "gallery": "Gallery",
-    "download": "Download"
+    "gallery": "Gallery"
   },
   "hero": {
-    "title": "From surveying to DXF in minutes",
-    "subtitle": "YoSiDi CAD is the ultimate tool for professionals. Draw on site, export to DXF or PDF with title block, and send to client. Fast, professional, effective.",
+    "title": "On-site CAD surveying in minutes",
+    "subtitle": "Draw directly on site and forget about pencil and paper. Save time, avoid errors, and reduce physical effort. Export DXF and PDF with professional title block and send it to your client instantly.",
     "download_btn": "Download on App Store",
     "learn_more": "Learn more"
   },
@@ -24,7 +23,7 @@
     "subtitle": "Designed for professionals who need speed and precision.",
     "step1": {
       "title": "Draw on site",
-      "description": "Professional CAD tools optimized for iPad. Take measurements and draw directly on your device."
+      "description": "Professional CAD tools optimized for iOS. Take measurements and draw directly on your device."
     },
     "step2": {
       "title": "Calculate and annotate",
@@ -43,12 +42,12 @@
     "title": "Key features",
     "subtitle": "Professional tools designed for field work",
     "tools": {
-      "title": "Essential CAD tools",
-      "description": "Parallel, fillet, trim, extend, copy, move, rotate, stretch, array, and more. Everything you need for professional technical drawing."
+      "title": "Professional CAD tools",
+      "description": "Offset, fillet, trim, extend, edit, copy, move, stretch, rotate, measure, and more. Layer system with visibility, color, and line type control."
     },
     "areas": {
       "title": "Automatic area calculation",
-      "description": "Automatically calculate areas of your spaces and generate labels. Get areas instantly."
+      "description": "Calculate space areas and place surface labels automatically."
     },
     "openings": {
       "title": "Smart openings",
@@ -60,11 +59,11 @@
     },
     "formats": {
       "title": "Formats with title block",
-      "description": "Standard formats (ISO: A4-A0, ANSI: Letter, Tabloid, Arch: C, D) with customizable title block. Add your logo, project data, and signature."
+      "description": "Standard formats (ISO: A4-A0, ANSI: Letter, Tabloid, Arch: C, D) with customizable title block. Add project data and signature."
     },
-    "layers": {
-      "title": "Layer system",
-      "description": "Organize your drawing with professional CAD layers. Control visibility, color, and properties of each layer independently."
+    "tutorials": {
+      "title": "Interactive tutorials",
+      "description": "Learn to use the app with built-in step-by-step tutorials. Interactive guide system to master all tools quickly."
     },
     "export": {
       "title": "DXF and PDF export",
@@ -76,7 +75,7 @@
     },
     "units": {
       "title": "Metric and imperial systems",
-      "description": "Work with your preferred units. Switch between systems anytime without losing precision."
+      "description": "Work with your preferred units. The system handles both metric and imperial with decimals and fractions."
     }
   },
   "gallery": {
@@ -84,9 +83,7 @@
     "subtitle": "Discover YoSiDi CAD's intuitive and professional interface"
   },
   "download": {
-    "title": "Download YoSiDi CAD today",
-    "subtitle": "Available for iPad and iPhone. All drawing tools are free. Export when you need it.",
-    "button": "Download on App Store",
+    "button": "YoSiDi CAD on App Store",
     "follow": "Follow us:"
   },
   "privacy": {
