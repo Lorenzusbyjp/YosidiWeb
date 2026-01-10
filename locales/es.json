@@ -147,9 +147,8 @@
       "description": "Si utilizas la función de conexión con medidores láser Bluetooth, la aplicación solicitará permiso para acceder al Bluetooth de tu dispositivo. Esta conexión se utiliza únicamente para recibir mediciones del dispositivo láser compatible. No se transmite ningún dato personal a través de Bluetooth y la conexión es local entre tu iPad/iPhone y el medidor láser."
     },
     "website": {
-      "title": "Sitio Web y Cookies",
-      "description": "Nuestro sitio web (www.yosidi.com) utiliza Google Analytics para recopilar estadísticas de uso anónimas con el fin de mejorar la experiencia del usuario. Se te pedirá consentimiento para las cookies en tu primera visita. No se activan cookies a menos que las aceptes explícitamente. No utilizamos cookies publicitarias ni compartimos datos con terceros más allá de Google Analytics.",
-      "revoke": "Puedes revocar tu consentimiento en cualquier momento limpiando la caché y las cookies de tu navegador."
+      "title": "Sitio Web",
+      "description": "Nuestro sitio web (www.yosidi.com) no utiliza cookies ni servicios de análisis de terceros. Tu navegación es completamente privada y anónima."
     },
     "children": {
       "title": "Privacidad de Menores",

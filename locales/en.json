@@ -147,9 +147,8 @@
       "description": "If you use the Bluetooth laser measure connection feature, the app will request permission to access your device's Bluetooth. This connection is used solely to receive measurements from compatible laser devices. No personal data is transmitted via Bluetooth, and the connection is local between your iPad/iPhone and the laser measure."
     },
     "website": {
-      "title": "Website & Cookies",
-      "description": "Our website (www.yosidi.com) uses Google Analytics to collect anonymous usage statistics in order to improve user experience. You will be asked to consent to cookies on your first visit. Cookies are not activated unless you explicitly accept them. We do not use advertising cookies or share data with third parties beyond Google Analytics.",
-      "revoke": "You can revoke your consent at any time by clearing your browser's cache and cookies."
+      "title": "Website",
+      "description": "Our website (www.yosidi.com) does not use cookies or third-party analytics services. Your browsing is completely private and anonymous."
     },
     "children": {
       "title": "Children's Privacy",
