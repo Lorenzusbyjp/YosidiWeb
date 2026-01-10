@@ -227,6 +227,7 @@
       "title": "Contacto",
       "description": "Si tienes preguntas sobre estos Términos de Uso, puedes contactarnos en:"
     },
-    "developer": "Esta aplicación es desarrollada y propiedad de <strong>Pedro Lorencio</strong>. Todos los derechos reservados."
+    "developer_part1": "Esta aplicación es desarrollada y propiedad de",
+    "developer_part2": "Todos los derechos reservados."
   }
 }

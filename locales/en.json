@@ -227,6 +227,7 @@
       "title": "Contact",
       "description": "If you have questions about these Terms of Use, you can contact us at:"
     },
-    "developer": "This app is developed and owned by <strong>Pedro Lorencio</strong>. All rights reserved."
+    "developer_part1": "This app is developed and owned by",
+    "developer_part2": "All rights reserved."
   }
 }
