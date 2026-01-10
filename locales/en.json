@@ -138,10 +138,6 @@
       "title": "Data Storage",
       "description": "All your drawings and settings are stored locally on your iOS device using the app's local file system. This data remains on your device and only you have access to it. If you uninstall the app, all stored data will be automatically deleted."
     },
-    "icloud": {
-      "title": "iCloud (Optional)",
-      "description": "If you choose to enable iCloud syncing in your device settings, your drawings will automatically sync between your Apple devices via iCloud Drive. This synchronization is managed directly by Apple and protected by your iCloud account. We do not have access to this data. You can disable this feature at any time from your device settings."
-    },
     "payments": {
       "title": "Secure Payments",
       "description": "All in-app purchases (DXF/PDF exports) are processed securely by Apple through the App Store. We do not store, process, or have access to any payment information such as credit card numbers or banking details. All payment information is managed exclusively by Apple."
