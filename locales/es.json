@@ -195,7 +195,11 @@
     "prohibited": {
       "title": "Usos Prohibidos",
       "description": "Está estrictamente prohibido:",
-      "list": "<li>Realizar ingeniería inversa, descompilar o desensamblar la aplicación</li><li>Distribuir, vender o sublicenciar la aplicación sin autorización</li><li>Utilizar la aplicación para fines ilegales o no autorizados</li><li>Intentar acceder a funciones no documentadas o restringidas</li><li>Eliminar o modificar avisos de derechos de autor o marcas registradas</li>"
+      "item1": "Realizar ingeniería inversa, descompilar o desensamblar la aplicación",
+      "item2": "Distribuir, vender o sublicenciar la aplicación sin autorización",
+      "item3": "Utilizar la aplicación para fines ilegales o no autorizados",
+      "item4": "Intentar acceder a funciones no documentadas o restringidas",
+      "item5": "Eliminar o modificar avisos de derechos de autor o marcas registradas"
     },
     "privacy": {
       "title": "Privacidad",
