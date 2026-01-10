@@ -190,7 +190,7 @@ ul {
    Hero Section
    ======================================== */
 .hero {
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-md) 0 var(--spacing-sm) 0;
     background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%);
     min-height: 90vh;
     display: flex;
@@ -288,7 +288,7 @@ ul {
    Workflow Section
    ======================================== */
 .workflow {
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-md) 0;
     background: var(--color-background-secondary);
 }
 
@@ -374,7 +374,7 @@ ul {
    Features Section
    ======================================== */
 .features {
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-md) 0;
     background: var(--color-background);
 }
 
@@ -474,7 +474,7 @@ ul {
    Gallery Section
    ======================================== */
 .gallery {
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-md) 0;
     background: var(--color-background-secondary);
 }
 
@@ -627,7 +627,7 @@ ul {
    Privacy Section
    ======================================== */
 .privacy {
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-md) 0;
     background: var(--color-background);
 }
 
