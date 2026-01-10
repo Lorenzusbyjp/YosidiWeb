@@ -163,5 +163,64 @@
       "title": "Contacto",
       "description": "Si tienes cualquier pregunta o inquietud sobre esta política de privacidad, puedes contactarnos en:"
     }
+  },
+  "terms_page": {
+    "back": "Volver a inicio",
+    "title": "Términos de Uso",
+    "intro": "Al usar YoSiDi CAD, aceptas los siguientes términos y condiciones.",
+    "acceptance": {
+      "title": "Aceptación de Términos",
+      "description": "Al descargar, instalar o utilizar YoSiDi CAD, aceptas estar sujeto a estos Términos de Uso. Si no estás de acuerdo con estos términos, no utilices la aplicación."
+    },
+    "license": {
+      "title": "Licencia de Uso",
+      "description": "Te otorgamos una licencia no exclusiva, no transferible y revocable para usar YoSiDi CAD para fines personales y profesionales, sujeto a estos términos. Esta licencia no te otorga ningún derecho sobre el código fuente, diseño o propiedad intelectual de la aplicación."
+    },
+    "ownership": {
+      "title": "Propiedad de Contenido",
+      "description": "Conservas la propiedad total y todos los derechos sobre los dibujos, planos y archivos que crees con YoSiDi CAD. No reclamamos ningún derecho sobre tu contenido."
+    },
+    "as_is": {
+      "title": "Aplicación \"Tal Cual\"",
+      "description": "YoSiDi CAD se proporciona \"tal cual\" y \"según disponibilidad\", sin garantías de ningún tipo, expresas o implícitas. No garantizamos que la aplicación esté libre de errores, sea ininterrumpida o cumpla con requisitos específicos."
+    },
+    "liability": {
+      "title": "Limitación de Responsabilidad",
+      "description": "No somos responsables de ninguna pérdida de datos, daños o perjuicios derivados del uso de YoSiDi CAD. Es tu responsabilidad mantener copias de seguridad de tus archivos y dibujos importantes."
+    },
+    "purchases": {
+      "title": "Compras dentro de la Aplicación",
+      "description": "Las compras dentro de la aplicación (exportación de DXF/PDF) se gestionan de forma segura a través de la App Store de Apple y están sujetas a los términos de Apple. Todas las compras son definitivas y no reembolsables, excepto cuando lo exija la ley aplicable."
+    },
+    "prohibited": {
+      "title": "Usos Prohibidos",
+      "description": "Está estrictamente prohibido:",
+      "list": "<li>Realizar ingeniería inversa, descompilar o desensamblar la aplicación</li><li>Distribuir, vender o sublicenciar la aplicación sin autorización</li><li>Utilizar la aplicación para fines ilegales o no autorizados</li><li>Intentar acceder a funciones no documentadas o restringidas</li><li>Eliminar o modificar avisos de derechos de autor o marcas registradas</li>"
+    },
+    "privacy": {
+      "title": "Privacidad",
+      "description": "Al usar esta aplicación, también aceptas nuestra <a href=\"privacy.html\">Política de Privacidad</a>. YoSiDi CAD funciona completamente offline y no recopila datos personales."
+    },
+    "updates": {
+      "title": "Actualizaciones de la Aplicación",
+      "description": "Podemos publicar actualizaciones periódicas de YoSiDi CAD para agregar funciones, corregir errores o mejorar el rendimiento. Estas actualizaciones pueden modificar o eliminar ciertas funciones. No estamos obligados a proporcionar actualizaciones o soporte continuo."
+    },
+    "termination": {
+      "title": "Terminación",
+      "description": "Podemos suspender o terminar tu acceso a YoSiDi CAD en cualquier momento si infringes estos términos. Al desinstalar la aplicación, esta licencia se termina automáticamente."
+    },
+    "changes": {
+      "title": "Modificaciones a los Términos",
+      "description": "Podemos actualizar estos Términos de Uso ocasionalmente. Los cambios se publicarán en esta página. Te recomendamos revisar estos términos periódicamente."
+    },
+    "law": {
+      "title": "Ley Aplicable y Jurisdicción",
+      "description": "Estos términos se rigen por las leyes de España. Cualquier disputa derivada de estos términos se resolverá en los tribunales de Madrid, España."
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "Si tienes preguntas sobre estos Términos de Uso, puedes contactarnos en:"
+    },
+    "developer": "Esta aplicación es desarrollada y propiedad de <strong>Pedro Lorencio</strong>. Todos los derechos reservados."
   }
 }

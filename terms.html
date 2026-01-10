@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title data-i18n="meta.title">Términos de Uso - YoSiDi CAD</title>
+    <meta name="description" content="Términos de uso de YoSiDi CAD. Lee nuestros términos y condiciones de uso.">
+
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <style>
+        .terms-page {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--spacing-xl) var(--spacing-md);
+        }
+
+        .terms-page h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: var(--spacing-md);
+            color: var(--color-text);
+        }
+
+        .terms-page .intro {
+            font-size: 1.125rem;
+            color: var(--color-text-secondary);
+            margin-bottom: var(--spacing-lg);
+            padding: var(--spacing-md);
+            background: var(--color-background-secondary);
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--color-primary);
+        }
+
+        .terms-page h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: var(--spacing-lg);
+            margin-bottom: var(--spacing-sm);
+            color: var(--color-text);
+        }
+
+        .terms-page p, .terms-page ul {
+            font-size: 1rem;
+            color: var(--color-text-secondary);
+            line-height: 1.8;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .terms-page ul {
+            padding-left: var(--spacing-lg);
+        }
+
+        .terms-page li {
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .terms-page a {
+            color: var(--color-primary);
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
+        .terms-page a:hover {
+            color: var(--color-primary-dark);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            color: var(--color-primary);
+            font-weight: 600;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .back-link:hover {
+            color: var(--color-primary-dark);
+        }
+
+        .developer-info {
+            margin-top: var(--spacing-lg);
+            padding-top: var(--spacing-md);
+            border-top: 1px solid var(--color-border);
+            font-size: 0.875rem;
+            color: var(--color-text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button id="lang-es" class="lang-btn active" aria-label="Cambiar a español">ES</button>
+        <button id="lang-en" class="lang-btn" aria-label="Switch to English">EN</button>
+    </div>
+
+    <div class="terms-page">
+        <a href="index.html" class="back-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6"/>
+            </svg>
+            <span data-i18n="terms_page.back">Volver a inicio</span>
+        </a>
+
+        <h1 data-i18n="terms_page.title">Términos de Uso</h1>
+
+        <div class="intro" data-i18n="terms_page.intro">
+            Al usar YoSiDi CAD, aceptas los siguientes términos y condiciones.
+        </div>
+
+        <h2 data-i18n="terms_page.acceptance.title">Aceptación de Términos</h2>
+        <p data-i18n="terms_page.acceptance.description">
+            Al descargar, instalar o utilizar YoSiDi CAD, aceptas estar sujeto a estos Términos de Uso. Si no estás de acuerdo con estos términos, no utilices la aplicación.
+        </p>
+
+        <h2 data-i18n="terms_page.license.title">Licencia de Uso</h2>
+        <p data-i18n="terms_page.license.description">
+            Te otorgamos una licencia no exclusiva, no transferible y revocable para usar YoSiDi CAD para fines personales y profesionales, sujeto a estos términos. Esta licencia no te otorga ningún derecho sobre el código fuente, diseño o propiedad intelectual de la aplicación.
+        </p>
+
+        <h2 data-i18n="terms_page.ownership.title">Propiedad de Contenido</h2>
+        <p data-i18n="terms_page.ownership.description">
+            Conservas la propiedad total y todos los derechos sobre los dibujos, planos y archivos que crees con YoSiDi CAD. No reclamamos ningún derecho sobre tu contenido.
+        </p>
+
+        <h2 data-i18n="terms_page.as_is.title">Aplicación "Tal Cual"</h2>
+        <p data-i18n="terms_page.as_is.description">
+            YoSiDi CAD se proporciona "tal cual" y "según disponibilidad", sin garantías de ningún tipo, expresas o implícitas. No garantizamos que la aplicación esté libre de errores, sea ininterrumpida o cumpla con requisitos específicos.
+        </p>
+
+        <h2 data-i18n="terms_page.liability.title">Limitación de Responsabilidad</h2>
+        <p data-i18n="terms_page.liability.description">
+            No somos responsables de ninguna pérdida de datos, daños o perjuicios derivados del uso de YoSiDi CAD. Es tu responsabilidad mantener copias de seguridad de tus archivos y dibujos importantes.
+        </p>
+
+        <h2 data-i18n="terms_page.purchases.title">Compras dentro de la Aplicación</h2>
+        <p data-i18n="terms_page.purchases.description">
+            Las compras dentro de la aplicación (exportación de DXF/PDF) se gestionan de forma segura a través de la App Store de Apple y están sujetas a los términos de Apple. Todas las compras son definitivas y no reembolsables, excepto cuando lo exija la ley aplicable.
+        </p>
+
+        <h2 data-i18n="terms_page.prohibited.title">Usos Prohibidos</h2>
+        <p data-i18n="terms_page.prohibited.description">
+            Está estrictamente prohibido:
+        </p>
+        <ul data-i18n="terms_page.prohibited.list">
+            <li>Realizar ingeniería inversa, descompilar o desensamblar la aplicación</li>
+            <li>Distribuir, vender o sublicenciar la aplicación sin autorización</li>
+            <li>Utilizar la aplicación para fines ilegales o no autorizados</li>
+            <li>Intentar acceder a funciones no documentadas o restringidas</li>
+            <li>Eliminar o modificar avisos de derechos de autor o marcas registradas</li>
+        </ul>
+
+        <h2 data-i18n="terms_page.privacy.title">Privacidad</h2>
+        <p data-i18n="terms_page.privacy.description">
+            Al usar esta aplicación, también aceptas nuestra <a href="privacy.html">Política de Privacidad</a>. YoSiDi CAD funciona completamente offline y no recopila datos personales.
+        </p>
+
+        <h2 data-i18n="terms_page.updates.title">Actualizaciones de la Aplicación</h2>
+        <p data-i18n="terms_page.updates.description">
+            Podemos publicar actualizaciones periódicas de YoSiDi CAD para agregar funciones, corregir errores o mejorar el rendimiento. Estas actualizaciones pueden modificar o eliminar ciertas funciones. No estamos obligados a proporcionar actualizaciones o soporte continuo.
+        </p>
+
+        <h2 data-i18n="terms_page.termination.title">Terminación</h2>
+        <p data-i18n="terms_page.termination.description">
+            Podemos suspender o terminar tu acceso a YoSiDi CAD en cualquier momento si infringes estos términos. Al desinstalar la aplicación, esta licencia se termina automáticamente.
+        </p>
+
+        <h2 data-i18n="terms_page.changes.title">Modificaciones a los Términos</h2>
+        <p data-i18n="terms_page.changes.description">
+            Podemos actualizar estos Términos de Uso ocasionalmente. Los cambios se publicarán en esta página. Te recomendamos revisar estos términos periódicamente.
+        </p>
+
+        <h2 data-i18n="terms_page.law.title">Ley Aplicable y Jurisdicción</h2>
+        <p data-i18n="terms_page.law.description">
+            Estos términos se rigen por las leyes de España. Cualquier disputa derivada de estos términos se resolverá en los tribunales de Madrid, España.
+        </p>
+
+        <h2 data-i18n="terms_page.contact.title">Contacto</h2>
+        <p data-i18n="terms_page.contact.description">
+            Si tienes preguntas sobre estos Términos de Uso, puedes contactarnos en:
+        </p>
+        <p>
+            <strong>Email:</strong> <a href="mailto:support@yosidi.com">support@yosidi.com</a>
+        </p>
+
+        <div class="developer-info">
+            <p data-i18n="terms_page.developer">
+                Esta aplicación es desarrollada y propiedad de <strong>Pedro Lorencio</strong>. Todos los derechos reservados.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="./images/logo.png" alt="YoSiDi CAD Logo" class="footer-logo">
+                    <p class="footer-text" data-i18n="footer.tagline">Dibujo CAD profesional en tu dispositivo iOS</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html" class="footer-link">
+                        <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                            <polyline points="9 22 9 12 15 12 15 22"/>
+                        </svg>
+                        <span>Home</span>
+                    </a>
+                    <a href="https://apps.apple.com/es/app/yosidi-cad/id6743679420" target="_blank" rel="noopener noreferrer" class="footer-link">
+                        <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+                        </svg>
+                        <span data-i18n="footer.app_store">App Store</span>
+                    </a>
+                    <a href="https://www.youtube.com/@YoSiDi-CAD" target="_blank" rel="noopener noreferrer" class="footer-link" aria-label="YouTube">
+                        <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                        <span>YouTube</span>
+                    </a>
+                    <a href="https://www.tiktok.com/@yosidi_cad" target="_blank" rel="noopener noreferrer" class="footer-link" aria-label="TikTok">
+                        <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                        </svg>
+                        <span>TikTok</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; YoSiDi CAD. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/i18n.js"></script>
+</body>
+</html>

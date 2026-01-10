@@ -163,5 +163,64 @@
       "title": "Contact",
       "description": "If you have any questions or concerns about this privacy policy, you can contact us at:"
     }
+  },
+  "terms_page": {
+    "back": "Back to home",
+    "title": "Terms of Use",
+    "intro": "By using YoSiDi CAD, you agree to the following terms and conditions.",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "description": "By downloading, installing, or using YoSiDi CAD, you agree to be bound by these Terms of Use. If you do not agree with these terms, do not use the app."
+    },
+    "license": {
+      "title": "License to Use",
+      "description": "We grant you a non-exclusive, non-transferable, and revocable license to use YoSiDi CAD for personal and professional purposes, subject to these terms. This license does not grant you any rights to the app's source code, design, or intellectual property."
+    },
+    "ownership": {
+      "title": "Content Ownership",
+      "description": "You retain full ownership and all rights to the drawings, plans, and files you create with YoSiDi CAD. We make no claim to any rights over your content."
+    },
+    "as_is": {
+      "title": "App Provided \"As Is\"",
+      "description": "YoSiDi CAD is provided \"as is\" and \"as available,\" without warranties of any kind, express or implied. We do not guarantee that the app will be error-free, uninterrupted, or meet specific requirements."
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "description": "We are not responsible for any data loss, damage, or harm resulting from the use of YoSiDi CAD. It is your responsibility to maintain backups of your important files and drawings."
+    },
+    "purchases": {
+      "title": "In-App Purchases",
+      "description": "In-app purchases (DXF/PDF export) are securely handled through Apple's App Store and are subject to Apple's terms. All purchases are final and non-refundable, except where required by applicable law."
+    },
+    "prohibited": {
+      "title": "Prohibited Uses",
+      "description": "The following are strictly prohibited:",
+      "list": "<li>Reverse engineering, decompiling, or disassembling the app</li><li>Distributing, selling, or sublicensing the app without authorization</li><li>Using the app for illegal or unauthorized purposes</li><li>Attempting to access undocumented or restricted features</li><li>Removing or modifying copyright notices or trademarks</li>"
+    },
+    "privacy": {
+      "title": "Privacy",
+      "description": "By using this app, you also agree to our <a href=\"privacy.html\">Privacy Policy</a>. YoSiDi CAD works completely offline and does not collect personal data."
+    },
+    "updates": {
+      "title": "App Updates",
+      "description": "We may release periodic updates to YoSiDi CAD to add features, fix bugs, or improve performance. These updates may modify or remove certain features. We are not obligated to provide updates or ongoing support."
+    },
+    "termination": {
+      "title": "Termination",
+      "description": "We may suspend or terminate your access to YoSiDi CAD at any time if you violate these terms. Upon uninstalling the app, this license terminates automatically."
+    },
+    "changes": {
+      "title": "Modifications to Terms",
+      "description": "We may update these Terms of Use occasionally. Changes will be posted on this page. We recommend reviewing these terms periodically."
+    },
+    "law": {
+      "title": "Governing Law and Jurisdiction",
+      "description": "These terms are governed by the laws of Spain. Any disputes arising from these terms shall be resolved in the courts of Madrid, Spain."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "If you have questions about these Terms of Use, you can contact us at:"
+    },
+    "developer": "This app is developed and owned by <strong>Pedro Lorencio</strong>. All rights reserved."
   }
 }
