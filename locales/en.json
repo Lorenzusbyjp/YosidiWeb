@@ -195,15 +195,17 @@
     "prohibited": {
       "title": "Prohibited Uses",
       "description": "The following are strictly prohibited:",
-      "item1": "Reverse engineering, decompiling, or disassembling the app",
-      "item2": "Distributing, selling, or sublicensing the app without authorization",
-      "item3": "Using the app for illegal or unauthorized purposes",
-      "item4": "Attempting to access undocumented or restricted features",
-      "item5": "Removing or modifying copyright notices or trademarks"
+      "item1": "Reverse engineering, decompiling, or disassembling the app.",
+      "item2": "Distributing, selling, or sublicensing the app without authorization.",
+      "item3": "Using the app for illegal or unauthorized purposes.",
+      "item4": "Attempting to access undocumented or restricted features.",
+      "item5": "Removing or modifying copyright notices or trademarks."
     },
     "privacy": {
       "title": "Privacy",
-      "description": "By using this app, you also agree to our <a href=\"privacy.html\">Privacy Policy</a>. YoSiDi CAD works completely offline and does not collect personal data."
+      "description_part1": "By using this app, you also agree to our",
+      "link": "Privacy Policy",
+      "description_part2": ". YoSiDi CAD works completely offline and does not collect personal data."
     },
     "updates": {
       "title": "App Updates",
