@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "YoSiDi CAD - Aplicación de Dibujo CAD para iPad e iPhone",
-    "description": "YoSiDi CAD es una aplicación profesional de dibujo CAD para iPad e iPhone. Levantamientos rápidos con exportación a DXF y PDF. Del sitio al plano final en minutos.",
+    "description": "YoSiDi CAD es la aplicación de dibujo CAD para iPad e iPhone. Levantamientos rápidos con exportación a DXF y PDF. Del sitio al plano final en minutos.",
     "og_title": "YoSiDi CAD - Aplicación de Dibujo CAD para iPad e iPhone",
-    "og_description": "Levantamientos rápidos con exportación a DXF y PDF. Herramientas profesionales CAD en tu iPad.",
+    "og_description": "Levantamientos rápidos con exportación a DXF y PDF. Herramientas CAD completas en tu iPad.",
     "twitter_title": "YoSiDi CAD - Aplicación de Dibujo CAD para iPad e iPhone",
-    "twitter_description": "Levantamientos rápidos con exportación a DXF y PDF. Herramientas profesionales CAD en tu iPad."
+    "twitter_description": "Levantamientos rápidos con exportación a DXF y PDF. Herramientas CAD completas en tu iPad."
   },
   "nav": {
     "features": "Características",
@@ -19,11 +19,11 @@
     "learn_more": "Conoce más"
   },
   "workflow": {
-    "title": "Flujo de trabajo profesional",
-    "subtitle": "Diseñado para profesionales que necesitan velocidad y precisión.",
+    "title": "Flujo de trabajo eficiente",
+    "subtitle": "Diseñado para arquitectos e ingenieros que necesitan velocidad y precisión.",
     "step1": {
       "title": "Dibuja en el sitio",
-      "description": "Herramientas CAD profesionales optimizadas para iOS. Toma medidas y dibuja directamente en tu dispositivo."
+      "description": "Herramientas CAD optimizadas para iOS. Toma medidas y dibuja directamente en tu dispositivo."
     },
     "step2": {
       "title": "Calcula y anota",
@@ -35,14 +35,14 @@
     },
     "step4": {
       "title": "Envía al cliente",
-      "description": "Planos profesionales terminados en minutos. Desde el levantamiento hasta la entrega, todo desde tu iPad e iPhone."
+      "description": "Planos terminados en minutos. Desde el levantamiento hasta la entrega, todo desde tu iPad e iPhone."
     }
   },
   "features": {
     "title": "Características principales",
-    "subtitle": "Herramientas profesionales diseñadas para el trabajo de campo",
+    "subtitle": "Herramientas diseñadas para el trabajo de campo",
     "tools": {
-      "title": "Herramientas CAD profesionales",
+      "title": "Herramientas CAD completas",
       "description": "Paralela, empalme, recortar, alargar, editar, copiar, mover, estirar, rotar, medir y más. Sistema de capas con control de visibilidad, color y tipo de línea."
     },
     "areas": {
@@ -80,7 +80,7 @@
   },
   "gallery": {
     "title": "Capturas de pantalla",
-    "subtitle": "Descubre la interfaz intuitiva y profesional de YoSiDi CAD"
+    "subtitle": "Descubre la interfaz intuitiva de YoSiDi CAD"
   },
   "download": {
     "button": "YoSiDi CAD en App Store",
@@ -102,10 +102,9 @@
       "description": "Todas las compras dentro de la aplicación son gestionadas de forma segura por la App Store. No almacenamos ni procesamos ninguna información de pago directamente."
     },
     "website": {
-      "title": "Sitio web y cookies",
-      "description": "Nuestro sitio web (www.yosidi.com) utiliza Google Analytics para recopilar estadísticas de uso anónimas. Esto nos ayuda a mejorar la experiencia del usuario. Se te pedirá consentimiento para las cookies en tu primera visita. No se activan cookies a menos que se acepten explícitamente. No utilizamos cookies publicitarias ni compartimos datos con terceros."
+      "title": "Sitio web",
+      "description": "Nuestro sitio web (www.yosidi.com) no utiliza cookies ni servicios de análisis de terceros. Tu navegación es completamente privada y anónima."
     },
-    "revoke": "Puedes revocar tu consentimiento en cualquier momento limpiando la caché y las cookies de tu navegador.",
     "contact": "Para cualquier pregunta o inquietud, contáctanos en",
     "terms_link": "Nuestros Términos de Uso están disponibles en"
   },
@@ -211,8 +210,8 @@
       "description": "Podemos publicar actualizaciones periódicas de YoSiDi CAD para agregar funciones, corregir errores o mejorar el rendimiento. Estas actualizaciones pueden modificar o eliminar ciertas funciones. No estamos obligados a proporcionar actualizaciones o soporte continuo."
     },
     "termination": {
-      "title": "Terminación",
-      "description": "Podemos suspender o terminar tu acceso a YoSiDi CAD en cualquier momento si infringes estos términos. Al desinstalar la aplicación, esta licencia se termina automáticamente."
+      "title": "Cancelación del Servicio",
+      "description": "Podemos suspender o cancelar tu acceso a YoSiDi CAD en cualquier momento si infringes estos términos. Al desinstalar la aplicación, esta licencia finaliza automáticamente."
     },
     "changes": {
       "title": "Modificaciones a los Términos",

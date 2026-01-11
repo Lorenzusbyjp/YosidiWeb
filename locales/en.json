@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "YoSiDi CAD - CAD Drawing App for iPad and iPhone",
-    "description": "YoSiDi CAD is a professional CAD drawing app for iPad and iPhone. Fast surveying with DXF and PDF export. From site to final plan in minutes.",
+    "description": "YoSiDi CAD is the CAD drawing app for iPad and iPhone. Fast surveying with DXF and PDF export. From site to final plan in minutes.",
     "og_title": "YoSiDi CAD - CAD Drawing App for iPad and iPhone",
-    "og_description": "Fast surveying with DXF and PDF export. Professional CAD tools on your iPad.",
+    "og_description": "Fast surveying with DXF and PDF export. Complete CAD tools on your iPad.",
     "twitter_title": "YoSiDi CAD - CAD Drawing App for iPad and iPhone",
-    "twitter_description": "Fast surveying with DXF and PDF export. Professional CAD tools on your iPad."
+    "twitter_description": "Fast surveying with DXF and PDF export. Complete CAD tools on your iPad."
   },
   "nav": {
     "features": "Features",
@@ -19,11 +19,11 @@
     "learn_more": "Learn more"
   },
   "workflow": {
-    "title": "Professional workflow",
-    "subtitle": "Designed for professionals who need speed and precision.",
+    "title": "Efficient workflow",
+    "subtitle": "Designed for architects and engineers who need speed and precision.",
     "step1": {
       "title": "Draw on site",
-      "description": "Professional CAD tools optimized for iOS. Take measurements and draw directly on your device."
+      "description": "CAD tools optimized for iOS. Take measurements and draw directly on your device."
     },
     "step2": {
       "title": "Calculate and annotate",
@@ -35,14 +35,14 @@
     },
     "step4": {
       "title": "Send to client",
-      "description": "Professional plans finished in minutes. From surveying to delivery, all from your iPad and iPhone."
+      "description": "Plans finished in minutes. From surveying to delivery, all from your iPad and iPhone."
     }
   },
   "features": {
     "title": "Key features",
-    "subtitle": "Professional tools designed for field work",
+    "subtitle": "Tools designed for field work",
     "tools": {
-      "title": "Professional CAD tools",
+      "title": "Complete CAD tools",
       "description": "Offset, fillet, trim, extend, edit, copy, move, stretch, rotate, measure, and more. Layer system with visibility, color, and line type control."
     },
     "areas": {
@@ -80,7 +80,7 @@
   },
   "gallery": {
     "title": "Screenshots",
-    "subtitle": "Discover YoSiDi CAD's intuitive and professional interface"
+    "subtitle": "Discover YoSiDi CAD's intuitive interface"
   },
   "download": {
     "button": "YoSiDi CAD on App Store",
@@ -102,10 +102,9 @@
       "description": "All in-app purchases are handled securely by the App Store. We do not store or process any payment information directly."
     },
     "website": {
-      "title": "Website & Cookies",
-      "description": "Our website (www.yosidi.com) uses Google Analytics to collect anonymous usage statistics. This helps us improve user experience. You will be asked to consent to cookies on your first visit. No cookies are activated unless explicitly accepted. We do not use advertising cookies or share data with third parties."
+      "title": "Website",
+      "description": "Our website (www.yosidi.com) does not use cookies or third-party analytics services. Your browsing is completely private and anonymous."
     },
-    "revoke": "You can revoke your consent at any time by clearing your browser's cache and cookies.",
     "contact": "For any questions or concerns, contact us at",
     "terms_link": "Our Terms of Use are available at"
   },
