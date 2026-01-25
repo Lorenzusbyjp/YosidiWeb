@@ -223,6 +223,29 @@ ul {
     line-height: 1.6;
 }
 
+.countries-counter {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: var(--spacing-md);
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    animation: fadeInUp 1.2s ease-out;
+}
+
+.countries-icon {
+    width: 24px;
+    height: 24px;
+    stroke: var(--color-primary);
+}
+
+.countries-number {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    min-width: 2ch;
+}
+
 .hero-buttons {
     display: flex;
     gap: var(--spacing-sm);
@@ -868,6 +891,10 @@ ul {
     }
 
     .hero-buttons {
+        justify-content: center;
+    }
+
+    .countries-counter {
         justify-content: center;
     }
 
