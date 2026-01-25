@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initScrollAnimations();
     initCarousel();
     initSmoothScroll();
-    initCountriesCounter();
     setCurrentYear();
 });
 
@@ -46,53 +45,6 @@ function initScrollAnimations() {
     workflowSteps.forEach(step => {
         observer.observe(step);
     });
-}
-
-// ========================================
-// Countries Counter Animation
-// ========================================
-function initCountriesCounter() {
-    const counterElement = document.querySelector('.countries-number');
-    if (!counterElement) return;
-
-    const target = parseInt(counterElement.getAttribute('data-target'), 10);
-    const duration = 2000;
-    const startTime = performance.now();
-    let hasAnimated = false;
-
-    const observerOptions = {
-        threshold: 0.5
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting && !hasAnimated) {
-                hasAnimated = true;
-                animateCounter();
-                observer.unobserve(entry.target);
-            }
-        });
-    }, observerOptions);
-
-    observer.observe(counterElement);
-
-    function animateCounter() {
-        const animate = (currentTime) => {
-            const elapsed = currentTime - startTime;
-            const progress = Math.min(elapsed / duration, 1);
-            const easeOut = 1 - Math.pow(1 - progress, 3);
-            const current = Math.floor(easeOut * target);
-
-            counterElement.textContent = current;
-
-            if (progress < 1) {
-                requestAnimationFrame(animate);
-            } else {
-                counterElement.textContent = target;
-            }
-        };
-        requestAnimationFrame(animate);
-    }
 }
 
 // ========================================
