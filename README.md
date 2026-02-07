@@ -28,11 +28,13 @@ yosidi-web/
 │   ├── main.js             # JavaScript principal (animaciones, carrusel)
 │   └── i18n.js             # Sistema de internacionalización
 ├── images/
-│   ├── logo.png            # Logo de la app (placeholder SVG)
+│   ├── logo.png            # Logo de la app
 │   ├── favicon.png         # Favicon
-│   ├── screenshot1.png     # Captura 1 (placeholder SVG)
-│   ├── screenshot2.png     # Captura 2 (placeholder SVG)
-│   └── screenshot3.png     # Captura 3 (placeholder SVG)
+│   ├── screenshot*.png     # Capturas originales (fuente)
+│   └── optimized/          # Capturas optimizadas para web (generadas)
+├── scripts/
+│   ├── optimize-images.sh        # Optimiza capturas y sincroniza width/height
+│   └── update-image-dimensions.sh # Sincroniza width/height en index.html
 ├── locales/
 │   ├── es.json             # Traducciones en español
 │   └── en.json             # Traducciones en inglés
@@ -76,24 +78,66 @@ npx http-server -p 8000
 - Instala la extensión "Live Server" en VS Code
 - Click derecho en `index.html` → "Open with Live Server"
 
-## 🖼️ Reemplazar Imágenes Placeholder
+## 🖼️ Flujo de Imágenes (Importante)
 
-Las imágenes actuales son SVG placeholders. Para usar imágenes reales:
+La web usa dos niveles de capturas:
 
-1. **Logo** (`images/logo.png`):
-   - Tamaño recomendado: 200x200 px
-   - Formato: PNG con fondo transparente
+1. `images/screenshot*.png`  
+   Archivos originales (alta calidad).
+2. `images/optimized/screenshot*.png`  
+   Versiones optimizadas para web (las que carga `index.html`).
 
-2. **Favicon** (`images/favicon.png`):
-   - Tamaño: 64x64 px o 32x32 px
-   - Formato: PNG
+### Flujo recomendado cuando cambias capturas
 
-3. **Screenshots** (`images/screenshot1.png`, `screenshot2.png`, `screenshot3.png`):
-   - Tamaño recomendado: 800x600 px o mayor
-   - Formato: PNG o JPG
-   - Capturas reales de la app en iPad/iPhone
+1. Sustituye o añade capturas en `images/` con este patrón de nombre:  
+   `screenshot1.png`, `screenshot2.png`, ..., `screenshotN.png`.
+2. Ejecuta el optimizador:
+   ```bash
+   bash scripts/optimize-images.sh
+   ```
+   Este comando también actualiza automáticamente `width` y `height` en `index.html`.
+3. Comprueba resultados visuales en móvil y desktop.
+4. Si añadiste o quitaste capturas, actualiza:
+   - Los `<div class="gallery-item">` en `index.html`
+   - Los `<button class="dot">` de la galería en `index.html`
 
-Simplemente reemplaza los archivos manteniendo los mismos nombres.
+### Comandos útiles del script
+
+Ayuda:
+```bash
+bash scripts/optimize-images.sh --help
+```
+
+Uso por defecto:
+```bash
+bash scripts/optimize-images.sh
+```
+
+Con tamaño máximo distinto (lado mayor en px):
+```bash
+bash scripts/optimize-images.sh images images/optimized 1400
+```
+
+Sincronizar solo dimensiones (sin re-optimizar):
+```bash
+bash scripts/update-image-dimensions.sh
+```
+
+### Qué hace el script exactamente
+
+- Toma `images/screenshot*.png`.
+- Copia cada imagen a `images/optimized/`.
+- Redimensiona la copia con `sips -Z` al tamaño máximo indicado (por defecto `1200`).
+- Imprime dimensiones y peso final por archivo.
+- Sincroniza `width`/`height` en `index.html` usando los tamaños reales en `images/optimized/`.
+- No toca los originales.
+
+### Reglas para no romper la landing
+
+- No edites manualmente `images/optimized/`; regénéralo con el script.
+- Mantén el patrón `screenshotN.png` para que el script las detecte.
+- Si cambia la proporción de una captura, ejecuta de nuevo el script para que `width`/`height` quede actualizado.
+- Si no ejecutas el script tras cambiar capturas, la web seguirá mostrando versiones antiguas optimizadas.
 
 ## 🌍 Agregar Nuevos Idiomas
 
@@ -192,7 +236,7 @@ Tu sitio estará disponible en: `https://tu-usuario.github.io/yosidi-web/`
 
 ### El carrusel no responde
 
-- Asegúrate de que las imágenes existan en `images/`
+- Asegúrate de que las imágenes existan en `images/optimized/`
 - Verifica que los selectores en `main.js` coincidan con el HTML
 
 ## 📄 Licencia

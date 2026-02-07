@@ -57,7 +57,6 @@ function initCountriesCounter() {
 
     const target = parseInt(counterElement.getAttribute('data-target'), 10);
     const duration = 2000;
-    const startTime = performance.now();
     let hasAnimated = false;
 
     const observerOptions = {
@@ -77,6 +76,7 @@ function initCountriesCounter() {
     observer.observe(counterElement);
 
     function animateCounter() {
+        const startTime = performance.now();
         const animate = (currentTime) => {
             const elapsed = currentTime - startTime;
             const progress = Math.min(elapsed / duration, 1);

@@ -13,12 +13,17 @@
     "gallery": "Gallery"
   },
   "hero": {
-    "title": "On-site CAD surveying in minutes",
-    "subtitle": "Draw directly on site and forget about pencil and paper. Save time, avoid errors, and reduce physical effort. Export DXF and PDF with professional title block and send it to your client instantly.",
+    "title": "Precise and fast CAD",
+    "subtitle": "Draw on-site and export in minutes.",
     "countries_prefix": "Used in",
     "countries_suffix": "countries",
     "download_btn": "Download on App Store",
-    "learn_more": "Learn more"
+    "learn_more": "Learn more",
+    "trust": {
+      "no_signup": "iPad and iPhone",
+      "offline": "Fast workflow",
+      "local_data": "Accurate data capture"
+    }
   },
   "workflow": {
     "title": "Efficient workflow",
