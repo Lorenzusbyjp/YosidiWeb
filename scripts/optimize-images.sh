@@ -20,6 +20,7 @@ Usage:
 
 Arguments:
   source_dir      Input folder with screenshot*.png files
+                  and optional "IPAD SCREENSHOT.png"
                   Default: ./images
   output_dir      Output folder for optimized PNG files
                   Default: ./images/optimized
@@ -63,8 +64,13 @@ shopt -s nullglob
 files=("$SOURCE_DIR"/screenshot*.png)
 shopt -u nullglob
 
+ipad_source="$SOURCE_DIR/IPAD SCREENSHOT.png"
+if [ -f "$ipad_source" ]; then
+    files+=("$ipad_source")
+fi
+
 if [ ${#files[@]} -eq 0 ]; then
-    echo "No screenshot PNG files found in: $SOURCE_DIR"
+    echo "No screenshot PNG files or IPAD SCREENSHOT.png found in: $SOURCE_DIR"
     exit 1
 fi
 

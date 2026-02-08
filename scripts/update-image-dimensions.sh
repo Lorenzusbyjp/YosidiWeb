@@ -19,6 +19,7 @@ Arguments:
   html_file       HTML file to update
                   Default: ./index.html
   optimized_dir   Directory containing screenshot*.png optimized files
+                  and optional "IPAD SCREENSHOT.png"
                   Default: ./images/optimized
 EOF
 }
@@ -56,8 +57,13 @@ shopt -s nullglob
 files=("$OPTIMIZED_DIR"/screenshot*.png)
 shopt -u nullglob
 
+ipad_optimized="$OPTIMIZED_DIR/IPAD SCREENSHOT.png"
+if [ -f "$ipad_optimized" ]; then
+    files+=("$ipad_optimized")
+fi
+
 if [ ${#files[@]} -eq 0 ]; then
-    echo "No screenshot PNG files found in: $OPTIMIZED_DIR"
+    echo "No screenshot PNG files or IPAD SCREENSHOT.png found in: $OPTIMIZED_DIR"
     exit 1
 fi
 
