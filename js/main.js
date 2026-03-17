@@ -1,6 +1,6 @@
 /**
  * YoSiDi CAD - Landing Page Main JavaScript
- * Handles scroll animations, carousel, and interactive features
+ * Handles scroll animations, carousel, hamburger menu, and interactive features
  */
 
 // ========================================
@@ -11,8 +11,47 @@ document.addEventListener('DOMContentLoaded', () => {
     initCarousel();
     initSmoothScroll();
     initCountriesCounter();
+    initHamburgerMenu();
     setCurrentYear();
 });
+
+// ========================================
+// Hamburger Menu (Mobile Navigation)
+// ========================================
+function initHamburgerMenu() {
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+    if (!hamburger || !navMenu) return;
+
+    // Create overlay element
+    const overlay = document.createElement('div');
+    overlay.className = 'mobile-overlay';
+    document.body.appendChild(overlay);
+
+    function toggleMenu() {
+        const isOpen = navMenu.classList.toggle('open');
+        hamburger.classList.toggle('active');
+        overlay.classList.toggle('active');
+        hamburger.setAttribute('aria-expanded', isOpen);
+        document.body.style.overflow = isOpen ? 'hidden' : '';
+    }
+
+    function closeMenu() {
+        navMenu.classList.remove('open');
+        hamburger.classList.remove('active');
+        overlay.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+    }
+
+    hamburger.addEventListener('click', toggleMenu);
+    overlay.addEventListener('click', closeMenu);
+
+    // Close menu when clicking a nav link
+    navMenu.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', closeMenu);
+    });
+}
 
 // ========================================
 // Scroll Animations
@@ -26,7 +65,6 @@ function initScrollAnimations() {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry, index) => {
             if (entry.isIntersecting) {
-                // Add staggered delay for feature cards
                 setTimeout(() => {
                     entry.target.classList.add('animate');
                 }, index * 100);
@@ -35,16 +73,9 @@ function initScrollAnimations() {
         });
     }, observerOptions);
 
-    // Observe all feature cards
-    const featureCards = document.querySelectorAll('.feature-card');
-    featureCards.forEach(card => {
-        observer.observe(card);
-    });
-
-    // Observe all workflow steps
-    const workflowSteps = document.querySelectorAll('.workflow-step');
-    workflowSteps.forEach(step => {
-        observer.observe(step);
+    // Observe all animatable cards
+    document.querySelectorAll('.feature-card, .workflow-step, .audience-card').forEach(el => {
+        observer.observe(el);
     });
 }
 
@@ -59,10 +90,6 @@ function initCountriesCounter() {
     const duration = 2000;
     let hasAnimated = false;
 
-    const observerOptions = {
-        threshold: 0.5
-    };
-
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting && !hasAnimated) {
@@ -71,7 +98,7 @@ function initCountriesCounter() {
                 observer.unobserve(entry.target);
             }
         });
-    }, observerOptions);
+    }, { threshold: 0.5 });
 
     observer.observe(counterElement);
 
@@ -110,72 +137,42 @@ function initCarousel() {
     let currentIndex = 0;
     const totalItems = items.length;
 
-    // Update carousel display
     function updateCarousel() {
-        // Hide all items
-        items.forEach(item => {
-            item.classList.remove('active');
-        });
-
-        // Show current item
+        items.forEach(item => item.classList.remove('active'));
         items[currentIndex].classList.add('active');
 
-        // Update dots
         dots.forEach((dot, index) => {
-            if (index === currentIndex) {
-                dot.classList.add('active');
-            } else {
-                dot.classList.remove('active');
-            }
+            dot.classList.toggle('active', index === currentIndex);
         });
     }
 
-    // Navigate to next slide
     function nextSlide() {
         currentIndex = (currentIndex + 1) % totalItems;
         updateCarousel();
     }
 
-    // Navigate to previous slide
     function prevSlide() {
         currentIndex = (currentIndex - 1 + totalItems) % totalItems;
         updateCarousel();
     }
 
-    // Navigate to specific slide
-    function goToSlide(index) {
-        currentIndex = index;
-        updateCarousel();
-    }
+    if (nextBtn) nextBtn.addEventListener('click', nextSlide);
+    if (prevBtn) prevBtn.addEventListener('click', prevSlide);
 
-    // Event listeners
-    if (nextBtn) {
-        nextBtn.addEventListener('click', nextSlide);
-    }
-
-    if (prevBtn) {
-        prevBtn.addEventListener('click', prevSlide);
-    }
-
-    // Dot navigation
     dots.forEach((dot, index) => {
-        dot.addEventListener('click', () => goToSlide(index));
+        dot.addEventListener('click', () => {
+            currentIndex = index;
+            updateCarousel();
+        });
     });
 
     // Keyboard navigation
     document.addEventListener('keydown', (e) => {
-        if (e.key === 'ArrowLeft') {
-            prevSlide();
-        } else if (e.key === 'ArrowRight') {
-            nextSlide();
-        }
+        if (e.key === 'ArrowLeft') prevSlide();
+        else if (e.key === 'ArrowRight') nextSlide();
     });
 
-    // Auto-play (optional - commented out by default)
-    // const autoPlayInterval = 5000; // 5 seconds
-    // setInterval(nextSlide, autoPlayInterval);
-
-    // Touch/swipe support for mobile
+    // Touch/swipe support
     let touchStartX = 0;
     let touchEndX = 0;
 
@@ -185,43 +182,25 @@ function initCarousel() {
 
     track.addEventListener('touchend', (e) => {
         touchEndX = e.changedTouches[0].screenX;
-        handleSwipe();
-    }, { passive: true });
-
-    function handleSwipe() {
-        const swipeThreshold = 50; // Minimum distance for a swipe
         const diff = touchStartX - touchEndX;
-
-        if (Math.abs(diff) > swipeThreshold) {
-            if (diff > 0) {
-                // Swipe left - next slide
-                nextSlide();
-            } else {
-                // Swipe right - previous slide
-                prevSlide();
-            }
+        if (Math.abs(diff) > 50) {
+            diff > 0 ? nextSlide() : prevSlide();
         }
-    }
+    }, { passive: true });
 }
 
 // ========================================
 // Smooth Scroll for Navigation Links
 // ========================================
 function initSmoothScroll() {
-    const navLinks = document.querySelectorAll('a[href^="#"]');
-
-    navLinks.forEach(link => {
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
         link.addEventListener('click', (e) => {
             const targetId = link.getAttribute('href');
-
-            // Skip if it's just "#"
             if (targetId === '#') return;
 
             const targetElement = document.querySelector(targetId);
-
             if (targetElement) {
                 e.preventDefault();
-
                 const headerOffset = 80;
                 const elementPosition = targetElement.getBoundingClientRect().top;
                 const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
@@ -246,7 +225,7 @@ function setCurrentYear() {
 }
 
 // ========================================
-// Header Scroll Effect (optional enhancement)
+// Header Scroll Effect
 // ========================================
 window.addEventListener('scroll', () => {
     const header = document.querySelector('.header');
@@ -274,18 +253,11 @@ function debounce(func, wait) {
     };
 }
 
-// ========================================
-// Window Resize Handler (debounced)
-// ========================================
-const handleResize = debounce(() => {
-    // Add any resize-specific logic here if needed
-    // Example: Recalculate carousel dimensions
-}, 250);
-
+const handleResize = debounce(() => {}, 250);
 window.addEventListener('resize', handleResize);
 
 // ========================================
-// Accessibility: Focus Visible Polyfill
+// Accessibility: Focus Visible
 // ========================================
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Tab') {

@@ -1,93 +1,129 @@
 {
   "meta": {
-    "title": "YoSiDi CAD - CAD Drawing App for iPad and iPhone",
-    "description": "YoSiDi CAD is the CAD drawing app for iPad and iPhone. Fast surveying with DXF and PDF export. From site to final plan in minutes.",
-    "og_title": "YoSiDi CAD - CAD Drawing App for iPad and iPhone",
-    "og_description": "Fast surveying with DXF and PDF export. Complete CAD tools on your iPad.",
-    "twitter_title": "YoSiDi CAD - CAD Drawing App for iPad and iPhone",
-    "twitter_description": "Fast surveying with DXF and PDF export. Complete CAD tools on your iPad."
+    "title": "YoSiDi CAD - Survey and draw plans on your iPad and iPhone in minutes",
+    "description": "YoSiDi CAD: survey on-site with your iPad and iPhone. Professional CAD tools, area calculation and DXF/PDF export without going back to the office.",
+    "og_title": "YoSiDi CAD - Survey and draw plans on your iPad and iPhone in minutes",
+    "og_description": "Professional CAD for on-site surveying on iPad and iPhone. Export to DXF and PDF right from the job site.",
+    "twitter_title": "YoSiDi CAD - Survey and draw plans on your iPad and iPhone in minutes",
+    "twitter_description": "Professional CAD for on-site surveying on iPad and iPhone. Export to DXF and PDF right from the job site."
+  },
+  "accessibility": {
+    "skip": "Skip to content"
   },
   "nav": {
     "features": "Features",
     "workflow": "Workflow",
-    "gallery": "Gallery"
+    "gallery": "Gallery",
+    "audience": "Who it's for"
   },
   "hero": {
-    "title": "Precise and fast CAD",
-    "subtitle": "Draw on-site and export in minutes.",
+    "title": "Survey plans where others take notes",
+    "subtitle": "Professional CAD tools on your iPad and iPhone. Measure, draw, calculate areas, and export to DXF or PDF without going back to the office.",
     "countries_prefix": "Used in",
     "countries_suffix": "countries",
     "download_btn": "Download on App Store",
     "learn_more": "Learn more",
     "trust": {
-      "no_signup": "iPad and iPhone",
-      "offline": "Fast workflow",
-      "local_data": "Accurate data capture"
+      "no_signup": "No signup required",
+      "offline": "Works 100% offline",
+      "local_data": "Full privacy"
     }
   },
   "workflow": {
-    "title": "Efficient workflow",
-    "subtitle": "Designed for those who need speed and precision.",
+    "title": "From visit to plan in 4 steps",
+    "subtitle": "No paper sketches. No redrawing. No wasted time.",
     "step1": {
-      "title": "Draw on site",
-      "description": "CAD tools optimized for iOS. Take measurements and draw directly on your device."
+      "title": "Measure and draw on site",
+      "description": "Open your iPad on site and start drawing. Connect a Bluetooth laser meter or enter measurements manually."
     },
     "step2": {
-      "title": "Calculate and annotate",
-      "description": "Automatic area calculation. Add labels and all necessary information for the plan."
+      "title": "Calculate areas",
+      "description": "Areas are calculated automatically. Add labels, dimensions, and all the information the plan needs."
     },
     "step3": {
       "title": "Export to DXF or PDF",
-      "description": "Export to DXF to continue in your desktop CAD software. Or generate a complete PDF with title block ready to deliver."
+      "description": "Generate a DXF to continue in AutoCAD or BricsCAD. Or a PDF with a professional title block ready to deliver."
     },
     "step4": {
       "title": "Send to client",
-      "description": "Plans finished in minutes. From surveying to delivery, all from your iPad and iPhone."
+      "description": "Finished plans before you leave the site. What used to take hours now takes minutes."
+    }
+  },
+  "cta": {
+    "mid": {
+      "title": "Forget the paper sketch",
+      "button": "Download free"
+    },
+    "final": {
+      "title": "Start surveying today",
+      "subtitle": "Free download. No subscription. No account.",
+      "button": "Download on App Store",
+      "note": "DXF and PDF export available as in-app purchase"
     }
   },
   "features": {
-    "title": "Key features",
-    "subtitle": "Tools designed for field work",
+    "title": "Everything you need in the field",
+    "subtitle": "Professional CAD tools designed for working outside the office",
     "tools": {
       "title": "Complete CAD tools",
-      "description": "Offset, fillet, trim, extend, edit, copy, move, stretch, rotate, measure, and more. Layer system with visibility, color, and line type control."
+      "description": "Offset, fillet, trim, extend, copy, move, stretch, rotate, measure, and more. Layer system with visibility, color, and line type control."
     },
     "areas": {
       "title": "Automatic area calculation",
-      "description": "Calculate space areas and place surface labels automatically."
+      "description": "Get built, usable, and per-room areas instantly. Place area labels with a single tap."
     },
     "openings": {
       "title": "Smart openings",
-      "description": "Place parametric doors and windows with one click. Adjust dimensions, opening direction, and type from the properties panel."
+      "description": "Parametric doors and windows with a single tap. Adjust dimensions, swing direction, and type from the properties panel."
     },
     "blocks": {
       "title": "Block library",
-      "description": "Quick insertion of furniture, fixtures, appliances, and architectural elements. Blocks optimized for surveying."
+      "description": "Furniture, fixtures, appliances, and architectural elements ready to insert into your survey."
     },
     "formats": {
       "title": "Formats with title block",
-      "description": "Standard formats (ISO: A4-A0, ANSI: Letter, Tabloid, Arch: C, D) with customizable title block. Add project data and signature."
+      "description": "Standard ISO, ANSI, and Arch formats with customizable title block. Add your logo, project data, and signature."
     },
     "tutorials": {
-      "title": "Interactive tutorials",
-      "description": "Learn to use the app with built-in step-by-step tutorials. Interactive guide system to master all tools quickly."
+      "title": "Built-in tutorials",
+      "description": "Learn on the go with step-by-step guides inside the app. Master every tool in minutes."
     },
     "export": {
       "title": "DXF and PDF export",
-      "description": "Export to DXF to work in your favorite desktop CAD software. Or generate final PDFs with title block to send directly to client."
+      "description": "Export to DXF to continue in AutoCAD, BricsCAD, or other software. Or generate PDFs with professional title block for the client."
     },
     "bluetooth": {
       "title": "Bluetooth laser measures",
-      "description": "Connect compatible laser distance meters via Bluetooth. Take precise measurements and transfer them directly to your drawing without typing."
+      "description": "Connect your Bosch, Leica, or Stanley via Bluetooth. Measurements go directly into your drawing without typing."
     },
     "units": {
-      "title": "Metric and imperial systems",
-      "description": "Work with your preferred units. The system handles both metric and imperial with decimals and fractions."
+      "title": "Metric and imperial",
+      "description": "Work in meters, feet, inches, or fractions. Switch systems at any time without losing precision."
+    }
+  },
+  "audience": {
+    "title": "Designed for field professionals",
+    "subtitle": "YoSiDi is the daily work tool of:",
+    "architects": {
+      "title": "Architects",
+      "description": "As-built surveys, renovations, and site measurements with DXF plans ready for the studio."
+    },
+    "designers": {
+      "title": "Interior designers",
+      "description": "Space measurement, furniture layout, and design proposals right at the client's home."
+    },
+    "engineers": {
+      "title": "Engineers",
+      "description": "Installation plans, setout, and field documentation with instant export."
+    },
+    "appraisers": {
+      "title": "Appraisers and surveyors",
+      "description": "Quick plans with built and usable area calculation. Professional PDF in the same visit."
     }
   },
   "gallery": {
-    "title": "Screenshots",
-    "subtitle": "Discover YoSiDi CAD's intuitive interface"
+    "title": "See YoSiDi in action",
+    "subtitle": "Clean, professional interface designed for fast work"
   },
   "download": {
     "button": "YoSiDi CAD on App Store",
@@ -116,12 +152,12 @@
     "terms_link": "Our Terms of Use are available at"
   },
   "contact": {
-    "title": "Contact Us",
-    "description": "If you have any questions, need help, or want to share feedback, feel free to contact us at",
+    "title": "Have questions?",
+    "description": "Write to us at",
     "email": "support@yosidi.com"
   },
   "footer": {
-    "tagline": "Professional CAD drawing on your iOS device. Designed by architects.",
+    "tagline": "Professional CAD on your iPad and iPhone. Designed by architects.",
     "app_store": "App Store",
     "privacy": "Privacy",
     "contact": "Contact",

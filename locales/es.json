@@ -1,93 +1,129 @@
 {
   "meta": {
-    "title": "YoSiDi CAD - Aplicación de Dibujo CAD para iPad e iPhone",
-    "description": "YoSiDi CAD es la aplicación de dibujo CAD para iPad e iPhone. Levantamientos rápidos con exportación a DXF y PDF. Del sitio al plano final en minutos.",
-    "og_title": "YoSiDi CAD - Aplicación de Dibujo CAD para iPad e iPhone",
-    "og_description": "Levantamientos rápidos con exportación a DXF y PDF. Herramientas CAD completas en tu iPad.",
-    "twitter_title": "YoSiDi CAD - Aplicación de Dibujo CAD para iPad e iPhone",
-    "twitter_description": "Levantamientos rápidos con exportación a DXF y PDF. Herramientas CAD completas en tu iPad."
+    "title": "YoSiDi CAD - Levanta planos con tu iPad e iPhone en minutos",
+    "description": "YoSiDi CAD: levanta planos in situ con tu iPad e iPhone. Herramientas CAD profesionales, cálculo de superficies y exportación a DXF y PDF sin volver a la oficina.",
+    "og_title": "YoSiDi CAD - Levanta planos con tu iPad e iPhone en minutos",
+    "og_description": "CAD profesional para levantamientos in situ en iPad e iPhone. Exporta a DXF y PDF directamente desde la obra.",
+    "twitter_title": "YoSiDi CAD - Levanta planos con tu iPad e iPhone en minutos",
+    "twitter_description": "CAD profesional para levantamientos in situ en iPad e iPhone. Exporta a DXF y PDF directamente desde la obra."
+  },
+  "accessibility": {
+    "skip": "Saltar al contenido"
   },
   "nav": {
     "features": "Características",
     "workflow": "Flujo de trabajo",
-    "gallery": "Galería"
+    "gallery": "Galería",
+    "audience": "Para quién"
   },
   "hero": {
-    "title": "CAD preciso y rápido",
-    "subtitle": "Dibuja in situ y exporta en minutos.",
+    "title": "Levanta planos donde otros toman notas",
+    "subtitle": "Herramientas CAD profesionales en tu iPad e iPhone. Mide, dibuja, calcula superficies y exporta a DXF o PDF sin volver a la oficina.",
     "countries_prefix": "Usado en",
     "countries_suffix": "países",
     "download_btn": "Descargar en App Store",
     "learn_more": "Conoce más",
     "trust": {
-      "no_signup": "iPad e iPhone",
-      "offline": "Flujo rápido",
-      "local_data": "Toma de datos precisa"
+      "no_signup": "Sin registro necesario",
+      "offline": "Funciona 100% offline",
+      "local_data": "Privacidad total"
     }
   },
   "workflow": {
-    "title": "Flujo de trabajo eficiente",
-    "subtitle": "Diseñado para quienes necesitan velocidad y precisión.",
+    "title": "De la visita al plano en 4 pasos",
+    "subtitle": "Sin croquis en papel. Sin pasar a limpio. Sin perder tiempo.",
     "step1": {
-      "title": "Dibuja en el sitio",
-      "description": "Herramientas CAD optimizadas para iOS. Toma medidas y dibuja directamente en tu dispositivo."
+      "title": "Mide y dibuja en obra",
+      "description": "Abre tu iPad en el sitio y empieza a dibujar. Conecta un medidor láser Bluetooth o introduce medidas manualmente."
     },
     "step2": {
-      "title": "Calcula y anota",
-      "description": "Cálculo automático de áreas. Añade etiquetas y toda la información necesaria para el plano."
+      "title": "Calcula superficies",
+      "description": "Las áreas se calculan automáticamente. Añade etiquetas, cotas y toda la información que necesite el plano."
     },
     "step3": {
       "title": "Exporta a DXF o PDF",
-      "description": "Exporta a DXF para continuar en tu programa CAD de escritorio. O genera un PDF completo con cajetín listo para entregar."
+      "description": "Genera un DXF para continuar en AutoCAD o BricsCAD. O un PDF con cajetín profesional listo para entregar."
     },
     "step4": {
       "title": "Envía al cliente",
-      "description": "Planos terminados en minutos. Desde el levantamiento hasta la entrega, todo desde tu iPad e iPhone."
+      "description": "Planos terminados antes de salir de la obra. Lo que antes llevaba horas ahora se resuelve en minutos."
+    }
+  },
+  "cta": {
+    "mid": {
+      "title": "Olvídate del croquis en papel",
+      "button": "Descargar gratis"
+    },
+    "final": {
+      "title": "Empieza a levantar planos hoy",
+      "subtitle": "Descarga gratuita. Sin suscripción. Sin cuenta.",
+      "button": "Descargar en App Store",
+      "note": "Exportación DXF y PDF disponible como compra dentro de la app"
     }
   },
   "features": {
-    "title": "Características principales",
-    "subtitle": "Herramientas diseñadas para el trabajo de campo",
+    "title": "Todo lo que necesitas en campo",
+    "subtitle": "Herramientas CAD profesionales diseñadas para trabajar fuera de la oficina",
     "tools": {
       "title": "Herramientas CAD completas",
-      "description": "Paralela, empalme, recortar, alargar, editar, copiar, mover, estirar, rotar, medir y más. Sistema de capas con control de visibilidad, color y tipo de línea."
+      "description": "Paralela, empalme, recortar, alargar, copiar, mover, estirar, rotar, medir y más. Sistema de capas con visibilidad, color y tipo de línea."
     },
     "areas": {
       "title": "Cálculo de áreas automático",
-      "description": "Calcula áreas de espacios y coloca etiquetas de superficies automáticamente."
+      "description": "Obtén superficies construidas, útiles y por estancias al instante. Coloca etiquetas de área con un toque."
     },
     "openings": {
       "title": "Huecos inteligentes",
-      "description": "Coloca puertas y ventanas parametrizadas con un clic. Ajusta dimensiones, sentido de apertura y tipo desde el panel de propiedades."
+      "description": "Puertas y ventanas parametrizadas con un toque. Ajusta dimensiones, apertura y tipo desde el panel de propiedades."
     },
     "blocks": {
       "title": "Biblioteca de bloques",
-      "description": "Inserción rápida de mobiliario, sanitarios, electrodomésticos y elementos arquitectónicos. Bloques optimizados para levantamientos."
+      "description": "Mobiliario, sanitarios, electrodomésticos y elementos arquitectónicos listos para insertar en tu levantamiento."
     },
     "formats": {
       "title": "Formatos con cajetín",
-      "description": "Formatos estándar (ISO: A4-A0, ANSI: Letter, Tabloid, Arch: C, D) con cajetín personalizable. Añade datos del proyecto y firma."
+      "description": "Formatos estándar ISO, ANSI y Arch con cajetín personalizable. Añade tu logo, datos del proyecto y firma."
     },
     "tutorials": {
-      "title": "Tutoriales interactivos",
-      "description": "Aprende a usar la app con tutoriales paso a paso integrados. Sistema de guías interactivas para dominar todas las herramientas rápidamente."
+      "title": "Tutoriales integrados",
+      "description": "Aprende sobre la marcha con guías paso a paso dentro de la app. Domina cada herramienta en minutos."
     },
     "export": {
       "title": "Exportación DXF y PDF",
-      "description": "Exporta a DXF para trabajar en tu programa CAD de escritorio favorito. O genera PDFs finales con cajetín para enviar directamente al cliente."
+      "description": "Exporta a DXF para continuar en AutoCAD, BricsCAD u otro software. O genera PDFs con cajetín profesional listos para el cliente."
     },
     "bluetooth": {
       "title": "Medidores láser Bluetooth",
-      "description": "Conecta medidores láser compatibles por Bluetooth. Toma medidas precisas y transfiérelas directamente a tu dibujo sin teclear."
+      "description": "Conecta tu Bosch, Leica o Stanley por Bluetooth. Las medidas pasan directamente al dibujo sin teclear."
     },
     "units": {
-      "title": "Sistema métrico e imperial",
-      "description": "Trabaja con las unidades que prefieras. El sistema maneja métrico e imperial tanto con decimales como fraccionales."
+      "title": "Métrico e imperial",
+      "description": "Trabaja en metros, pies, pulgadas o fracciones. Cambia de sistema en cualquier momento sin perder precisión."
+    }
+  },
+  "audience": {
+    "title": "Diseñada para profesionales de campo",
+    "subtitle": "YoSiDi es la herramienta de trabajo diario de:",
+    "architects": {
+      "title": "Arquitectos",
+      "description": "Levantamientos de estado actual, reformas y mediciones de obra con planos DXF listos para el estudio."
+    },
+    "designers": {
+      "title": "Interioristas",
+      "description": "Medición de espacios, distribución de mobiliario y propuestas de diseño directamente en casa del cliente."
+    },
+    "engineers": {
+      "title": "Ingenieros",
+      "description": "Planos de instalaciones, replanteos y documentación técnica de campo con exportación inmediata."
+    },
+    "appraisers": {
+      "title": "Tasadores y peritos",
+      "description": "Planos rápidos con cálculo de superficies construidas y útiles. PDF profesional en la misma visita."
     }
   },
   "gallery": {
-    "title": "Capturas de pantalla",
-    "subtitle": "Descubre la interfaz intuitiva de YoSiDi CAD"
+    "title": "Mira YoSiDi en acción",
+    "subtitle": "Interfaz limpia y profesional, pensada para trabajar rápido"
   },
   "download": {
     "button": "YoSiDi CAD en App Store",
@@ -116,12 +152,12 @@
     "terms_link": "Nuestros Términos de Uso están disponibles en"
   },
   "contact": {
-    "title": "Contacto",
-    "description": "¿Tienes preguntas, necesitas ayuda o quieres compartir tu opinión? Escríbenos a",
+    "title": "¿Tienes dudas?",
+    "description": "Escríbenos a",
     "email": "support@yosidi.com"
   },
   "footer": {
-    "tagline": "Dibujo CAD profesional en tu dispositivo iOS. Diseñada por arquitectos.",
+    "tagline": "CAD profesional en tu iPad e iPhone. Diseñada por arquitectos.",
     "app_store": "App Store",
     "privacy": "Privacidad",
     "contact": "Contacto",
