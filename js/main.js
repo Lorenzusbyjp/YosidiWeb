@@ -1,5 +1,5 @@
 /**
- * YoSiDi CAD - Landing Page Main JavaScript
+ * YOSIDI CAD - Landing Page Main JavaScript
  * Handles scroll animations, carousel, hamburger menu, and interactive features
  */
 

@@ -1,5 +1,5 @@
 /**
- * YoSiDi CAD - Internationalization System
+ * YOSIDI CAD - Internationalization System
  * Simple i18n implementation using JSON locale files
  */
 
@@ -16,6 +16,9 @@ const i18n = {
 // Initialize i18n
 // ========================================
 async function initI18n() {
+    // Set up language switcher immediately (don't wait for fetch)
+    setupLanguageSwitcher();
+
     // Get saved language preference or detect browser language
     const savedLang = localStorage.getItem('preferred-language');
     const browserLang = navigator.language.split('-')[0]; // Get 'es' from 'es-ES'
@@ -24,16 +27,13 @@ async function initI18n() {
     let initialLang = savedLang || browserLang;
 
     // Fallback to default if not supported
-    const supportedLangs = ['es', 'en'];
+    const supportedLangs = ['es', 'en', 'fr', 'de', 'it', 'pt'];
     if (!supportedLangs.includes(initialLang)) {
         initialLang = i18n.defaultLang;
     }
 
     // Load the initial language
     await loadLanguage(initialLang);
-
-    // Set up language switcher buttons
-    setupLanguageSwitcher();
 }
 
 // ========================================
@@ -123,12 +123,32 @@ function getTranslation(key) {
 // Setup Language Switcher Buttons
 // ========================================
 function setupLanguageSwitcher() {
+    const switcher = document.querySelector('.language-switcher');
+    const currentBtn = document.querySelector('.lang-current');
     const langButtons = document.querySelectorAll('.lang-btn');
 
+    // Toggle dropdown
+    if (currentBtn) {
+        currentBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            switcher.classList.toggle('open');
+            currentBtn.setAttribute('aria-expanded', switcher.classList.contains('open'));
+        });
+    }
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', () => {
+        switcher.classList.remove('open');
+        if (currentBtn) currentBtn.setAttribute('aria-expanded', 'false');
+    });
+
     langButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const lang = button.id.replace('lang-', ''); // Extract language code from ID
+        button.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const lang = button.id.replace('lang-', '');
             loadLanguage(lang);
+            switcher.classList.remove('open');
+            if (currentBtn) currentBtn.setAttribute('aria-expanded', 'false');
         });
     });
 }
@@ -138,6 +158,7 @@ function setupLanguageSwitcher() {
 // ========================================
 function updateLanguageSwitcher(lang) {
     const langButtons = document.querySelectorAll('.lang-btn');
+    const currentBtn = document.querySelector('.lang-current');
 
     langButtons.forEach(button => {
         const buttonLang = button.id.replace('lang-', '');
@@ -148,6 +169,11 @@ function updateLanguageSwitcher(lang) {
             button.classList.remove('active');
         }
     });
+
+    // Update the visible button text
+    if (currentBtn) {
+        currentBtn.textContent = lang.toUpperCase();
+    }
 }
 
 // ========================================

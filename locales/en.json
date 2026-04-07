@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "YoSiDi CAD - Survey and draw plans on your iPad and iPhone in minutes",
-    "description": "YoSiDi CAD: survey on-site with your iPad and iPhone. Professional CAD tools, area calculation and DXF/PDF export without going back to the office.",
-    "og_title": "YoSiDi CAD - Survey and draw plans on your iPad and iPhone in minutes",
-    "og_description": "Professional CAD for on-site surveying on iPad and iPhone. Export to DXF and PDF right from the job site.",
-    "twitter_title": "YoSiDi CAD - Survey and draw plans on your iPad and iPhone in minutes",
-    "twitter_description": "Professional CAD for on-site surveying on iPad and iPhone. Export to DXF and PDF right from the job site."
+    "title": "YOSIDI CAD - Draw while you measure | Plans on iPad",
+    "description": "YOSIDI CAD: draw while you measure on your iPad and iPhone. Connect your Bluetooth laser meter, draw and export to DXF or PDF. You leave with the finished plan.",
+    "og_title": "YOSIDI CAD - Draw while you measure",
+    "og_description": "Professional CAD on your iPad and iPhone. Draw while you measure and leave with the finished plan. Export to DXF or PDF.",
+    "twitter_title": "YOSIDI CAD - Draw while you measure",
+    "twitter_description": "Professional CAD on your iPad and iPhone. Draw while you measure and leave with the finished plan. Export to DXF or PDF."
   },
   "accessibility": {
     "skip": "Skip to content"
@@ -17,45 +17,42 @@
     "audience": "Who it's for"
   },
   "hero": {
-    "title": "Survey plans where others take notes",
-    "subtitle": "Professional CAD tools on your iPad and iPhone. Measure, draw, calculate areas, and export to DXF or PDF without going back to the office.",
+    "title": "Draw while you measure",
+    "subtitle": "Professional CAD tools on your iPad and iPhone. Connect your Bluetooth laser meter, draw and export to DXF. You leave with the finished plan.",
     "countries_prefix": "Used in",
     "countries_suffix": "countries",
     "download_btn": "Download on App Store",
     "learn_more": "Learn more",
     "trust": {
-      "no_signup": "No signup required",
+      "no_signup": "Connect your laser meter",
       "offline": "Works 100% offline",
-      "local_data": "Full privacy"
+      "local_data": "Full privacy",
+      "iphone": "Works on iPhone too"
     }
   },
   "workflow": {
-    "title": "From visit to plan in 4 steps",
+    "title": "From visit to plan in 3 steps",
     "subtitle": "No paper sketches. No redrawing. No wasted time.",
     "step1": {
-      "title": "Measure and draw on site",
-      "description": "Open your iPad on site and start drawing. Connect a Bluetooth laser meter or enter measurements manually."
+      "title": "Point and draw",
+      "description": "Connect your laser meter or enter measurements manually. Irregular shapes, out-of-square walls — the plan builds accurately as you work."
     },
     "step2": {
       "title": "Calculate areas",
-      "description": "Areas are calculated automatically. Add labels, dimensions, and all the information the plan needs."
+      "description": "Areas are calculated automatically. Add dimensions, labels, and all the information the plan needs."
     },
     "step3": {
-      "title": "Export to DXF or PDF",
-      "description": "Generate a DXF to continue in AutoCAD or BricsCAD. Or a PDF with a professional title block ready to deliver."
-    },
-    "step4": {
-      "title": "Send to client",
-      "description": "Finished plans before you leave the site. What used to take hours now takes minutes."
+      "title": "Export and continue",
+      "description": "DXF to continue on your desktop CAD. PDF with professional title block for the client. Done before you leave the site."
     }
   },
   "cta": {
     "mid": {
-      "title": "Forget the paper sketch",
+      "title": "No pencil, no errors, no wasted time",
       "button": "Download free"
     },
     "final": {
-      "title": "Start surveying today",
+      "title": "Start drawing while you measure",
       "subtitle": "Free download. No subscription. No account.",
       "button": "Download on App Store",
       "note": "DXF and PDF export available as in-app purchase"
@@ -74,7 +71,7 @@
     },
     "openings": {
       "title": "Smart openings",
-      "description": "Parametric doors and windows with a single tap. Adjust dimensions, swing direction, and type from the properties panel."
+      "description": "Place doors and windows with one tap. Adjust dimensions, swing and type. What takes multiple steps in desktop CAD is just a tap here."
     },
     "blocks": {
       "title": "Block library",
@@ -86,15 +83,15 @@
     },
     "tutorials": {
       "title": "Built-in tutorials",
-      "description": "Learn on the go with step-by-step guides inside the app. Master every tool in minutes."
+      "description": "Step-by-step guides inside the app. If you already use CAD, you'll be working in 5 minutes. If not, the tutorials walk you through it."
     },
     "export": {
       "title": "DXF and PDF export",
-      "description": "Export to DXF to continue in AutoCAD, BricsCAD, or other software. Or generate PDFs with professional title block for the client."
+      "description": "Export to DXF and continue on your desktop CAD. Or generate PDFs with professional title block for the client."
     },
     "bluetooth": {
-      "title": "Bluetooth laser measures",
-      "description": "Connect your Bosch, Leica, or Stanley via Bluetooth. Measurements go directly into your drawing without typing."
+      "title": "Bluetooth laser meters",
+      "description": "Connect your laser meter via Bluetooth and draw while you measure. Every measurement goes straight into the plan — no notes, no typing."
     },
     "units": {
       "title": "Metric and imperial",
@@ -103,10 +100,10 @@
   },
   "audience": {
     "title": "Designed for field professionals",
-    "subtitle": "YoSiDi is the daily work tool of:",
+    "subtitle": "YOSIDI is the daily work tool of:",
     "architects": {
       "title": "Architects",
-      "description": "As-built surveys, renovations, and site measurements with DXF plans ready for the studio."
+      "description": "As-built surveys, renovations and energy certificates. DXF plans ready for the studio."
     },
     "designers": {
       "title": "Interior designers",
@@ -114,27 +111,35 @@
     },
     "engineers": {
       "title": "Engineers",
-      "description": "Installation plans, setout, and field documentation with instant export."
+      "description": "Installations, energy certificates, and field documentation with instant export."
     },
     "appraisers": {
       "title": "Appraisers and surveyors",
       "description": "Quick plans with built and usable area calculation. Professional PDF in the same visit."
+    },
+    "builders": {
+      "title": "Builders and renovators",
+      "description": "Document the current state of the site and take the plan with you, error-free. Forget pencil and paper."
+    },
+    "trades": {
+      "title": "Installers and trades",
+      "description": "Measure the client's space and take the plan with you. Kitchens, wardrobes, carpentry, metalwork."
     }
   },
   "gallery": {
-    "title": "See YoSiDi in action",
+    "title": "See YOSIDI in action",
     "subtitle": "Clean, professional interface designed for fast work"
   },
   "download": {
-    "button": "YoSiDi CAD on App Store",
+    "button": "YOSIDI CAD on App Store",
     "follow": "Follow us:"
   },
   "privacy": {
     "title": "Privacy Policy",
-    "intro": "Your privacy is our priority. YoSiDi works 100% offline.",
+    "intro": "Your privacy is our priority. YOSIDI works 100% offline.",
     "no_data": {
       "title": "No data collection",
-      "description": "YoSiDi does not collect or store any personal information. The app works entirely offline. Your drawings and files are saved only on your device and are never uploaded to any external server."
+      "description": "YOSIDI does not collect or store any personal information. The app works entirely offline. Your drawings and files are saved only on your device and are never uploaded to any external server."
     },
     "no_permissions": {
       "title": "No unnecessary permissions",
@@ -167,14 +172,14 @@
   "privacy_page": {
     "back": "Back to home",
     "title": "Privacy Policy",
-    "intro": "Your privacy is our priority. YoSiDi CAD works 100% offline and does not collect any personal data.",
+    "intro": "Your privacy is our priority. YOSIDI CAD works 100% offline and does not collect any personal data.",
     "no_data": {
       "title": "No Data Collection",
-      "description": "YoSiDi CAD does not collect, store, or process any personal information. The app works completely offline without an internet connection. Your drawings, files, and settings are saved only on your device and are never uploaded to any external server."
+      "description": "YOSIDI CAD does not collect, store, or process any personal information. The app works completely offline without an internet connection. Your drawings, files, and settings are saved only on your device and are never uploaded to any external server."
     },
     "no_permissions": {
       "title": "No Unnecessary Permissions",
-      "description": "The app does not access your location, contacts, microphone, camera, photos, or any other personal data. It does not require you to create an account, provide an email address, or log in. You can use YoSiDi CAD completely anonymously."
+      "description": "The app does not access your location, contacts, microphone, camera, photos, or any other personal data. It does not require you to create an account, provide an email address, or log in. You can use YOSIDI CAD completely anonymously."
     },
     "data_storage": {
       "title": "Data Storage",
@@ -194,7 +199,7 @@
     },
     "children": {
       "title": "Children's Privacy",
-      "description": "YoSiDi CAD is safe for users of all ages. Since we do not collect any personal information, the app complies with all child protection regulations including COPPA (Children's Online Privacy Protection Act)."
+      "description": "YOSIDI CAD is safe for users of all ages. Since we do not collect any personal information, the app complies with all child protection regulations including COPPA (Children's Online Privacy Protection Act)."
     },
     "changes": {
       "title": "Changes to This Policy",
@@ -208,26 +213,26 @@
   "terms_page": {
     "back": "Back to home",
     "title": "Terms of Use",
-    "intro": "By using YoSiDi CAD, you agree to the following terms and conditions.",
+    "intro": "By using YOSIDI CAD, you agree to the following terms and conditions.",
     "acceptance": {
       "title": "Acceptance of Terms",
-      "description": "By downloading, installing, or using YoSiDi CAD, you agree to be bound by these Terms of Use. If you do not agree with these terms, do not use the app."
+      "description": "By downloading, installing, or using YOSIDI CAD, you agree to be bound by these Terms of Use. If you do not agree with these terms, do not use the app."
     },
     "license": {
       "title": "License to Use",
-      "description": "We grant you a non-exclusive, non-transferable, and revocable license to use YoSiDi CAD for personal and professional purposes, subject to these terms. This license does not grant you any rights to the app's source code, design, or intellectual property."
+      "description": "We grant you a non-exclusive, non-transferable, and revocable license to use YOSIDI CAD for personal and professional purposes, subject to these terms. This license does not grant you any rights to the app's source code, design, or intellectual property."
     },
     "ownership": {
       "title": "Content Ownership",
-      "description": "You retain full ownership and all rights to the drawings, plans, and files you create with YoSiDi CAD. We make no claim to any rights over your content."
+      "description": "You retain full ownership and all rights to the drawings, plans, and files you create with YOSIDI CAD. We make no claim to any rights over your content."
     },
     "as_is": {
       "title": "App Provided \"As Is\"",
-      "description": "YoSiDi CAD is provided \"as is\" and \"as available,\" without warranties of any kind, express or implied. We do not guarantee that the app will be error-free, uninterrupted, or meet specific requirements."
+      "description": "YOSIDI CAD is provided \"as is\" and \"as available,\" without warranties of any kind, express or implied. We do not guarantee that the app will be error-free, uninterrupted, or meet specific requirements."
     },
     "liability": {
       "title": "Limitation of Liability",
-      "description": "We are not responsible for any data loss, damage, or harm resulting from the use of YoSiDi CAD. It is your responsibility to maintain backups of your important files and drawings."
+      "description": "We are not responsible for any data loss, damage, or harm resulting from the use of YOSIDI CAD. It is your responsibility to maintain backups of your important files and drawings."
     },
     "purchases": {
       "title": "In-App Purchases",
@@ -246,15 +251,15 @@
       "title": "Privacy",
       "description_part1": "By using this app, you also agree to our",
       "link": "Privacy Policy",
-      "description_part2": ". YoSiDi CAD works completely offline and does not collect personal data."
+      "description_part2": ". YOSIDI CAD works completely offline and does not collect personal data."
     },
     "updates": {
       "title": "App Updates",
-      "description": "We may release periodic updates to YoSiDi CAD to add features, fix bugs, or improve performance. These updates may modify or remove certain features. We are not obligated to provide updates or ongoing support."
+      "description": "We may release periodic updates to YOSIDI CAD to add features, fix bugs, or improve performance. These updates may modify or remove certain features. We are not obligated to provide updates or ongoing support."
     },
     "termination": {
       "title": "Termination",
-      "description": "We may suspend or terminate your access to YoSiDi CAD at any time if you violate these terms. Upon uninstalling the app, this license terminates automatically."
+      "description": "We may suspend or terminate your access to YOSIDI CAD at any time if you violate these terms. Upon uninstalling the app, this license terminates automatically."
     },
     "changes": {
       "title": "Modifications to Terms",

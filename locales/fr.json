@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "title": "YOSIDI CAD - Dessinez en mesurant | Plans sur iPad",
+    "description": "YOSIDI CAD : dessinez en mesurant sur votre iPad et iPhone. Connectez votre telemetre laser Bluetooth, dessinez et exportez en DXF ou PDF. Vous repartez avec le plan termine.",
+    "og_title": "YOSIDI CAD - Dessinez en mesurant",
+    "og_description": "CAO professionnelle sur votre iPad et iPhone. Dessinez en mesurant et repartez avec le plan termine. Export DXF et PDF.",
+    "twitter_title": "YOSIDI CAD - Dessinez en mesurant",
+    "twitter_description": "CAO professionnelle sur votre iPad et iPhone. Dessinez en mesurant et repartez avec le plan termine. Export DXF et PDF."
+  },
+  "accessibility": {
+    "skip": "Aller au contenu"
+  },
+  "nav": {
+    "features": "Fonctionnalites",
+    "workflow": "Flux de travail",
+    "gallery": "Galerie",
+    "audience": "Pour qui"
+  },
+  "hero": {
+    "title": "Dessinez en mesurant",
+    "subtitle": "Outils CAO professionnels sur votre iPad et iPhone. Connectez votre telemetre laser Bluetooth, dessinez et exportez en DXF. Vous repartez avec le plan termine.",
+    "countries_prefix": "Utilise dans",
+    "countries_suffix": "pays",
+    "download_btn": "Telecharger sur l'App Store",
+    "learn_more": "En savoir plus",
+    "trust": {
+      "no_signup": "Connectez votre telemetre laser",
+      "offline": "Fonctionne 100% hors ligne",
+      "local_data": "Confidentialite totale",
+      "iphone": "Aussi sur iPhone"
+    }
+  },
+  "workflow": {
+    "title": "De la visite au plan en 3 etapes",
+    "subtitle": "Plus de croquis papier. Plus de mise au propre. Plus de temps perdu.",
+    "step1": {
+      "title": "Visez et dessinez",
+      "description": "Connectez votre telemetre laser ou saisissez les mesures manuellement. Geometries irregulieres, faux equerres — le plan se construit sans erreurs pendant que vous travaillez."
+    },
+    "step2": {
+      "title": "Calculez les surfaces",
+      "description": "Les surfaces se calculent automatiquement. Ajoutez des cotes, des etiquettes et toutes les informations necessaires au plan."
+    },
+    "step3": {
+      "title": "Exportez et continuez",
+      "description": "DXF pour continuer sur votre CAO de bureau. PDF avec cartouche professionnel pour le client. Pret avant de quitter le chantier."
+    }
+  },
+  "cta": {
+    "mid": {
+      "title": "Sans crayon, sans erreurs, sans perdre de temps",
+      "button": "Telecharger gratuitement"
+    },
+    "final": {
+      "title": "Commencez a dessiner en mesurant",
+      "subtitle": "Telechargement gratuit. Sans abonnement. Sans compte.",
+      "button": "Telecharger sur l'App Store",
+      "note": "Export DXF et PDF disponible en achat integre"
+    }
+  },
+  "features": {
+    "title": "Tout ce qu'il vous faut sur le terrain",
+    "subtitle": "Outils CAO professionnels concus pour travailler hors du bureau",
+    "tools": {
+      "title": "Outils CAO complets",
+      "description": "Parallele, raccord, ajuster, prolonger, copier, deplacer, etirer, pivoter, mesurer et plus encore. Systeme de calques avec visibilite, couleur et type de ligne."
+    },
+    "areas": {
+      "title": "Calcul automatique des surfaces",
+      "description": "Obtenez les surfaces construites, utiles et par piece instantanement. Placez des etiquettes de surface en un geste."
+    },
+    "openings": {
+      "title": "Ouvertures intelligentes",
+      "description": "Placez portes et fenetres en un clic. Ajustez dimensions, ouverture et type. Ce qui demande plusieurs etapes en CAO de bureau se fait ici en un geste."
+    },
+    "blocks": {
+      "title": "Bibliotheque de blocs",
+      "description": "Mobilier, sanitaires, electromenagers et elements architecturaux prets a inserer dans votre releve."
+    },
+    "formats": {
+      "title": "Formats avec cartouche",
+      "description": "Formats standards ISO, ANSI et Arch avec cartouche personnalisable. Ajoutez votre logo, les donnees du projet et votre signature."
+    },
+    "tutorials": {
+      "title": "Tutoriels integres",
+      "description": "Guides pas a pas integres dans l'app. Si vous utilisez deja un CAO, vous travaillez en 5 minutes. Sinon, les tutoriels vous accompagnent."
+    },
+    "export": {
+      "title": "Export DXF et PDF",
+      "description": "Exportez en DXF et continuez dans votre CAO de bureau. Ou generez des PDF avec cartouche professionnel prets pour le client."
+    },
+    "bluetooth": {
+      "title": "Telemetres laser Bluetooth",
+      "description": "Connectez votre telemetre laser par Bluetooth. Les mesures passent directement dans le dessin sans saisie manuelle."
+    },
+    "units": {
+      "title": "Metrique et imperial",
+      "description": "Travaillez en metres, pieds, pouces ou fractions. Changez de systeme a tout moment sans perte de precision."
+    }
+  },
+  "audience": {
+    "title": "Concue pour les professionnels de terrain",
+    "subtitle": "YOSIDI est l'outil de travail quotidien de :",
+    "architects": {
+      "title": "Architectes",
+      "description": "Releves, renovations et certificats energetiques. Plans DXF prets pour l'agence."
+    },
+    "designers": {
+      "title": "Architectes d'interieur",
+      "description": "Mesure des espaces, amenagement du mobilier et propositions de design directement chez le client."
+    },
+    "engineers": {
+      "title": "Ingenieurs",
+      "description": "Installations, certificats energetiques et documentation technique de terrain avec export immediat."
+    },
+    "appraisers": {
+      "title": "Experts et diagnostiqueurs",
+      "description": "Plans rapides avec calcul des surfaces construites et utiles. PDF professionnel des la visite."
+    },
+    "builders": {
+      "title": "Constructeurs et renovateurs",
+      "description": "Documentez l'etat actuel du chantier et repartez avec le plan, sans erreurs. Oubliez le crayon et le papier."
+    },
+    "trades": {
+      "title": "Installateurs et artisans",
+      "description": "Mesurez l'espace du client et repartez avec le plan. Cuisines, placards, menuiserie, serrurerie."
+    }
+  },
+  "gallery": {
+    "title": "Decouvrez YOSIDI en action",
+    "subtitle": "Interface epuree et professionnelle, concue pour travailler efficacement"
+  },
+  "download": {
+    "button": "YOSIDI CAD sur l'App Store",
+    "follow": "Suivez-nous sur :"
+  },
+  "privacy": {
+    "title": "Politique de confidentialite",
+    "intro": "Votre vie privee est notre priorite. YOSIDI fonctionne 100% hors ligne.",
+    "no_data": {
+      "title": "Aucune collecte de donnees",
+      "description": "YOSIDI ne collecte ni ne stocke aucune information personnelle. L'application fonctionne entierement hors ligne. Vos dessins et fichiers sont enregistres uniquement sur votre appareil et ne sont jamais envoyes vers un serveur externe."
+    },
+    "no_permissions": {
+      "title": "Aucune autorisation superflue",
+      "description": "L'application n'accede pas a votre localisation, vos contacts, votre microphone, votre camera ni a aucune autre donnee personnelle. Aucune creation de compte ni connexion n'est requise."
+    },
+    "payments": {
+      "title": "Paiements securises",
+      "description": "Tous les achats integres sont geres de maniere securisee par l'App Store. Nous ne stockons ni ne traitons aucune information de paiement directement."
+    },
+    "website": {
+      "title": "Site web",
+      "description": "Notre site web (www.yosidi.com) n'utilise ni cookies ni services d'analyse tiers. Votre navigation est entierement privee et anonyme."
+    },
+    "contact": "Pour toute question ou preoccupation, contactez-nous a",
+    "terms_link": "Nos Conditions d'utilisation sont disponibles sur"
+  },
+  "contact": {
+    "title": "Des questions ?",
+    "description": "Ecrivez-nous a",
+    "email": "support@yosidi.com"
+  },
+  "footer": {
+    "tagline": "CAO professionnelle sur votre iPad et iPhone. Concue par des architectes.",
+    "app_store": "App Store",
+    "privacy": "Confidentialite",
+    "contact": "Contact",
+    "terms": "Conditions",
+    "rights": "Tous droits reserves."
+  },
+  "privacy_page": {
+    "back": "Retour a l'accueil",
+    "title": "Politique de Confidentialite",
+    "intro": "Votre vie privee est notre priorite. YOSIDI CAD fonctionne 100% hors ligne et ne collecte aucune donnee personnelle.",
+    "no_data": {
+      "title": "Aucune Collecte de Donnees",
+      "description": "YOSIDI CAD ne collecte, ne stocke ni ne traite aucune information personnelle. L'application fonctionne entierement hors ligne sans connexion internet. Vos dessins, fichiers et parametres sont enregistres uniquement sur votre appareil et ne sont jamais envoyes vers un serveur externe."
+    },
+    "no_permissions": {
+      "title": "Aucune Autorisation Superflue",
+      "description": "L'application n'accede pas a votre localisation, vos contacts, votre microphone, votre camera, vos photos ni a aucune autre donnee personnelle. Aucune creation de compte, adresse e-mail ou connexion n'est requise. Vous pouvez utiliser YOSIDI CAD de maniere entierement anonyme."
+    },
+    "data_storage": {
+      "title": "Stockage des Donnees",
+      "description": "Tous vos dessins et parametres sont stockes localement sur votre appareil iOS dans le systeme de fichiers local de l'application. Ces donnees restent sur votre appareil et vous seul y avez acces. Si vous desinstallez l'application, toutes les donnees stockees seront automatiquement supprimees."
+    },
+    "payments": {
+      "title": "Paiements Securises",
+      "description": "Tous les achats integres (exports DXF/PDF) sont traites de maniere securisee par Apple via l'App Store. Nous ne stockons, ne traitons ni n'avons acces a aucune information de paiement telle que numeros de carte de credit ou coordonnees bancaires. Toutes les informations de paiement sont gerees exclusivement par Apple."
+    },
+    "bluetooth": {
+      "title": "Telemetres Laser Bluetooth",
+      "description": "Si vous utilisez la fonction de connexion aux telemetres laser Bluetooth, l'application demandera l'autorisation d'acceder au Bluetooth de votre appareil. Cette connexion est utilisee uniquement pour recevoir les mesures du telemetre laser compatible. Aucune donnee personnelle n'est transmise via Bluetooth et la connexion est locale entre votre iPad/iPhone et le telemetre laser."
+    },
+    "website": {
+      "title": "Site Web",
+      "description": "Notre site web (www.yosidi.com) n'utilise ni cookies ni services d'analyse tiers. Votre navigation est entierement privee et anonyme."
+    },
+    "children": {
+      "title": "Protection des Mineurs",
+      "description": "YOSIDI CAD est sure pour les utilisateurs de tous ages. Etant donne que nous ne collectons aucune information personnelle, l'application est conforme a toutes les reglementations de protection des mineurs, y compris la COPPA (Children's Online Privacy Protection Act)."
+    },
+    "changes": {
+      "title": "Modifications de Cette Politique",
+      "description": "Nous pouvons mettre a jour cette politique de confidentialite occasionnellement. Les modifications seront publiees sur cette page. Nous vous recommandons de consulter cette politique periodiquement."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Si vous avez des questions ou des preoccupations concernant cette politique de confidentialite, vous pouvez nous contacter a :"
+    }
+  },
+  "terms_page": {
+    "back": "Retour a l'accueil",
+    "title": "Conditions d'Utilisation",
+    "intro": "En utilisant YOSIDI CAD, vous acceptez les conditions generales suivantes.",
+    "acceptance": {
+      "title": "Acceptation des Conditions",
+      "description": "En telechargeant, installant ou utilisant YOSIDI CAD, vous acceptez d'etre lie par ces Conditions d'Utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser l'application."
+    },
+    "license": {
+      "title": "Licence d'Utilisation",
+      "description": "Nous vous accordons une licence non exclusive, non transferable et revocable pour utiliser YOSIDI CAD a des fins personnelles et professionnelles, sous reserve de ces conditions. Cette licence ne vous confere aucun droit sur le code source, le design ou la propriete intellectuelle de l'application."
+    },
+    "ownership": {
+      "title": "Propriete du Contenu",
+      "description": "Vous conservez la propriete totale et tous les droits sur les dessins, plans et fichiers que vous creez avec YOSIDI CAD. Nous ne revendiquons aucun droit sur votre contenu."
+    },
+    "as_is": {
+      "title": "Application « En l'Etat »",
+      "description": "YOSIDI CAD est fournie « en l'etat » et « selon disponibilite », sans garantie d'aucune sorte, expresse ou implicite. Nous ne garantissons pas que l'application sera exempte d'erreurs, ininterrompue ou qu'elle repondra a des exigences specifiques."
+    },
+    "liability": {
+      "title": "Limitation de Responsabilite",
+      "description": "Nous ne sommes pas responsables de toute perte de donnees, dommage ou prejudice resultant de l'utilisation de YOSIDI CAD. Il vous incombe de maintenir des copies de sauvegarde de vos fichiers et dessins importants."
+    },
+    "purchases": {
+      "title": "Achats Integres",
+      "description": "Les achats integres (export DXF/PDF) sont geres de maniere securisee via l'App Store d'Apple et sont soumis aux conditions d'Apple. Tous les achats sont definitifs et non remboursables, sauf lorsque la loi applicable l'exige."
+    },
+    "prohibited": {
+      "title": "Usages Interdits",
+      "description": "Il est strictement interdit de :",
+      "item1": "Effectuer de l'ingenierie inverse, decompiler ou desassembler l'application.",
+      "item2": "Distribuer, vendre ou sous-licencier l'application sans autorisation.",
+      "item3": "Utiliser l'application a des fins illegales ou non autorisees.",
+      "item4": "Tenter d'acceder a des fonctionnalites non documentees ou restreintes.",
+      "item5": "Supprimer ou modifier les mentions de droits d'auteur ou de marques deposees."
+    },
+    "privacy": {
+      "title": "Confidentialite",
+      "description_part1": "En utilisant cette application, vous acceptez egalement notre",
+      "link": "Politique de Confidentialite",
+      "description_part2": ". YOSIDI CAD fonctionne entierement hors ligne et ne collecte aucune donnee personnelle."
+    },
+    "updates": {
+      "title": "Mises a Jour de l'Application",
+      "description": "Nous pouvons publier des mises a jour periodiques de YOSIDI CAD pour ajouter des fonctionnalites, corriger des bugs ou ameliorer les performances. Ces mises a jour peuvent modifier ou supprimer certaines fonctionnalites. Nous ne sommes pas tenus de fournir des mises a jour ou un support continu."
+    },
+    "termination": {
+      "title": "Resiliation du Service",
+      "description": "Nous pouvons suspendre ou resilier votre acces a YOSIDI CAD a tout moment si vous enfreignez ces conditions. La desinstallation de l'application met automatiquement fin a cette licence."
+    },
+    "changes": {
+      "title": "Modifications des Conditions",
+      "description": "Nous pouvons mettre a jour ces Conditions d'Utilisation occasionnellement. Les modifications seront publiees sur cette page. Nous vous recommandons de consulter ces conditions periodiquement."
+    },
+    "law": {
+      "title": "Loi Applicable et Juridiction",
+      "description": "Ces conditions sont regies par les lois de l'Espagne. Tout litige decoulant de ces conditions sera resolu devant les tribunaux espagnols."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Si vous avez des questions concernant ces Conditions d'Utilisation, vous pouvez nous contacter a :"
+    },
+    "developer_part1": "Cette application est developpee et detenue par",
+    "developer_part2": "Tous droits reserves."
+  }
+}

@@ -8,37 +8,42 @@
     <meta name="apple-itunes-app" content="app-id=6743679420">
 
     <!-- SEO Meta Tags -->
-    <title data-i18n="meta.title">YoSiDi CAD - Aplicación de Dibujo CAD para iPad e iPhone</title>
-    <meta name="description" data-i18n="meta.description" content="YoSiDi CAD: levanta planos in situ con tu iPad e iPhone. Herramientas CAD profesionales, cálculo de superficies y exportación a DXF y PDF sin volver a la oficina.">
+    <title data-i18n="meta.title">YOSIDI CAD - Dibuja mientras mides | Planos en iPad</title>
+    <meta name="description" data-i18n="meta.description" content="YOSIDI CAD: dibuja mientras mides con tu iPad e iPhone. Conecta tu medidor láser Bluetooth, dibuja y exporta a DXF o PDF. Te llevas el plano terminado.">
     <meta name="keywords" content="CAD, iPad, iPhone, dibujo técnico, arquitectura, levantamientos, planos, diseño, DXF, PDF, medición láser, Bluetooth">
-    <meta name="author" content="YoSiDi CAD">
+    <meta name="author" content="YOSIDI CAD">
     <link rel="canonical" href="https://www.yosidi.com/">
 
     <!-- Hreflang for multilingual SEO -->
     <link rel="alternate" hreflang="es" href="https://www.yosidi.com/">
     <link rel="alternate" hreflang="en" href="https://www.yosidi.com/">
+    <link rel="alternate" hreflang="fr" href="https://www.yosidi.com/">
+    <link rel="alternate" hreflang="de" href="https://www.yosidi.com/">
+    <link rel="alternate" hreflang="it" href="https://www.yosidi.com/">
+    <link rel="alternate" hreflang="pt" href="https://www.yosidi.com/">
     <link rel="alternate" hreflang="x-default" href="https://www.yosidi.com/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.yosidi.com/">
-    <meta property="og:site_name" content="YoSiDi CAD">
+    <meta property="og:site_name" content="YOSIDI CAD">
     <meta property="og:locale" content="es_ES">
-    <meta property="og:title" data-i18n="meta.og_title" content="YoSiDi CAD - Levanta planos con tu iPad e iPhone en minutos">
-    <meta property="og:description" data-i18n="meta.og_description" content="CAD profesional para levantamientos in situ en iPad e iPhone. Exporta a DXF y PDF directamente desde la obra.">
+    <meta property="og:title" data-i18n="meta.og_title" content="YOSIDI CAD - Dibuja mientras mides">
+    <meta property="og:description" data-i18n="meta.og_description" content="CAD profesional en tu iPad e iPhone. Dibuja mientras mides y llévate el plano terminado. Exporta a DXF o PDF.">
     <meta property="og:image" content="https://www.yosidi.com/images/logo.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://www.yosidi.com/">
-    <meta property="twitter:title" data-i18n="meta.twitter_title" content="YoSiDi CAD - Levanta planos con tu iPad e iPhone en minutos">
-    <meta property="twitter:description" data-i18n="meta.twitter_description" content="CAD profesional para levantamientos in situ en iPad e iPhone. Exporta a DXF y PDF directamente desde la obra.">
+    <meta property="twitter:title" data-i18n="meta.twitter_title" content="YOSIDI CAD - Dibuja mientras mides">
+    <meta property="twitter:description" data-i18n="meta.twitter_description" content="CAD profesional en tu iPad e iPhone. Dibuja mientras mides y llévate el plano terminado. Exporta a DXF o PDF.">
     <meta property="twitter:image" content="https://www.yosidi.com/images/logo.png">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="./images/favicon.png">
 
     <!-- Preload hero image -->
+    <link rel="preload" as="image" href="./images/optimized/IPAD SCREENSHOT.webp" type="image/webp">
     <link rel="preload" as="image" href="./images/optimized/IPAD SCREENSHOT.png">
 
     <!-- Structured Data -->
@@ -46,7 +51,7 @@
         {
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
-            "name": "YoSiDi CAD",
+            "name": "YOSIDI CAD",
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "iOS",
             "description": "Herramientas CAD profesionales para levantamientos in situ en iPad e iPhone. Exportación a DXF y PDF.",
@@ -61,7 +66,7 @@
             },
             "publisher": {
                 "@type": "Organization",
-                "name": "YoSiDi CAD"
+                "name": "YOSIDI CAD"
             }
         }
     </script>
@@ -75,16 +80,23 @@
 
     <!-- Language Switcher -->
     <div class="language-switcher">
-        <button id="lang-es" class="lang-btn active" aria-label="Cambiar a español">ES</button>
-        <button id="lang-en" class="lang-btn" aria-label="Switch to English">EN</button>
+        <button class="lang-current" aria-label="Change language" aria-expanded="false">ES</button>
+        <div class="lang-dropdown">
+            <button id="lang-es" class="lang-btn active">ES</button>
+            <button id="lang-en" class="lang-btn">EN</button>
+            <button id="lang-fr" class="lang-btn">FR</button>
+            <button id="lang-de" class="lang-btn">DE</button>
+            <button id="lang-it" class="lang-btn">IT</button>
+            <button id="lang-pt" class="lang-btn">PT</button>
+        </div>
     </div>
 
     <!-- Header / Navigation -->
     <header class="header">
         <nav class="nav container">
             <div class="nav-logo">
-                <img src="./images/logo.png" alt="YoSiDi CAD Logo" class="logo">
-                <span class="logo-text">YoSiDi</span>
+                <img src="./images/logo.png" alt="YOSIDI CAD Logo" class="logo">
+                <span class="logo-text">YOSIDI</span>
             </div>
             <ul class="nav-menu" id="nav-menu">
                 <li><a href="#workflow" class="nav-link" data-i18n="nav.workflow">Flujo de trabajo</a></li>
@@ -104,15 +116,15 @@
     <section class="hero" id="home">
         <div class="container hero-content">
             <div class="hero-text">
-                <h1 class="hero-title" data-i18n="hero.title">Levanta planos donde otros toman notas</h1>
-                <p class="hero-subtitle" data-i18n="hero.subtitle">Herramientas CAD profesionales en tu iPad e iPhone. Mide, dibuja, calcula superficies y exporta a DXF o PDF sin volver a la oficina.</p>
+                <h1 class="hero-title" data-i18n="hero.title">Dibuja mientras mides</h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">Herramientas CAD profesionales en tu iPad e iPhone. Conecta tu medidor láser Bluetooth, dibuja y exporta a DXF. Te llevas el plano terminado.</p>
                 <div class="countries-counter">
                     <svg class="countries-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24">
                         <circle cx="12" cy="12" r="10"/>
                         <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
                     </svg>
                     <span data-i18n="hero.countries_prefix">Usado en</span>
-                    <span class="countries-number" data-target="93">0</span>
+                    <span class="countries-number" data-target="116">0</span>
                     <span data-i18n="hero.countries_suffix">países</span>
                 </div>
                 <div class="hero-buttons">
@@ -124,10 +136,10 @@
                     </a>
                     <a href="#features" class="btn btn-secondary" data-i18n="hero.learn_more">Conoce más</a>
                 </div>
-                <ul class="hero-trust-list" aria-label="Ventajas de YoSiDi CAD">
+                <ul class="hero-trust-list" aria-label="Ventajas de YOSIDI CAD">
                     <li class="hero-trust-item">
-                        <svg class="trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M20 6L9 17l-5-5"/></svg>
-                        <span data-i18n="hero.trust.no_signup">Sin registro necesario</span>
+                        <svg class="trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M6.5 6.5l11 11M17.5 6.5l-5 5 5 5M6.5 17.5l5-5-5-5"/></svg>
+                        <span data-i18n="hero.trust.no_signup">Conecta tu medidor láser</span>
                     </li>
                     <li class="hero-trust-item">
                         <svg class="trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
@@ -137,11 +149,17 @@
                         <svg class="trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                         <span data-i18n="hero.trust.local_data">Privacidad total</span>
                     </li>
+                    <li class="hero-trust-item">
+                        <svg class="trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                        <span data-i18n="hero.trust.iphone">También en iPhone</span>
+                    </li>
                 </ul>
             </div>
             <div class="hero-image">
-                <!-- Generated with scripts/optimize-images.sh -->
-                <img src="./images/optimized/IPAD SCREENSHOT.png" alt="YoSiDi CAD iPad Screenshot" class="hero-screenshot" loading="eager" fetchpriority="high" width="1200" height="900">
+                <picture>
+                    <source srcset="./images/optimized/IPAD SCREENSHOT.webp" type="image/webp">
+                    <img src="./images/optimized/IPAD SCREENSHOT.png" alt="YOSIDI CAD iPad Screenshot" class="hero-screenshot" loading="eager" fetchpriority="high" width="1200" height="900">
+                </picture>
             </div>
         </div>
     </section>
@@ -149,7 +167,7 @@
     <!-- Workflow Section -->
     <section class="workflow" id="workflow">
         <div class="container">
-            <h2 class="section-title" data-i18n="workflow.title">De la visita al plano en 4 pasos</h2>
+            <h2 class="section-title" data-i18n="workflow.title">De la visita al plano en 3 pasos</h2>
             <p class="section-subtitle" data-i18n="workflow.subtitle">Sin croquis en papel. Sin pasar a limpio. Sin perder tiempo.</p>
 
             <div class="workflow-steps">
@@ -163,8 +181,8 @@
                             <circle cx="11" cy="11" r="2"/>
                         </svg>
                     </div>
-                    <h3 class="workflow-step-title" data-i18n="workflow.step1.title">Mide y dibuja en obra</h3>
-                    <p class="workflow-step-description" data-i18n="workflow.step1.description">Abre tu iPad en el sitio y empieza a dibujar. Conecta un medidor láser Bluetooth o introduce medidas manualmente.</p>
+                    <h3 class="workflow-step-title" data-i18n="workflow.step1.title">Apunta y dibuja</h3>
+                    <p class="workflow-step-description" data-i18n="workflow.step1.description">Conecta tu medidor láser o introduce medidas manualmente. Geometrías irregulares, falsas escuadras — el plano se construye sin errores mientras trabajas.</p>
                 </div>
 
                 <div class="workflow-step">
@@ -190,20 +208,8 @@
                             <polyline points="10 9 9 9 8 9"/>
                         </svg>
                     </div>
-                    <h3 class="workflow-step-title" data-i18n="workflow.step3.title">Exporta a DXF o PDF</h3>
-                    <p class="workflow-step-description" data-i18n="workflow.step3.description">Genera un DXF para continuar en AutoCAD o BricsCAD. O un PDF con cajetín profesional listo para entregar.</p>
-                </div>
-
-                <div class="workflow-step">
-                    <div class="workflow-number">4</div>
-                    <div class="workflow-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <line x1="22" y1="2" x2="11" y2="13"/>
-                            <polygon points="22 2 15 22 11 13 2 9 22 2"/>
-                        </svg>
-                    </div>
-                    <h3 class="workflow-step-title" data-i18n="workflow.step4.title">Envía al cliente</h3>
-                    <p class="workflow-step-description" data-i18n="workflow.step4.description">Planos terminados antes de salir de la obra. Lo que antes llevaba horas ahora se resuelve en minutos.</p>
+                    <h3 class="workflow-step-title" data-i18n="workflow.step3.title">Exporta y sigue</h3>
+                    <p class="workflow-step-description" data-i18n="workflow.step3.description">DXF para continuar en tu CAD de escritorio. PDF con cajetín profesional para entregar al cliente. Listo antes de salir de la obra.</p>
                 </div>
             </div>
         </div>
@@ -212,7 +218,7 @@
     <!-- Mid-page CTA -->
     <section class="cta-banner">
         <div class="container cta-banner-content">
-            <p class="cta-banner-text" data-i18n="cta.mid.title">Olvídate del croquis en papel</p>
+            <p class="cta-banner-text" data-i18n="cta.mid.title">Sin lápiz, sin errores, sin perder tiempo</p>
             <a href="https://apps.apple.com/es/app/yosidi-cad/id6743679420" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
                 <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
@@ -249,17 +255,17 @@
                         </svg>
                     </div>
                     <h3 class="feature-title" data-i18n="features.export.title">Exportación DXF y PDF</h3>
-                    <p class="feature-description" data-i18n="features.export.description">Exporta a DXF para continuar en AutoCAD, BricsCAD u otro software. O genera PDFs con cajetín profesional listos para el cliente.</p>
+                    <p class="feature-description" data-i18n="features.export.description">Exporta a DXF y continúa en tu CAD de escritorio. O genera PDFs con cajetín profesional listos para el cliente.</p>
                 </div>
 
-                <div class="feature-card">
+                <div class="feature-card feature-card-highlight">
                     <div class="feature-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <polyline points="6.5 6.5 17.5 17.5 12 23 12 1 17.5 6.5 6.5 17.5"/>
                         </svg>
                     </div>
                     <h3 class="feature-title" data-i18n="features.bluetooth.title">Medidores láser Bluetooth</h3>
-                    <p class="feature-description" data-i18n="features.bluetooth.description">Conecta tu Bosch, Leica o Stanley por Bluetooth. Las medidas pasan directamente al dibujo sin teclear.</p>
+                    <p class="feature-description" data-i18n="features.bluetooth.description">Conecta tu medidor láser por Bluetooth y dibuja mientras mides. Cada medida pasa directamente al plano — sin anotar, sin teclear.</p>
                 </div>
 
                 <div class="feature-card">
@@ -296,7 +302,7 @@
                         </svg>
                     </div>
                     <h3 class="feature-title" data-i18n="features.openings.title">Huecos inteligentes</h3>
-                    <p class="feature-description" data-i18n="features.openings.description">Puertas y ventanas parametrizadas con un toque. Ajusta dimensiones, apertura y tipo desde el panel de propiedades.</p>
+                    <p class="feature-description" data-i18n="features.openings.description">Coloca puertas y ventanas con un clic. Ajusta dimensiones, apertura y tipo. Lo que en CAD de escritorio es un proceso, aquí es un toque.</p>
                 </div>
 
                 <div class="feature-card">
@@ -317,7 +323,7 @@
                         </svg>
                     </div>
                     <h3 class="feature-title" data-i18n="features.tutorials.title">Tutoriales integrados</h3>
-                    <p class="feature-description" data-i18n="features.tutorials.description">Aprende sobre la marcha con guías paso a paso dentro de la app. Domina cada herramienta en minutos.</p>
+                    <p class="feature-description" data-i18n="features.tutorials.description">Guías paso a paso dentro de la app. Si ya usas CAD, en 5 minutos estás trabajando. Si no, los tutoriales te llevan de la mano.</p>
                 </div>
 
                 <div class="feature-card">
@@ -343,7 +349,7 @@
     <section class="audience" id="audience">
         <div class="container">
             <h2 class="section-title" data-i18n="audience.title">Diseñada para profesionales de campo</h2>
-            <p class="section-subtitle" data-i18n="audience.subtitle">YoSiDi es la herramienta de trabajo diario de:</p>
+            <p class="section-subtitle" data-i18n="audience.subtitle">YOSIDI es la herramienta de trabajo diario de:</p>
 
             <div class="audience-grid">
                 <div class="audience-card">
@@ -353,7 +359,7 @@
                         </svg>
                     </div>
                     <h3 class="audience-title" data-i18n="audience.architects.title">Arquitectos</h3>
-                    <p class="audience-description" data-i18n="audience.architects.description">Levantamientos de estado actual, reformas y mediciones de obra con planos DXF listos para el estudio.</p>
+                    <p class="audience-description" data-i18n="audience.architects.description">Levantamientos, reformas y certificados energéticos. Planos DXF listos para el estudio.</p>
                 </div>
 
                 <div class="audience-card">
@@ -375,7 +381,7 @@
                         </svg>
                     </div>
                     <h3 class="audience-title" data-i18n="audience.engineers.title">Ingenieros</h3>
-                    <p class="audience-description" data-i18n="audience.engineers.description">Planos de instalaciones, replanteos y documentación técnica de campo con exportación inmediata.</p>
+                    <p class="audience-description" data-i18n="audience.engineers.description">Instalaciones, certificados energéticos y documentación técnica de campo con exportación inmediata.</p>
                 </div>
 
                 <div class="audience-card">
@@ -389,6 +395,26 @@
                     <h3 class="audience-title" data-i18n="audience.appraisers.title">Tasadores y peritos</h3>
                     <p class="audience-description" data-i18n="audience.appraisers.description">Planos rápidos con cálculo de superficies construidas y útiles. PDF profesional en la misma visita.</p>
                 </div>
+
+                <div class="audience-card">
+                    <div class="audience-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M2 20h20M5 20V10l7-7 7 7v10M9 20v-4h6v4"/>
+                        </svg>
+                    </div>
+                    <h3 class="audience-title" data-i18n="audience.builders.title">Constructores y reformistas</h3>
+                    <p class="audience-description" data-i18n="audience.builders.description">Documenta el estado actual de la obra y llévate el plano sin errores. Olvídate del lápiz y papel.</p>
+                </div>
+
+                <div class="audience-card">
+                    <div class="audience-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                    </div>
+                    <h3 class="audience-title" data-i18n="audience.trades.title">Instaladores y oficios</h3>
+                    <p class="audience-description" data-i18n="audience.trades.description">Mide el espacio del cliente y llévate el plano para trabajar. Cocinas, armarios, carpintería, cerrajería.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -396,7 +422,7 @@
     <!-- Gallery Section -->
     <section class="gallery" id="gallery">
         <div class="container">
-            <h2 class="section-title" data-i18n="gallery.title">Mira YoSiDi en acción</h2>
+            <h2 class="section-title" data-i18n="gallery.title">Mira YOSIDI en acción</h2>
             <p class="section-subtitle" data-i18n="gallery.subtitle">Interfaz limpia y profesional, pensada para trabajar rápido</p>
 
             <div class="gallery-carousel">
@@ -409,31 +435,31 @@
                 <div class="gallery-track">
                     <!-- Generated with scripts/optimize-images.sh -->
                     <div class="gallery-item active">
-                        <img src="./images/optimized/screenshot1.png" alt="YoSiDi CAD Screenshot 1" loading="lazy" width="554" height="1200">
+                        <picture><source srcset="./images/optimized/screenshot1.webp" type="image/webp"><img src="./images/optimized/screenshot1.png" alt="YOSIDI CAD Screenshot 1" loading="lazy" width="554" height="1200"></picture>
                     </div>
                     <div class="gallery-item">
-                        <img src="./images/optimized/screenshot2.png" alt="YoSiDi CAD Screenshot 2" loading="lazy" width="554" height="1200">
+                        <picture><source srcset="./images/optimized/screenshot2.webp" type="image/webp"><img src="./images/optimized/screenshot2.png" alt="YOSIDI CAD Screenshot 2" loading="lazy" width="554" height="1200"></picture>
                     </div>
                     <div class="gallery-item">
-                        <img src="./images/optimized/screenshot3.png" alt="YoSiDi CAD Screenshot 3" loading="lazy" width="554" height="1200">
+                        <picture><source srcset="./images/optimized/screenshot3.webp" type="image/webp"><img src="./images/optimized/screenshot3.png" alt="YOSIDI CAD Screenshot 3" loading="lazy" width="554" height="1200"></picture>
                     </div>
                     <div class="gallery-item">
-                        <img src="./images/optimized/screenshot4.png" alt="YoSiDi CAD Screenshot 4" loading="lazy" width="554" height="1200">
+                        <picture><source srcset="./images/optimized/screenshot4.webp" type="image/webp"><img src="./images/optimized/screenshot4.png" alt="YOSIDI CAD Screenshot 4" loading="lazy" width="554" height="1200"></picture>
                     </div>
                     <div class="gallery-item">
-                        <img src="./images/optimized/screenshot5.png" alt="YoSiDi CAD Screenshot 5" loading="lazy" width="554" height="1200">
+                        <picture><source srcset="./images/optimized/screenshot5.webp" type="image/webp"><img src="./images/optimized/screenshot5.png" alt="YOSIDI CAD Screenshot 5" loading="lazy" width="554" height="1200"></picture>
                     </div>
                     <div class="gallery-item">
-                        <img src="./images/optimized/screenshot6.png" alt="YoSiDi CAD Screenshot 6" loading="lazy" width="554" height="1200">
+                        <picture><source srcset="./images/optimized/screenshot6.webp" type="image/webp"><img src="./images/optimized/screenshot6.png" alt="YOSIDI CAD Screenshot 6" loading="lazy" width="554" height="1200"></picture>
                     </div>
                     <div class="gallery-item">
-                        <img src="./images/optimized/screenshot7.png" alt="YoSiDi CAD Screenshot 7" loading="lazy" width="554" height="1200">
+                        <picture><source srcset="./images/optimized/screenshot7.webp" type="image/webp"><img src="./images/optimized/screenshot7.png" alt="YOSIDI CAD Screenshot 7" loading="lazy" width="554" height="1200"></picture>
                     </div>
                     <div class="gallery-item">
-                        <img src="./images/optimized/screenshot8.png" alt="YoSiDi CAD Screenshot 8" loading="lazy" width="554" height="1200">
+                        <picture><source srcset="./images/optimized/screenshot8.webp" type="image/webp"><img src="./images/optimized/screenshot8.png" alt="YOSIDI CAD Screenshot 8" loading="lazy" width="554" height="1200"></picture>
                     </div>
                     <div class="gallery-item">
-                        <img src="./images/optimized/screenshot9.png" alt="YoSiDi CAD Screenshot 9" loading="lazy" width="554" height="1200">
+                        <picture><source srcset="./images/optimized/screenshot9.webp" type="image/webp"><img src="./images/optimized/screenshot9.png" alt="YOSIDI CAD Screenshot 9" loading="lazy" width="554" height="1200"></picture>
                     </div>
                 </div>
 
@@ -461,7 +487,7 @@
     <!-- Final CTA Section -->
     <section class="cta-final">
         <div class="container cta-final-content">
-            <h2 class="cta-final-title" data-i18n="cta.final.title">Empieza a levantar planos hoy</h2>
+            <h2 class="cta-final-title" data-i18n="cta.final.title">Empieza a dibujar mientras mides</h2>
             <p class="cta-final-subtitle" data-i18n="cta.final.subtitle">Descarga gratuita. Sin suscripción. Sin cuenta.</p>
             <a href="https://apps.apple.com/es/app/yosidi-cad/id6743679420" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
                 <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -491,7 +517,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <img src="./images/logo.png" alt="YoSiDi CAD Logo" class="footer-logo">
+                    <img src="./images/logo.png" alt="YOSIDI CAD Logo" class="footer-logo">
                     <p class="footer-text" data-i18n="footer.tagline">CAD profesional en tu iPad e iPhone. Diseñada por arquitectos.</p>
                 </div>
                 <div class="footer-nav">
@@ -507,7 +533,7 @@
                         </svg>
                         <span data-i18n="footer.app_store">App Store</span>
                     </a>
-                    <a href="https://www.youtube.com/@YoSiDi-CAD" target="_blank" rel="noopener noreferrer" class="footer-link" aria-label="YouTube">
+                    <a href="https://www.youtube.com/@YOSIDI-CAD" target="_blank" rel="noopener noreferrer" class="footer-link" aria-label="YouTube">
                         <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
                         </svg>
@@ -535,7 +561,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; YoSiDi CAD. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+                <p>&copy; YOSIDI CAD. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
             </div>
         </div>
     </footer>
