@@ -1041,19 +1041,20 @@ ul {
     .nav-menu {
         position: fixed;
         top: 0;
-        right: -100%;
+        right: 0;
         width: 280px;
         height: 100vh;
         background: var(--color-background);
         flex-direction: column;
         padding: 5rem var(--spacing-md) var(--spacing-md);
         box-shadow: -5px 0 30px rgba(0, 0, 0, 0.1);
-        transition: right var(--transition-speed) ease;
+        transition: transform var(--transition-speed) ease;
+        transform: translateX(100%);
         z-index: 1000;
     }
 
     .nav-menu.open {
-        right: 0;
+        transform: translateX(0);
     }
 
     .nav-menu .nav-link {
