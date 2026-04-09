@@ -45,6 +45,7 @@ html {
     scroll-behavior: smooth;
     font-size: var(--font-size-base);
     -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -53,6 +54,7 @@ body {
     background-color: var(--color-background);
     line-height: 1.6;
     overflow-x: hidden;
+    min-width: 100%;
 }
 
 img {
@@ -717,6 +719,8 @@ ul {
     max-width: 800px;
     margin: 0 auto;
     margin-top: var(--spacing-lg);
+    overflow: hidden;
+    padding: 0 25px;
 }
 
 .gallery-track {
@@ -775,11 +779,11 @@ ul {
 }
 
 .carousel-btn-prev {
-    left: -25px;
+    left: 0;
 }
 
 .carousel-btn-next {
-    right: -25px;
+    right: 0;
 }
 
 .gallery-dots {
