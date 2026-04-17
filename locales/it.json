@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "YOSIDI CAD - Disegna mentre misuri | Planimetrie su iPad",
-    "description": "YOSIDI CAD: disegna mentre misuri sul tuo iPad e iPhone. Collega il tuo distanziometro laser Bluetooth, disegna ed esporta in DXF o PDF. Te ne vai con la planimetria finita.",
-    "og_title": "YOSIDI CAD - Disegna mentre misuri",
-    "og_description": "CAD professionale sul tuo iPad e iPhone. Disegna mentre misuri e portati la planimetria finita. Esportazione DXF e PDF.",
-    "twitter_title": "YOSIDI CAD - Disegna mentre misuri",
-    "twitter_description": "CAD professionale sul tuo iPad e iPhone. Disegna mentre misuri e portati la planimetria finita. Esportazione DXF e PDF."
+    "title": "YOSIDI CAD - Planimetrie con misure esatte, in loco | Rilievi su iPad",
+    "description": "YOSIDI CAD: realizza planimetrie con misure esatte dal tuo iPad o iPhone. Collega il tuo distanziometro laser Bluetooth, disegna in cantiere ed esporta in DXF. Torni in ufficio con la planimetria finita.",
+    "og_title": "YOSIDI CAD - Planimetrie con misure esatte, in loco",
+    "og_description": "CAD professionale sul tuo iPad e iPhone. Planimetrie con misure esatte, direttamente in cantiere. Esportazione DXF e PDF.",
+    "twitter_title": "YOSIDI CAD - Planimetrie con misure esatte, in loco",
+    "twitter_description": "CAD professionale sul tuo iPad e iPhone. Planimetrie con misure esatte, direttamente in cantiere. Esportazione DXF e PDF."
   },
   "accessibility": {
     "skip": "Vai al contenuto"
@@ -17,8 +17,8 @@
     "audience": "Per chi"
   },
   "hero": {
-    "title": "Disegna mentre misuri",
-    "subtitle": "Strumenti CAD professionali sul tuo iPad e iPhone. Collega il tuo distanziometro laser Bluetooth, disegna ed esporta in DXF. Te ne vai con la planimetria finita.",
+    "title": "Planimetrie con misure esatte, in loco",
+    "subtitle": "Dal sopralluogo al DXF nella stessa visita — sul tuo iPad e iPhone. Collega il tuo distanziometro laser Bluetooth, disegna in cantiere e torni in ufficio con la planimetria finita.",
     "countries_prefix": "Utilizzato in",
     "countries_suffix": "paesi",
     "download_btn": "Scarica dall'App Store",
@@ -52,7 +52,7 @@
       "button": "Scarica gratis"
     },
     "final": {
-      "title": "Inizia a disegnare mentre misuri",
+      "title": "Inizia a rilevare planimetrie sul posto",
       "subtitle": "Download gratuito. Senza abbonamento. Senza account.",
       "button": "Scarica dall'App Store",
       "note": "Esportazione DXF e PDF disponibile come acquisto in-app"

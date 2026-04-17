@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "YOSIDI CAD - Draw while you measure | Plans on iPad",
-    "description": "YOSIDI CAD: draw while you measure on your iPad and iPhone. Connect your Bluetooth laser meter, draw and export to DXF or PDF. You leave with the finished plan.",
-    "og_title": "YOSIDI CAD - Draw while you measure",
-    "og_description": "Professional CAD on your iPad and iPhone. Draw while you measure and leave with the finished plan. Export to DXF or PDF.",
-    "twitter_title": "YOSIDI CAD - Draw while you measure",
-    "twitter_description": "Professional CAD on your iPad and iPhone. Draw while you measure and leave with the finished plan. Export to DXF or PDF."
+    "title": "YOSIDI CAD - Floor plans with exact measurements, on-site | iPad surveys",
+    "description": "YOSIDI CAD: create floor plans with exact measurements from your iPad or iPhone. Connect your Bluetooth laser meter, draw on-site, and export to DXF. Back to the office with the finished plan.",
+    "og_title": "YOSIDI CAD - Floor plans with exact measurements, on-site",
+    "og_description": "Professional CAD on your iPad and iPhone. Floor plans with exact measurements, right on the job site. Export to DXF or PDF.",
+    "twitter_title": "YOSIDI CAD - Floor plans with exact measurements, on-site",
+    "twitter_description": "Professional CAD on your iPad and iPhone. Floor plans with exact measurements, right on the job site. Export to DXF or PDF."
   },
   "accessibility": {
     "skip": "Skip to content"
@@ -17,8 +17,8 @@
     "audience": "Who it's for"
   },
   "hero": {
-    "title": "Draw while you measure",
-    "subtitle": "Professional CAD tools on your iPad and iPhone. Connect your Bluetooth laser meter, draw and export to DXF. You leave with the finished plan.",
+    "title": "Floor plans with exact measurements, on-site",
+    "subtitle": "From survey to DXF in the same visit — on your iPad and iPhone. Connect your Bluetooth laser meter, draw on-site, and return to the office with the finished plan.",
     "countries_prefix": "Used in",
     "countries_suffix": "countries",
     "download_btn": "Download on App Store",
@@ -52,7 +52,7 @@
       "button": "Download free"
     },
     "final": {
-      "title": "Start drawing while you measure",
+      "title": "Start surveying plans on-site",
       "subtitle": "Free download. No subscription. No account.",
       "button": "Download on App Store",
       "note": "DXF and PDF export available as in-app purchase"
@@ -91,7 +91,7 @@
     },
     "bluetooth": {
       "title": "Bluetooth laser meters",
-      "description": "Connect your laser meter via Bluetooth and draw while you measure. Every measurement goes straight into the plan — no notes, no typing."
+      "description": "Connect your laser meter via Bluetooth. Every measurement goes straight into the plan — no notes, no typing."
     },
     "units": {
       "title": "Metric and imperial",

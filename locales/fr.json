@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "YOSIDI CAD - Dessinez en mesurant | Plans sur iPad",
-    "description": "YOSIDI CAD : dessinez en mesurant sur votre iPad et iPhone. Connectez votre telemetre laser Bluetooth, dessinez et exportez en DXF ou PDF. Vous repartez avec le plan termine.",
-    "og_title": "YOSIDI CAD - Dessinez en mesurant",
-    "og_description": "CAO professionnelle sur votre iPad et iPhone. Dessinez en mesurant et repartez avec le plan termine. Export DXF et PDF.",
-    "twitter_title": "YOSIDI CAD - Dessinez en mesurant",
-    "twitter_description": "CAO professionnelle sur votre iPad et iPhone. Dessinez en mesurant et repartez avec le plan termine. Export DXF et PDF."
+    "title": "YOSIDI CAD - Plans avec mesures exactes, sur site | Releves sur iPad",
+    "description": "YOSIDI CAD : creez des plans avec des mesures exactes depuis votre iPad ou iPhone. Connectez votre telemetre laser Bluetooth, dessinez sur le chantier et exportez en DXF. Vous rentrez au bureau avec le plan termine.",
+    "og_title": "YOSIDI CAD - Plans avec mesures exactes, sur site",
+    "og_description": "CAO professionnelle sur votre iPad et iPhone. Plans avec mesures exactes, directement sur le chantier. Export DXF et PDF.",
+    "twitter_title": "YOSIDI CAD - Plans avec mesures exactes, sur site",
+    "twitter_description": "CAO professionnelle sur votre iPad et iPhone. Plans avec mesures exactes, directement sur le chantier. Export DXF et PDF."
   },
   "accessibility": {
     "skip": "Aller au contenu"
@@ -17,8 +17,8 @@
     "audience": "Pour qui"
   },
   "hero": {
-    "title": "Dessinez en mesurant",
-    "subtitle": "Outils CAO professionnels sur votre iPad et iPhone. Connectez votre telemetre laser Bluetooth, dessinez et exportez en DXF. Vous repartez avec le plan termine.",
+    "title": "Plans avec mesures exactes, sur site",
+    "subtitle": "Du releve au DXF dans la meme visite — sur votre iPad et iPhone. Connectez votre telemetre laser Bluetooth, dessinez sur le chantier et rentrez au bureau avec le plan termine.",
     "countries_prefix": "Utilise dans",
     "countries_suffix": "pays",
     "download_btn": "Telecharger sur l'App Store",
@@ -52,7 +52,7 @@
       "button": "Telecharger gratuitement"
     },
     "final": {
-      "title": "Commencez a dessiner en mesurant",
+      "title": "Commencez a relever des plans sur site",
       "subtitle": "Telechargement gratuit. Sans abonnement. Sans compte.",
       "button": "Telecharger sur l'App Store",
       "note": "Export DXF et PDF disponible en achat integre"

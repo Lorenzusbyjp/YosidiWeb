@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "YOSIDI CAD - Zeichne während du misst | Pläne auf dem iPad",
-    "description": "YOSIDI CAD: Zeichnen Sie während Sie messen auf Ihrem iPad und iPhone. Verbinden Sie Ihren Bluetooth-Laser-Entfernungsmesser, zeichnen und exportieren Sie als DXF oder PDF. Sie gehen mit dem fertigen Plan.",
-    "og_title": "YOSIDI CAD - Zeichne während du misst",
-    "og_description": "Professionelles CAD auf Ihrem iPad und iPhone. Zeichnen Sie während Sie messen und gehen Sie mit dem fertigen Plan. Export als DXF und PDF.",
-    "twitter_title": "YOSIDI CAD - Zeichne während du misst",
-    "twitter_description": "Professionelles CAD auf Ihrem iPad und iPhone. Zeichnen Sie während Sie messen und gehen Sie mit dem fertigen Plan. Export als DXF und PDF."
+    "title": "YOSIDI CAD - Grundrisse mit exakten Maßen, vor Ort | Aufmaße auf dem iPad",
+    "description": "YOSIDI CAD: Erstellen Sie Grundrisse mit exakten Maßen direkt auf Ihrem iPad oder iPhone. Verbinden Sie Ihren Bluetooth-Laser-Entfernungsmesser, zeichnen Sie vor Ort und exportieren Sie als DXF. Zurück ins Büro mit dem fertigen Plan.",
+    "og_title": "YOSIDI CAD - Grundrisse mit exakten Maßen, vor Ort",
+    "og_description": "Professionelles CAD auf Ihrem iPad und iPhone. Grundrisse mit exakten Maßen, direkt vor Ort. Export als DXF und PDF.",
+    "twitter_title": "YOSIDI CAD - Grundrisse mit exakten Maßen, vor Ort",
+    "twitter_description": "Professionelles CAD auf Ihrem iPad und iPhone. Grundrisse mit exakten Maßen, direkt vor Ort. Export als DXF und PDF."
   },
   "accessibility": {
     "skip": "Zum Inhalt springen"
@@ -17,8 +17,8 @@
     "audience": "Für wen"
   },
   "hero": {
-    "title": "Zeichne während du misst",
-    "subtitle": "Professionelle CAD-Werkzeuge auf Ihrem iPad und iPhone. Verbinden Sie Ihren Bluetooth-Laser-Entfernungsmesser, zeichnen und exportieren Sie als DXF. Sie gehen mit dem fertigen Plan.",
+    "title": "Grundrisse mit exakten Maßen, vor Ort",
+    "subtitle": "Vom Aufmaß zum DXF im selben Termin — auf Ihrem iPad und iPhone. Verbinden Sie Ihren Bluetooth-Laser-Entfernungsmesser, zeichnen Sie vor Ort und kehren Sie mit dem fertigen Plan ins Büro zurück.",
     "countries_prefix": "Genutzt in",
     "countries_suffix": "Ländern",
     "download_btn": "Im App Store laden",
@@ -52,7 +52,7 @@
       "button": "Kostenlos herunterladen"
     },
     "final": {
-      "title": "Beginnen Sie zu zeichnen während Sie messen",
+      "title": "Beginnen Sie mit Aufmaßen vor Ort",
       "subtitle": "Kostenloser Download. Kein Abo. Kein Konto.",
       "button": "Im App Store laden",
       "note": "DXF- und PDF-Export als In-App-Kauf verfügbar"

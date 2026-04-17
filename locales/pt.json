@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "YOSIDI CAD - Desenha enquanto medes | Plantas no iPad",
-    "description": "YOSIDI CAD: desenha enquanto medes no teu iPad e iPhone. Liga o teu medidor laser Bluetooth, desenha e exporta para DXF ou PDF. Levas a planta terminada.",
-    "og_title": "YOSIDI CAD - Desenha enquanto medes",
-    "og_description": "CAD profissional no teu iPad e iPhone. Desenha enquanto medes e leva a planta terminada. Exportacao DXF e PDF.",
-    "twitter_title": "YOSIDI CAD - Desenha enquanto medes",
-    "twitter_description": "CAD profissional no teu iPad e iPhone. Desenha enquanto medes e leva a planta terminada. Exportacao DXF e PDF."
+    "title": "YOSIDI CAD - Plantas com medidas exatas, no local | Levantamentos no iPad",
+    "description": "YOSIDI CAD: faz plantas com medidas exatas a partir do teu iPad ou iPhone. Liga o teu medidor laser Bluetooth, desenha em obra e exporta para DXF. Voltas ao escritorio com a planta terminada.",
+    "og_title": "YOSIDI CAD - Plantas com medidas exatas, no local",
+    "og_description": "CAD profissional no teu iPad e iPhone. Plantas com medidas exatas, diretamente em obra. Exportacao DXF e PDF.",
+    "twitter_title": "YOSIDI CAD - Plantas com medidas exatas, no local",
+    "twitter_description": "CAD profissional no teu iPad e iPhone. Plantas com medidas exatas, diretamente em obra. Exportacao DXF e PDF."
   },
   "accessibility": {
     "skip": "Ir para o conteudo"
@@ -17,8 +17,8 @@
     "audience": "Para quem"
   },
   "hero": {
-    "title": "Desenha enquanto medes",
-    "subtitle": "Ferramentas CAD profissionais no teu iPad e iPhone. Liga o teu medidor laser Bluetooth, desenha e exporta para DXF. Levas a planta terminada.",
+    "title": "Plantas com medidas exatas, no local",
+    "subtitle": "Do levantamento ao DXF na mesma visita — no teu iPad e iPhone. Liga o teu medidor laser Bluetooth, desenha em obra e voltas ao escritorio com a planta terminada.",
     "countries_prefix": "Utilizado em",
     "countries_suffix": "paises",
     "download_btn": "Descarregar na App Store",
@@ -52,7 +52,7 @@
       "button": "Descarregar gratis"
     },
     "final": {
-      "title": "Comeca a desenhar enquanto medes",
+      "title": "Comeca a levantar plantas em obra",
       "subtitle": "Download gratuito. Sem subscricao. Sem conta.",
       "button": "Descarregar na App Store",
       "note": "Exportacao DXF e PDF disponivel como compra na app"

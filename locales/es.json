@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "YOSIDI CAD - Dibuja mientras mides | Planos en iPad",
-    "description": "YOSIDI CAD: dibuja mientras mides con tu iPad e iPhone. Conecta tu medidor láser Bluetooth, dibuja y exporta a DXF o PDF. Te llevas el plano terminado.",
-    "og_title": "YOSIDI CAD - Dibuja mientras mides",
-    "og_description": "CAD profesional en tu iPad e iPhone. Dibuja mientras mides y llévate el plano terminado. Exporta a DXF o PDF.",
-    "twitter_title": "YOSIDI CAD - Dibuja mientras mides",
-    "twitter_description": "CAD profesional en tu iPad e iPhone. Dibuja mientras mides y llévate el plano terminado. Exporta a DXF o PDF."
+    "title": "YOSIDI CAD - Planos con medidas exactas, in situ | Levantamientos en iPad",
+    "description": "YOSIDI CAD: levanta planos con medidas exactas desde tu iPad o iPhone. Conecta tu medidor láser Bluetooth, dibuja en obra y exporta a DXF. Vuelves a oficina con el plano terminado.",
+    "og_title": "YOSIDI CAD - Planos con medidas exactas, in situ",
+    "og_description": "CAD profesional en tu iPad e iPhone. Planos con medidas exactas directamente en obra. Exporta a DXF o PDF.",
+    "twitter_title": "YOSIDI CAD - Planos con medidas exactas, in situ",
+    "twitter_description": "CAD profesional en tu iPad e iPhone. Planos con medidas exactas directamente en obra. Exporta a DXF o PDF."
   },
   "accessibility": {
     "skip": "Saltar al contenido"
@@ -17,8 +17,8 @@
     "audience": "Para quién"
   },
   "hero": {
-    "title": "Dibuja mientras mides",
-    "subtitle": "Herramientas CAD profesionales en tu iPad e iPhone. Conecta tu medidor láser Bluetooth, dibuja y exporta a DXF. Te llevas el plano terminado.",
+    "title": "Planos con medidas exactas, in situ",
+    "subtitle": "Del levantamiento al DXF en la misma visita — en tu iPad e iPhone. Conecta tu medidor láser Bluetooth, dibuja en obra y vuelves a oficina con el plano terminado.",
     "countries_prefix": "Usado en",
     "countries_suffix": "países",
     "download_btn": "Descargar en App Store",
@@ -52,7 +52,7 @@
       "button": "Descargar gratis"
     },
     "final": {
-      "title": "Empieza a dibujar mientras mides",
+      "title": "Empieza a levantar planos desde obra",
       "subtitle": "Descarga gratuita. Sin suscripción. Sin cuenta.",
       "button": "Descargar en App Store",
       "note": "Exportación DXF y PDF disponible como compra dentro de la app"
@@ -91,7 +91,7 @@
     },
     "bluetooth": {
       "title": "Medidores láser Bluetooth",
-      "description": "Conecta tu medidor láser por Bluetooth y dibuja mientras mides. Cada medida pasa directamente al plano — sin anotar, sin teclear."
+      "description": "Conecta tu medidor láser por Bluetooth. Cada medida pasa directamente al plano — sin anotar, sin teclear."
     },
     "units": {
       "title": "Métrico e imperial",
