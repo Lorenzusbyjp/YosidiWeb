@@ -25,8 +25,8 @@
     "learn_more": "Conoce más",
     "trust": {
       "no_signup": "Conecta tu medidor láser",
-      "offline": "Funciona 100% offline",
-      "local_data": "Privacidad total",
+      "offline": "Funciona sin conexión",
+      "local_data": "Planos en tu dispositivo",
       "iphone": "También en iPhone"
     }
   },
@@ -136,10 +136,10 @@
   },
   "privacy": {
     "title": "Política de privacidad",
-    "intro": "Tu privacidad es nuestra prioridad. YOSIDI funciona 100% offline.",
+    "intro": "Tu privacidad es nuestra prioridad. YOSIDI no requiere cuenta ni sube tus planos a servidores externos.",
     "no_data": {
-      "title": "Sin recopilación de datos",
-      "description": "YOSIDI no recopila ni almacena ninguna información personal. La aplicación funciona completamente offline. Tus dibujos y archivos se guardan únicamente en tu dispositivo y nunca se suben a ningún servidor externo."
+      "title": "Datos que no recopilamos",
+      "description": "YOSIDI no recopila datos identificativos como nombre, correo electrónico, teléfono, ubicación, contactos, fotos, dibujos o archivos. Tus dibujos y archivos se guardan únicamente en tu dispositivo."
     },
     "no_permissions": {
       "title": "Sin permisos innecesarios",
@@ -172,10 +172,14 @@
   "privacy_page": {
     "back": "Volver a inicio",
     "title": "Política de Privacidad",
-    "intro": "Tu privacidad es nuestra prioridad. YOSIDI CAD funciona 100% offline y no recopila ningún dato personal.",
+    "intro": "Tu privacidad es nuestra prioridad. YOSIDI CAD no recopila datos identificativos del usuario ni sube tus planos a servidores externos.",
     "no_data": {
-      "title": "Sin Recopilación de Datos",
-      "description": "YOSIDI CAD no recopila, almacena ni procesa ninguna información personal. La aplicación funciona completamente offline sin conexión a internet. Tus dibujos, archivos y configuraciones se guardan únicamente en tu dispositivo y nunca se suben a ningún servidor externo."
+      "title": "Datos que no recopilamos",
+      "description": "No recopilamos datos identificativos como nombre, correo electrónico, teléfono, ubicación, contactos, fotos, dibujos o archivos. Tus planos y configuraciones se guardan localmente en tu dispositivo y no se suben a nuestros servidores."
+    },
+    "analytics": {
+      "title": "Datos de interacción y análisis",
+      "description": "La app puede recopilar datos limitados de interacción con la app, historial de compras y datos técnicos básicos mediante Firebase/Google Analytics. Estos datos se usan para análisis, mejora del producto y funcionamiento de la app. No se usan para publicidad, no se venden, no se comparten con brokers de datos y no se utilizan con fines de seguimiento."
     },
     "no_permissions": {
       "title": "Sin Permisos Innecesarios",
@@ -195,11 +199,11 @@
     },
     "website": {
       "title": "Sitio Web",
-      "description": "Nuestro sitio web (www.yosidi.com) no utiliza cookies ni servicios de análisis de terceros. Tu navegación es completamente privada y anónima."
+      "description": "Nuestro sitio web (www.yosidi.com) no utiliza cookies ni servicios de análisis de terceros. Puede guardar localmente en tu navegador la preferencia de idioma; esa información no se envía a terceros."
     },
     "children": {
       "title": "Privacidad de Menores",
-      "description": "YOSIDI CAD es segura para usuarios de todas las edades. Dado que no recopilamos ningún tipo de información personal, la aplicación cumple con todas las regulaciones de protección de menores incluyendo COPPA (Children's Online Privacy Protection Act)."
+      "description": "YOSIDI CAD no está dirigida específicamente a menores. La app no requiere cuenta, correo electrónico ni datos identificativos, y no solicitamos conscientemente información personal de menores."
     },
     "changes": {
       "title": "Cambios en Esta Política",
@@ -251,7 +255,7 @@
       "title": "Privacidad",
       "description_part1": "Al usar esta aplicación, también aceptas nuestra",
       "link": "Política de Privacidad",
-      "description_part2": ". YOSIDI CAD funciona completamente offline y no recopila datos personales."
+      "description_part2": ". YOSIDI CAD no requiere cuenta ni recopila datos identificativos del usuario; solo puede recopilar datos limitados de interacción, compras y funcionamiento para análisis y mejora del producto."
     },
     "updates": {
       "title": "Actualizaciones de la Aplicación",

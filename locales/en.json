@@ -25,8 +25,8 @@
     "learn_more": "Learn more",
     "trust": {
       "no_signup": "Connect your laser meter",
-      "offline": "Works 100% offline",
-      "local_data": "Full privacy",
+      "offline": "Works offline",
+      "local_data": "Plans stay on device",
       "iphone": "Works on iPhone too"
     }
   },
@@ -136,10 +136,10 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "intro": "Your privacy is our priority. YOSIDI works 100% offline.",
+    "intro": "Your privacy is our priority. YOSIDI does not require an account or upload your plans to external servers.",
     "no_data": {
-      "title": "No data collection",
-      "description": "YOSIDI does not collect or store any personal information. The app works entirely offline. Your drawings and files are saved only on your device and are never uploaded to any external server."
+      "title": "Data we do not collect",
+      "description": "YOSIDI does not collect identifying data such as your name, email address, phone number, location, contacts, photos, drawings, or files. Your drawings and files are saved only on your device."
     },
     "no_permissions": {
       "title": "No unnecessary permissions",
@@ -172,10 +172,14 @@
   "privacy_page": {
     "back": "Back to home",
     "title": "Privacy Policy",
-    "intro": "Your privacy is our priority. YOSIDI CAD works 100% offline and does not collect any personal data.",
+    "intro": "Your privacy is our priority. YOSIDI CAD does not collect identifying user data or upload your plans to external servers.",
     "no_data": {
-      "title": "No Data Collection",
-      "description": "YOSIDI CAD does not collect, store, or process any personal information. The app works completely offline without an internet connection. Your drawings, files, and settings are saved only on your device and are never uploaded to any external server."
+      "title": "Data We Do Not Collect",
+      "description": "We do not collect identifying data such as your name, email address, phone number, location, contacts, photos, drawings, or files. Your plans and settings are stored locally on your device and are not uploaded to our servers."
+    },
+    "analytics": {
+      "title": "Interaction and Analytics Data",
+      "description": "The app may collect limited app interaction data, purchase history, and basic technical data through Firebase/Google Analytics. This data is used for analytics, product improvement, and app functionality. It is not used for advertising, is not sold, is not shared with data brokers, and is not used for tracking."
     },
     "no_permissions": {
       "title": "No Unnecessary Permissions",
@@ -195,11 +199,11 @@
     },
     "website": {
       "title": "Website",
-      "description": "Our website (www.yosidi.com) does not use cookies or third-party analytics services. Your browsing is completely private and anonymous."
+      "description": "Our website (www.yosidi.com) does not use cookies or third-party analytics services. It may store your language preference locally in your browser; this information is not sent to third parties."
     },
     "children": {
       "title": "Children's Privacy",
-      "description": "YOSIDI CAD is safe for users of all ages. Since we do not collect any personal information, the app complies with all child protection regulations including COPPA (Children's Online Privacy Protection Act)."
+      "description": "YOSIDI CAD is not specifically directed to children. The app does not require an account, email address, or identifying data, and we do not knowingly request personal information from children."
     },
     "changes": {
       "title": "Changes to This Policy",
@@ -251,7 +255,7 @@
       "title": "Privacy",
       "description_part1": "By using this app, you also agree to our",
       "link": "Privacy Policy",
-      "description_part2": ". YOSIDI CAD works completely offline and does not collect personal data."
+      "description_part2": ". YOSIDI CAD does not require an account or collect identifying user data; it may only collect limited interaction, purchase, and functionality data for analytics and product improvement."
     },
     "updates": {
       "title": "App Updates",
