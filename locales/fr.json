@@ -33,7 +33,7 @@
       "no_signup": "Connectez votre telemetre laser",
       "offline": "Fonctionne hors ligne",
       "local_data": "Plans sur votre appareil",
-      "iphone": "Aussi sur iPhone"
+      "no_subscription": "Sans abonnement"
     }
   },
   "workflow": {

@@ -33,7 +33,7 @@
       "no_signup": "Connect your laser meter",
       "offline": "Works offline",
       "local_data": "Plans stay on device",
-      "iphone": "Works on iPhone too"
+      "no_subscription": "No subscription"
     }
   },
   "workflow": {

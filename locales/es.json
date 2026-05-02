@@ -33,7 +33,7 @@
       "no_signup": "Conecta tu medidor láser",
       "offline": "Funciona sin conexión",
       "local_data": "Planos en tu dispositivo",
-      "iphone": "También en iPhone"
+      "no_subscription": "Sin suscripción"
     }
   },
   "workflow": {
