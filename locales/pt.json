@@ -218,7 +218,8 @@
     "contact": {
       "title": "Contacto",
       "description": "Se tiveres qualquer questao ou duvida sobre esta politica de privacidade, podes contactar-nos em:"
-    }
+    },
+    "meta_title": "Politica de Privacidade — YOSIDI CAD"
   },
   "terms_page": {
     "back": "Voltar ao inicio",
@@ -284,6 +285,7 @@
       "description": "Se tiveres questoes sobre estes Termos de Utilizacao, podes contactar-nos em:"
     },
     "developer_part1": "Esta aplicacao e desenvolvida e propriedade de",
-    "developer_part2": "Todos os direitos reservados."
+    "developer_part2": "Todos os direitos reservados.",
+    "meta_title": "Termos de Utilizacao — YOSIDI CAD"
   }
 }

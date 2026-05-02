@@ -218,7 +218,8 @@
     "contact": {
       "title": "Kontakt",
       "description": "Wenn Sie Fragen oder Anliegen zu dieser Datenschutzerklärung haben, können Sie uns kontaktieren unter:"
-    }
+    },
+    "meta_title": "Datenschutzerklärung — YOSIDI CAD"
   },
   "terms_page": {
     "back": "Zurück zur Startseite",
@@ -284,6 +285,7 @@
       "description": "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, können Sie uns kontaktieren unter:"
     },
     "developer_part1": "Diese App wird entwickelt und ist Eigentum von",
-    "developer_part2": "Alle Rechte vorbehalten."
+    "developer_part2": "Alle Rechte vorbehalten.",
+    "meta_title": "Nutzungsbedingungen — YOSIDI CAD"
   }
 }

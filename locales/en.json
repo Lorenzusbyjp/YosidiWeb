@@ -218,7 +218,8 @@
     "contact": {
       "title": "Contact",
       "description": "If you have any questions or concerns about this privacy policy, you can contact us at:"
-    }
+    },
+    "meta_title": "Privacy Policy — YOSIDI CAD"
   },
   "terms_page": {
     "back": "Back to home",
@@ -284,6 +285,7 @@
       "description": "If you have questions about these Terms of Use, you can contact us at:"
     },
     "developer_part1": "This app is developed and owned by",
-    "developer_part2": "All rights reserved."
+    "developer_part2": "All rights reserved.",
+    "meta_title": "Terms of Use — YOSIDI CAD"
   }
 }
