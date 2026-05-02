@@ -237,6 +237,18 @@ git push origin main
 
 GitHub Pages tarda **30 segundos – 3 minutos** en publicar tras el push. Hard refresh (`Cmd + Shift + R`) en el navegador para ignorar caché.
 
+## Decisiones técnicas (no reintroducir)
+
+Cosas que se decidieron por una razón concreta y no conviene revertir sin contexto:
+
+- **`og:image` única, en inglés, para todas las versiones.** No se localiza por idioma. Una imagen es un asset visual; mantener seis no aporta y multiplica trabajo.
+- **JSON-LD (`SoftwareApplication`) siempre en inglés.** Google usa rich snippets de forma global, no por idioma. La `description`, `featureList` y `keywords` del JSON-LD están fijos en inglés en el template aunque la página esté en otro idioma.
+- **`js/i18n.js` es deliberadamente mínimo (~40 líneas).** Antes intentaba actualizar `og:title`, `og:description`, `og:locale` dinámicamente al cambiar idioma. Era código muerto (los crawlers no ejecutan JS) y peligroso (algunas apps que leen DOM en vivo veían el OG traducido pero la imagen seguía en inglés → mismatch). No reintroducir lógica dinámica sobre meta tags OG/Twitter.
+- **`<title>` de privacy/terms usa keys propias** (`privacy_page.meta_title`, `terms_page.meta_title`), NO `meta.title` (que es la del home). Antes tenían `data-i18n="meta.title"` y i18n.js las sobrescribía con el título de la home. No revertir.
+- **`update-image-dimensions.sh` usa `grep`, no `rg`.** Antes requería `ripgrep` instalado. Cambiado para no tener dependencia extra. No re-introducir `rg`.
+- **`locales/` vive en root, no en `_src/`.** Es source pero se edita con frecuencia (cambiar copy). Se prioriza accesibilidad sobre consistencia estricta.
+- **No editar a mano los HTMLs del root ni de `/<lang>/`.** Son output de `build.py`. Tu cambio se perderá la próxima vez que se regenere.
+
 ## Pendientes / mejoras futuras opcionales
 
 - **GitHub Action que ejecute `build.py` en cada push** — ahora hay que recordar correrlo manualmente. Una Action que detecte cambios en `_src/` o `locales/` y regenere automáticamente eliminaría ese paso.
