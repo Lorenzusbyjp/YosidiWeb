@@ -30,10 +30,10 @@
     "download_btn": "Descarregar na App Store",
     "learn_more": "Saber mais",
     "trust": {
-      "no_signup": "Liga o teu medidor laser",
+      "bluetooth": "Liga o teu medidor laser",
       "offline": "Funciona offline",
       "local_data": "Plantas no teu dispositivo",
-      "no_subscription": "Sem subscricao"
+      "no_account": "Sem conta"
     }
   },
   "workflow": {

@@ -30,10 +30,10 @@
     "download_btn": "Telecharger sur l'App Store",
     "learn_more": "En savoir plus",
     "trust": {
-      "no_signup": "Connectez votre telemetre laser",
+      "bluetooth": "Connectez votre telemetre laser",
       "offline": "Fonctionne hors ligne",
       "local_data": "Plans sur votre appareil",
-      "no_subscription": "Sans abonnement"
+      "no_account": "Sans compte"
     }
   },
   "workflow": {

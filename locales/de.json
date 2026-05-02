@@ -30,10 +30,10 @@
     "download_btn": "Im App Store laden",
     "learn_more": "Mehr erfahren",
     "trust": {
-      "no_signup": "Laser-Entfernungsmesser verbinden",
+      "bluetooth": "Laser-Entfernungsmesser verbinden",
       "offline": "Funktioniert offline",
       "local_data": "Pläne auf Ihrem Gerät",
-      "no_subscription": "Kein Abo nötig"
+      "no_account": "Kein Konto nötig"
     }
   },
   "workflow": {

@@ -30,10 +30,10 @@
     "download_btn": "Scarica dall'App Store",
     "learn_more": "Scopri di piu",
     "trust": {
-      "no_signup": "Collega il tuo distanziometro laser",
+      "bluetooth": "Collega il tuo distanziometro laser",
       "offline": "Funziona offline",
       "local_data": "Planimetrie sul dispositivo",
-      "no_subscription": "Senza abbonamento"
+      "no_account": "Senza account"
     }
   },
   "workflow": {

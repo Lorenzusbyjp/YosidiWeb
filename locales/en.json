@@ -30,10 +30,10 @@
     "download_btn": "Download on App Store",
     "learn_more": "Learn more",
     "trust": {
-      "no_signup": "Connect your laser meter",
+      "bluetooth": "Connect your laser meter",
       "offline": "Works offline",
       "local_data": "Plans stay on device",
-      "no_subscription": "No subscription"
+      "no_account": "No account needed"
     }
   },
   "workflow": {

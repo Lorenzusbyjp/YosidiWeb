@@ -30,10 +30,10 @@
     "download_btn": "Descargar en App Store",
     "learn_more": "Conoce más",
     "trust": {
-      "no_signup": "Conecta tu medidor láser",
+      "bluetooth": "Conecta tu medidor láser",
       "offline": "Funciona sin conexión",
       "local_data": "Planos en tu dispositivo",
-      "no_subscription": "Sin suscripción"
+      "no_account": "Sin cuenta"
     }
   },
   "workflow": {
