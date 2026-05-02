@@ -8,7 +8,13 @@
     "twitter_description": "Measure with Bluetooth laser, draw, dimension and export to DXF/DWG. Professional CAD on iPad and iPhone."
   },
   "accessibility": {
-    "skip": "Skip to content"
+    "skip": "Skip to content",
+    "change_language": "Change language",
+    "open_menu": "Open menu",
+    "trust_list": "YOSIDI CAD highlights",
+    "carousel_prev": "Previous screenshot",
+    "carousel_next": "Next screenshot",
+    "goto_screenshot": "Go to screenshot {n}"
   },
   "nav": {
     "features": "Features",

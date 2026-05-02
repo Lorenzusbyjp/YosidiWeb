@@ -8,7 +8,13 @@
     "twitter_description": "Mede com laser Bluetooth, desenha, cota e exporta para DXF/DWG. CAD profissional em iPad e iPhone."
   },
   "accessibility": {
-    "skip": "Ir para o conteudo"
+    "skip": "Ir para o conteudo",
+    "change_language": "Mudar idioma",
+    "open_menu": "Abrir menu",
+    "trust_list": "Vantagens YOSIDI CAD",
+    "carousel_prev": "Captura anterior",
+    "carousel_next": "Captura seguinte",
+    "goto_screenshot": "Ir para a captura {n}"
   },
   "nav": {
     "features": "Funcionalidades",

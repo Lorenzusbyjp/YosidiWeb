@@ -8,7 +8,13 @@
     "twitter_description": "Mide con láser Bluetooth, dibuja, acota y exporta a DXF/DWG. CAD profesional en iPad e iPhone."
   },
   "accessibility": {
-    "skip": "Saltar al contenido"
+    "skip": "Saltar al contenido",
+    "change_language": "Cambiar idioma",
+    "open_menu": "Abrir menú",
+    "trust_list": "Ventajas de YOSIDI CAD",
+    "carousel_prev": "Captura anterior",
+    "carousel_next": "Captura siguiente",
+    "goto_screenshot": "Ir a la captura {n}"
   },
   "nav": {
     "features": "Características",

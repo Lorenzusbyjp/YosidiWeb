@@ -8,7 +8,13 @@
     "twitter_description": "Mesurez au laser Bluetooth, dessinez, cotez et exportez en DXF/DWG. CAO professionnelle sur iPad et iPhone."
   },
   "accessibility": {
-    "skip": "Aller au contenu"
+    "skip": "Aller au contenu",
+    "change_language": "Changer de langue",
+    "open_menu": "Ouvrir le menu",
+    "trust_list": "Avantages de YOSIDI CAD",
+    "carousel_prev": "Capture precedente",
+    "carousel_next": "Capture suivante",
+    "goto_screenshot": "Aller a la capture {n}"
   },
   "nav": {
     "features": "Fonctionnalites",

@@ -8,7 +8,13 @@
     "twitter_description": "Misura con laser Bluetooth, disegna, quota ed esporta in DXF/DWG. CAD professionale su iPad e iPhone."
   },
   "accessibility": {
-    "skip": "Vai al contenuto"
+    "skip": "Vai al contenuto",
+    "change_language": "Cambia lingua",
+    "open_menu": "Apri menu",
+    "trust_list": "Vantaggi di YOSIDI CAD",
+    "carousel_prev": "Schermata precedente",
+    "carousel_next": "Schermata successiva",
+    "goto_screenshot": "Vai alla schermata {n}"
   },
   "nav": {
     "features": "Funzionalita",

@@ -96,6 +96,21 @@ function updatePageContent() {
             }
         }
     });
+
+    // Translate aria-label attributes via data-i18n-aria-label
+    // Supports {n} placeholder, replaced with element's data-index + 1
+    const ariaElements = document.querySelectorAll('[data-i18n-aria-label]');
+    ariaElements.forEach(element => {
+        const key = element.getAttribute('data-i18n-aria-label');
+        let translation = getTranslation(key);
+        if (!translation) return;
+
+        const index = element.getAttribute('data-index');
+        if (index !== null) {
+            translation = translation.replace('{n}', String(parseInt(index, 10) + 1));
+        }
+        element.setAttribute('aria-label', translation);
+    });
 }
 
 // ========================================
