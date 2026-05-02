@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "YOSIDI CAD - Planimetrie con misure esatte, in loco | Rilievi su iPad",
-    "description": "YOSIDI CAD: realizza planimetrie con misure esatte dal tuo iPad o iPhone. Collega il tuo distanziometro laser Bluetooth, disegna in cantiere ed esporta in DXF. Torni in ufficio con la planimetria finita.",
-    "og_title": "YOSIDI CAD - Planimetrie con misure esatte, in loco",
-    "og_description": "CAD professionale sul tuo iPad e iPhone. Planimetrie con misure esatte, direttamente in cantiere. Esportazione DXF e PDF.",
-    "twitter_title": "YOSIDI CAD - Planimetrie con misure esatte, in loco",
-    "twitter_description": "CAD professionale sul tuo iPad e iPhone. Planimetrie con misure esatte, direttamente in cantiere. Esportazione DXF e PDF."
+    "title": "YOSIDI CAD — Planimetrie CAD dal primo sopralluogo | iPad e iPhone",
+    "description": "Rilievo professionale dal primo sopralluogo. Misura con laser Bluetooth su iPad/iPhone, quota ed esporta in DXF/DWG. Architettura, ristrutturazione, interni.",
+    "og_title": "YOSIDI CAD — Planimetrie CAD dal primo sopralluogo",
+    "og_description": "Misura con laser Bluetooth, disegna, quota ed esporta in DXF/DWG. CAD professionale su iPad e iPhone.",
+    "twitter_title": "YOSIDI CAD — Planimetrie CAD dal primo sopralluogo",
+    "twitter_description": "Misura con laser Bluetooth, disegna, quota ed esporta in DXF/DWG. CAD professionale su iPad e iPhone."
   },
   "accessibility": {
     "skip": "Vai al contenuto"
@@ -17,8 +17,8 @@
     "audience": "Per chi"
   },
   "hero": {
-    "title": "Planimetrie con misure esatte, in loco",
-    "subtitle": "Dal sopralluogo al DXF nella stessa visita — sul tuo iPad e iPhone. Collega il tuo distanziometro laser Bluetooth, disegna in cantiere e torni in ufficio con la planimetria finita.",
+    "title": "Planimetrie CAD dal primo sopralluogo",
+    "subtitle": "Misura con il tuo laser Bluetooth. Disegna, quota ed esporta in DXF dal tuo iPad o iPhone.",
     "countries_prefix": "Utilizzato in",
     "countries_suffix": "paesi",
     "download_btn": "Scarica dall'App Store",
@@ -151,7 +151,7 @@
     },
     "website": {
       "title": "Sito web",
-      "description": "Il nostro sito web (www.yosidi.com) non utilizza cookie ne servizi di analisi di terze parti. La tua navigazione e completamente privata e anonima."
+      "description": "Il nostro sito web (www.yosidi.com) utilizza Cloudflare Web Analytics, un servizio rispettoso della privacy che misura il traffico in forma aggregata senza cookie, senza fingerprinting e senza memorizzare dati personali identificabili. La tua navigazione rimane privata e anonima."
     },
     "contact": "Per qualsiasi domanda o dubbio, contattaci all'indirizzo",
     "terms_link": "I nostri Termini di Utilizzo sono disponibili su"
@@ -199,7 +199,7 @@
     },
     "website": {
       "title": "Sito Web",
-      "description": "Il nostro sito web (www.yosidi.com) non utilizza cookie ne servizi di analisi di terze parti. Puo salvare localmente nel tuo browser la preferenza della lingua; questa informazione non viene inviata a terzi."
+      "description": "Il nostro sito web (www.yosidi.com) utilizza Cloudflare Web Analytics per misurare il traffico in forma aggregata senza cookie, senza fingerprinting e senza memorizzare dati personali identificabili. Puo salvare localmente nel tuo browser la preferenza della lingua; questa informazione non viene inviata a terzi."
     },
     "children": {
       "title": "Privacy dei Minori",

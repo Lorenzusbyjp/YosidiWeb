@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "YOSIDI CAD - Grundrisse mit exakten Maßen, vor Ort | Aufmaße auf dem iPad",
-    "description": "YOSIDI CAD: Erstellen Sie Grundrisse mit exakten Maßen direkt auf Ihrem iPad oder iPhone. Verbinden Sie Ihren Bluetooth-Laser-Entfernungsmesser, zeichnen Sie vor Ort und exportieren Sie als DXF. Zurück ins Büro mit dem fertigen Plan.",
-    "og_title": "YOSIDI CAD - Grundrisse mit exakten Maßen, vor Ort",
-    "og_description": "Professionelles CAD auf Ihrem iPad und iPhone. Grundrisse mit exakten Maßen, direkt vor Ort. Export als DXF und PDF.",
-    "twitter_title": "YOSIDI CAD - Grundrisse mit exakten Maßen, vor Ort",
-    "twitter_description": "Professionelles CAD auf Ihrem iPad und iPhone. Grundrisse mit exakten Maßen, direkt vor Ort. Export als DXF und PDF."
+    "title": "YOSIDI CAD — CAD-Pläne ab dem ersten Termin | iPad und iPhone",
+    "description": "Professionelles Aufmaß ab dem ersten Termin. Messen mit Bluetooth-Laser auf iPad/iPhone, bemaßen und als DXF/DWG exportieren. Architektur, Sanierung, Innenarchitektur.",
+    "og_title": "YOSIDI CAD — CAD-Pläne ab dem ersten Termin",
+    "og_description": "Mit Bluetooth-Laser messen, zeichnen, bemaßen und als DXF/DWG exportieren. Professionelles CAD auf iPad und iPhone.",
+    "twitter_title": "YOSIDI CAD — CAD-Pläne ab dem ersten Termin",
+    "twitter_description": "Mit Bluetooth-Laser messen, zeichnen, bemaßen und als DXF/DWG exportieren. Professionelles CAD auf iPad und iPhone."
   },
   "accessibility": {
     "skip": "Zum Inhalt springen"
@@ -17,8 +17,8 @@
     "audience": "Für wen"
   },
   "hero": {
-    "title": "Grundrisse mit exakten Maßen, vor Ort",
-    "subtitle": "Vom Aufmaß zum DXF im selben Termin — auf Ihrem iPad und iPhone. Verbinden Sie Ihren Bluetooth-Laser-Entfernungsmesser, zeichnen Sie vor Ort und kehren Sie mit dem fertigen Plan ins Büro zurück.",
+    "title": "CAD-Pläne ab dem ersten Termin",
+    "subtitle": "Messen Sie mit Ihrem Bluetooth-Laser. Zeichnen, bemaßen und als DXF exportieren — auf iPad oder iPhone.",
     "countries_prefix": "Genutzt in",
     "countries_suffix": "Ländern",
     "download_btn": "Im App Store laden",
@@ -151,7 +151,7 @@
     },
     "website": {
       "title": "Website",
-      "description": "Unsere Website (www.yosidi.com) verwendet weder Cookies noch Analyse-Dienste von Drittanbietern. Ihr Surfverhalten ist vollständig privat und anonym."
+      "description": "Unsere Website (www.yosidi.com) verwendet Cloudflare Web Analytics, einen datenschutzfreundlichen Dienst, der den Verkehr aggregiert misst – ohne Cookies, ohne Fingerprinting und ohne personenbezogene Daten zu speichern. Ihr Surfverhalten bleibt privat und anonym."
     },
     "contact": "Bei Fragen oder Anliegen kontaktieren Sie uns unter",
     "terms_link": "Unsere Nutzungsbedingungen finden Sie unter"
@@ -199,7 +199,7 @@
     },
     "website": {
       "title": "Website",
-      "description": "Unsere Website (www.yosidi.com) verwendet weder Cookies noch Analyse-Dienste von Drittanbietern. Sie kann Ihre Spracheinstellung lokal in Ihrem Browser speichern; diese Information wird nicht an Dritte gesendet."
+      "description": "Unsere Website (www.yosidi.com) verwendet Cloudflare Web Analytics, um den Verkehr aggregiert zu messen – ohne Cookies, ohne Fingerprinting und ohne personenbezogene Daten zu speichern. Sie kann Ihre Spracheinstellung lokal in Ihrem Browser speichern; diese Information wird nicht an Dritte gesendet."
     },
     "children": {
       "title": "Datenschutz für Minderjährige",

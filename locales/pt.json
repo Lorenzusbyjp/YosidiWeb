@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "YOSIDI CAD - Plantas com medidas exatas, no local | Levantamentos no iPad",
-    "description": "YOSIDI CAD: faz plantas com medidas exatas a partir do teu iPad ou iPhone. Liga o teu medidor laser Bluetooth, desenha em obra e exporta para DXF. Voltas ao escritorio com a planta terminada.",
-    "og_title": "YOSIDI CAD - Plantas com medidas exatas, no local",
-    "og_description": "CAD profissional no teu iPad e iPhone. Plantas com medidas exatas, diretamente em obra. Exportacao DXF e PDF.",
-    "twitter_title": "YOSIDI CAD - Plantas com medidas exatas, no local",
-    "twitter_description": "CAD profissional no teu iPad e iPhone. Plantas com medidas exatas, diretamente em obra. Exportacao DXF e PDF."
+    "title": "YOSIDI CAD — Plantas CAD desde a primeira visita | iPad e iPhone",
+    "description": "Levantamento profissional desde a primeira visita. Mede com laser Bluetooth no iPad/iPhone, cota e exporta para DXF/DWG. Arquitetura, remodelacao, interior.",
+    "og_title": "YOSIDI CAD — Plantas CAD desde a primeira visita",
+    "og_description": "Mede com laser Bluetooth, desenha, cota e exporta para DXF/DWG. CAD profissional em iPad e iPhone.",
+    "twitter_title": "YOSIDI CAD — Plantas CAD desde a primeira visita",
+    "twitter_description": "Mede com laser Bluetooth, desenha, cota e exporta para DXF/DWG. CAD profissional em iPad e iPhone."
   },
   "accessibility": {
     "skip": "Ir para o conteudo"
@@ -17,8 +17,8 @@
     "audience": "Para quem"
   },
   "hero": {
-    "title": "Plantas com medidas exatas, no local",
-    "subtitle": "Do levantamento ao DXF na mesma visita — no teu iPad e iPhone. Liga o teu medidor laser Bluetooth, desenha em obra e voltas ao escritorio com a planta terminada.",
+    "title": "Plantas CAD desde a primeira visita",
+    "subtitle": "Mede com o teu laser Bluetooth. Desenha, cota e exporta para DXF a partir do iPad ou iPhone.",
     "countries_prefix": "Utilizado em",
     "countries_suffix": "paises",
     "download_btn": "Descarregar na App Store",
@@ -151,7 +151,7 @@
     },
     "website": {
       "title": "Site web",
-      "description": "O nosso site (www.yosidi.com) nao utiliza cookies nem servicos de analise de terceiros. A tua navegacao e completamente privada e anonima."
+      "description": "O nosso site (www.yosidi.com) utiliza o Cloudflare Web Analytics, um servico que respeita a privacidade e mede o trafego de forma agregada sem cookies, sem fingerprinting e sem guardar dados pessoais identificaveis. A tua navegacao continua privada e anonima."
     },
     "contact": "Para qualquer questao ou duvida, contacta-nos em",
     "terms_link": "Os nossos Termos de Utilizacao estao disponiveis em"
@@ -199,7 +199,7 @@
     },
     "website": {
       "title": "Site Web",
-      "description": "O nosso site (www.yosidi.com) nao utiliza cookies nem servicos de analise de terceiros. Pode guardar localmente no teu navegador a preferencia de idioma; esta informacao nao e enviada a terceiros."
+      "description": "O nosso site (www.yosidi.com) utiliza o Cloudflare Web Analytics para medir o trafego de forma agregada sem cookies, sem fingerprinting e sem guardar dados pessoais identificaveis. Pode guardar localmente no teu navegador a preferencia de idioma; esta informacao nao e enviada a terceiros."
     },
     "children": {
       "title": "Privacidade de Menores",

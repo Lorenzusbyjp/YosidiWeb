@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "YOSIDI CAD - Plans avec mesures exactes, sur site | Releves sur iPad",
-    "description": "YOSIDI CAD : creez des plans avec des mesures exactes depuis votre iPad ou iPhone. Connectez votre telemetre laser Bluetooth, dessinez sur le chantier et exportez en DXF. Vous rentrez au bureau avec le plan termine.",
-    "og_title": "YOSIDI CAD - Plans avec mesures exactes, sur site",
-    "og_description": "CAO professionnelle sur votre iPad et iPhone. Plans avec mesures exactes, directement sur le chantier. Export DXF et PDF.",
-    "twitter_title": "YOSIDI CAD - Plans avec mesures exactes, sur site",
-    "twitter_description": "CAO professionnelle sur votre iPad et iPhone. Plans avec mesures exactes, directement sur le chantier. Export DXF et PDF."
+    "title": "YOSIDI CAD — Plans CAO des la premiere visite | iPad et iPhone",
+    "description": "Leve professionnel des la premiere visite. Mesurez au laser Bluetooth sur iPad/iPhone, cotez et exportez en DXF/DWG. Architecture, renovation et interieur.",
+    "og_title": "YOSIDI CAD — Plans CAO des la premiere visite",
+    "og_description": "Mesurez au laser Bluetooth, dessinez, cotez et exportez en DXF/DWG. CAO professionnelle sur iPad et iPhone.",
+    "twitter_title": "YOSIDI CAD — Plans CAO des la premiere visite",
+    "twitter_description": "Mesurez au laser Bluetooth, dessinez, cotez et exportez en DXF/DWG. CAO professionnelle sur iPad et iPhone."
   },
   "accessibility": {
     "skip": "Aller au contenu"
@@ -17,8 +17,8 @@
     "audience": "Pour qui"
   },
   "hero": {
-    "title": "Plans avec mesures exactes, sur site",
-    "subtitle": "Du releve au DXF dans la meme visite — sur votre iPad et iPhone. Connectez votre telemetre laser Bluetooth, dessinez sur le chantier et rentrez au bureau avec le plan termine.",
+    "title": "Plans CAO des la premiere visite",
+    "subtitle": "Mesurez avec votre laser Bluetooth. Dessinez, cotez et exportez en DXF depuis votre iPad ou iPhone.",
     "countries_prefix": "Utilise dans",
     "countries_suffix": "pays",
     "download_btn": "Telecharger sur l'App Store",
@@ -151,7 +151,7 @@
     },
     "website": {
       "title": "Site web",
-      "description": "Notre site web (www.yosidi.com) n'utilise ni cookies ni services d'analyse tiers. Votre navigation est entierement privee et anonyme."
+      "description": "Notre site web (www.yosidi.com) utilise Cloudflare Web Analytics, un service respectueux de la vie privee qui mesure le trafic de maniere agregee sans cookies, sans empreinte numerique et sans stocker de donnees personnelles identifiables. Votre navigation reste privee et anonyme."
     },
     "contact": "Pour toute question ou preoccupation, contactez-nous a",
     "terms_link": "Nos Conditions d'utilisation sont disponibles sur"
@@ -199,7 +199,7 @@
     },
     "website": {
       "title": "Site Web",
-      "description": "Notre site web (www.yosidi.com) n'utilise ni cookies ni services d'analyse tiers. Il peut enregistrer localement dans votre navigateur votre preference de langue; cette information n'est pas envoyee a des tiers."
+      "description": "Notre site web (www.yosidi.com) utilise Cloudflare Web Analytics pour mesurer le trafic de maniere agregee sans cookies, sans empreinte numerique et sans stocker de donnees personnelles identifiables. Il peut enregistrer localement dans votre navigateur votre preference de langue; cette information n'est pas envoyee a des tiers."
     },
     "children": {
       "title": "Protection des Mineurs",

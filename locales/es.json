@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "YOSIDI CAD - Planos con medidas exactas, in situ | Levantamientos en iPad",
-    "description": "YOSIDI CAD: levanta planos con medidas exactas desde tu iPad o iPhone. Conecta tu medidor láser Bluetooth, dibuja en obra y exporta a DXF. Vuelves a oficina con el plano terminado.",
-    "og_title": "YOSIDI CAD - Planos con medidas exactas, in situ",
-    "og_description": "CAD profesional en tu iPad e iPhone. Planos con medidas exactas directamente en obra. Exporta a DXF o PDF.",
-    "twitter_title": "YOSIDI CAD - Planos con medidas exactas, in situ",
-    "twitter_description": "CAD profesional en tu iPad e iPhone. Planos con medidas exactas directamente en obra. Exporta a DXF o PDF."
+    "title": "YOSIDI CAD — Planos CAD desde la primera visita | iPad e iPhone",
+    "description": "Levantamiento profesional desde la primera visita. Mide con láser Bluetooth en iPad/iPhone, acota y exporta a DXF/DWG. Arquitectura, reforma e interiorismo.",
+    "og_title": "YOSIDI CAD — Planos CAD desde la primera visita",
+    "og_description": "Mide con láser Bluetooth, dibuja, acota y exporta a DXF/DWG. CAD profesional en iPad e iPhone.",
+    "twitter_title": "YOSIDI CAD — Planos CAD desde la primera visita",
+    "twitter_description": "Mide con láser Bluetooth, dibuja, acota y exporta a DXF/DWG. CAD profesional en iPad e iPhone."
   },
   "accessibility": {
     "skip": "Saltar al contenido"
@@ -17,8 +17,8 @@
     "audience": "Para quién"
   },
   "hero": {
-    "title": "Planos con medidas exactas, in situ",
-    "subtitle": "Del levantamiento al DXF en la misma visita — en tu iPad e iPhone. Conecta tu medidor láser Bluetooth, dibuja en obra y vuelves a oficina con el plano terminado.",
+    "title": "Planos CAD desde la primera visita",
+    "subtitle": "Mide con tu láser Bluetooth. Dibuja, acota y exporta a DXF desde tu iPad o iPhone.",
     "countries_prefix": "Usado en",
     "countries_suffix": "países",
     "download_btn": "Descargar en App Store",
@@ -151,7 +151,7 @@
     },
     "website": {
       "title": "Sitio web",
-      "description": "Nuestro sitio web (www.yosidi.com) no utiliza cookies ni servicios de análisis de terceros. Tu navegación es completamente privada y anónima."
+      "description": "Nuestro sitio web (www.yosidi.com) usa Cloudflare Web Analytics, un servicio que mide el tráfico de forma agregada sin cookies, sin huellas digitales y sin almacenar datos personales identificables. Tu navegación es completamente privada y anónima."
     },
     "contact": "Para cualquier pregunta o inquietud, contáctanos en",
     "terms_link": "Nuestros Términos de Uso están disponibles en"
@@ -199,7 +199,7 @@
     },
     "website": {
       "title": "Sitio Web",
-      "description": "Nuestro sitio web (www.yosidi.com) no utiliza cookies ni servicios de análisis de terceros. Puede guardar localmente en tu navegador la preferencia de idioma; esa información no se envía a terceros."
+      "description": "Nuestro sitio web (www.yosidi.com) usa Cloudflare Web Analytics para medir el tráfico de forma agregada sin cookies, sin huellas digitales y sin almacenar datos personales identificables. Puede guardar localmente en tu navegador la preferencia de idioma; esa información no se envía a terceros."
     },
     "children": {
       "title": "Privacidad de Menores",

@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "YOSIDI CAD - Floor plans with exact measurements, on-site | iPad surveys",
-    "description": "YOSIDI CAD: create floor plans with exact measurements from your iPad or iPhone. Connect your Bluetooth laser meter, draw on-site, and export to DXF. Back to the office with the finished plan.",
-    "og_title": "YOSIDI CAD - Floor plans with exact measurements, on-site",
-    "og_description": "Professional CAD on your iPad and iPhone. Floor plans with exact measurements, right on the job site. Export to DXF or PDF.",
-    "twitter_title": "YOSIDI CAD - Floor plans with exact measurements, on-site",
-    "twitter_description": "Professional CAD on your iPad and iPhone. Floor plans with exact measurements, right on the job site. Export to DXF or PDF."
+    "title": "YOSIDI CAD — CAD plans from your first site visit | iPad & iPhone",
+    "description": "As-built surveys from your first site visit. Measure with Bluetooth laser on iPad/iPhone, dimension and export to DXF/DWG. For architects, renovation and remodel.",
+    "og_title": "YOSIDI CAD — CAD plans from your first site visit",
+    "og_description": "Measure with Bluetooth laser, draw, dimension and export to DXF/DWG. Professional CAD on iPad and iPhone.",
+    "twitter_title": "YOSIDI CAD — CAD plans from your first site visit",
+    "twitter_description": "Measure with Bluetooth laser, draw, dimension and export to DXF/DWG. Professional CAD on iPad and iPhone."
   },
   "accessibility": {
     "skip": "Skip to content"
@@ -17,8 +17,8 @@
     "audience": "Who it's for"
   },
   "hero": {
-    "title": "Floor plans with exact measurements, on-site",
-    "subtitle": "From survey to DXF in the same visit — on your iPad and iPhone. Connect your Bluetooth laser meter, draw on-site, and return to the office with the finished plan.",
+    "title": "CAD plans from your first site visit",
+    "subtitle": "Measure with your Bluetooth laser. Draw, dimension and export to DXF on your iPad or iPhone.",
     "countries_prefix": "Used in",
     "countries_suffix": "countries",
     "download_btn": "Download on App Store",
@@ -151,7 +151,7 @@
     },
     "website": {
       "title": "Website",
-      "description": "Our website (www.yosidi.com) does not use cookies or third-party analytics services. Your browsing is completely private and anonymous."
+      "description": "Our website (www.yosidi.com) uses Cloudflare Web Analytics, a privacy-first service that measures aggregate traffic without cookies, without fingerprinting, and without storing personally identifiable data. Your browsing remains private and anonymous."
     },
     "contact": "For any questions or concerns, contact us at",
     "terms_link": "Our Terms of Use are available at"
@@ -199,7 +199,7 @@
     },
     "website": {
       "title": "Website",
-      "description": "Our website (www.yosidi.com) does not use cookies or third-party analytics services. It may store your language preference locally in your browser; this information is not sent to third parties."
+      "description": "Our website (www.yosidi.com) uses Cloudflare Web Analytics to measure aggregate traffic without cookies, without fingerprinting, and without storing personally identifiable data. It may store your language preference locally in your browser; this information is not sent to third parties."
     },
     "children": {
       "title": "Children's Privacy",

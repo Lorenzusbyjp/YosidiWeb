@@ -12,6 +12,15 @@ const i18n = {
     defaultLang: 'es'
 };
 
+const OG_LOCALE_MAP = {
+    es: 'es_ES',
+    en: 'en_US',
+    fr: 'fr_FR',
+    de: 'de_DE',
+    it: 'it_IT',
+    pt: 'pt_PT'
+};
+
 // ========================================
 // Initialize i18n
 // ========================================
@@ -62,6 +71,12 @@ async function loadLanguage(lang) {
 
         // Update HTML lang attribute
         document.documentElement.lang = lang;
+
+        // Update og:locale meta tag
+        const ogLocale = document.querySelector('meta[property="og:locale"]');
+        if (ogLocale && OG_LOCALE_MAP[lang]) {
+            ogLocale.setAttribute('content', OG_LOCALE_MAP[lang]);
+        }
 
     } catch (error) {
         console.error('Error loading language:', error);
