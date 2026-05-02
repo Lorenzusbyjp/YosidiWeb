@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "YOSIDI CAD — Plantas CAD desde a primeira visita | iPad e iPhone",
-    "description": "Levantamento profissional desde a primeira visita. Mede com laser Bluetooth no iPad/iPhone, cota e exporta para DXF/DWG. Arquitetura, remodelacao, interior.",
+    "description": "Levantamento profissional desde a primeira visita. Mede com laser Bluetooth no iPad/iPhone, cota e exporta para DXF/DWG. Arquitetura, engenharia, remodelacao, interior.",
     "og_title": "YOSIDI CAD — Plantas CAD desde a primeira visita",
     "og_description": "Mede com laser Bluetooth, desenha, cota e exporta para DXF/DWG. CAD profissional em iPad e iPhone.",
     "twitter_title": "YOSIDI CAD — Plantas CAD desde a primeira visita",
@@ -43,7 +43,7 @@
     },
     "step3": {
       "title": "Exporta e continua",
-      "description": "DXF para continuares no teu CAD de escritorio. PDF com legenda profissional para o cliente. Pronto antes de saires da obra."
+      "description": "DXF para continuares no teu CAD de escritorio. PDF com legenda profissional para o cliente. Pronto antes de saires do imovel."
     }
   },
   "cta": {
@@ -52,14 +52,14 @@
       "button": "Descarregar gratis"
     },
     "final": {
-      "title": "Comeca a levantar plantas em obra",
+      "title": "Comeca a levantar plantas desde a primeira visita",
       "subtitle": "Download gratuito. Sem subscricao. Sem conta.",
       "button": "Descarregar na App Store",
       "note": "Exportacao DXF e PDF disponivel como compra na app"
     }
   },
   "features": {
-    "title": "Tudo o que precisas em obra",
+    "title": "Tudo o que precisas no local",
     "subtitle": "Ferramentas CAD profissionais concebidas para trabalhar fora do escritorio",
     "tools": {
       "title": "Ferramentas CAD completas",
@@ -99,7 +99,7 @@
     }
   },
   "audience": {
-    "title": "Concebida para profissionais de campo",
+    "title": "Concebida para arquitetos, engenheiros e tecnicos",
     "subtitle": "YOSIDI e a ferramenta de trabalho diario de:",
     "architects": {
       "title": "Arquitetos",
@@ -111,7 +111,7 @@
     },
     "engineers": {
       "title": "Engenheiros",
-      "description": "Instalacoes, certificados energeticos e documentacao tecnica de campo com exportacao imediata."
+      "description": "Instalacoes, certificados energeticos e documentacao tecnica do estado atual com exportacao imediata."
     },
     "appraisers": {
       "title": "Peritos e avaliadores",
@@ -119,7 +119,7 @@
     },
     "builders": {
       "title": "Construtores e remodeladores",
-      "description": "Documenta o estado atual da obra e leva a planta sem erros. Esquece o lapis e o papel."
+      "description": "Documenta o estado atual do imovel e leva a planta sem erros. Esquece o lapis e o papel."
     },
     "trades": {
       "title": "Instaladores e oficios",

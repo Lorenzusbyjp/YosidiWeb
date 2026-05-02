@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "YOSIDI CAD — CAD-Pläne ab dem ersten Termin | iPad und iPhone",
-    "description": "Professionelles Aufmaß ab dem ersten Termin. Messen mit Bluetooth-Laser auf iPad/iPhone, bemaßen und als DXF/DWG exportieren. Architektur, Sanierung, Innenarchitektur.",
+    "description": "Professionelles Aufmaß ab dem ersten Termin. Messen mit Bluetooth-Laser auf iPad/iPhone, bemaßen und als DXF/DWG exportieren. Architektur, Ingenieurwesen, Sanierung, Innenarchitektur.",
     "og_title": "YOSIDI CAD — CAD-Pläne ab dem ersten Termin",
     "og_description": "Mit Bluetooth-Laser messen, zeichnen, bemaßen und als DXF/DWG exportieren. Professionelles CAD auf iPad und iPhone.",
     "twitter_title": "YOSIDI CAD — CAD-Pläne ab dem ersten Termin",
@@ -43,7 +43,7 @@
     },
     "step3": {
       "title": "Exportieren und weiterarbeiten",
-      "description": "DXF für die Weiterarbeit in Ihrer Desktop-CAD-Software. PDF mit professionellem Plankopf für den Kunden. Fertig vor dem Verlassen der Baustelle."
+      "description": "DXF für die Weiterarbeit in Ihrer Desktop-CAD-Software. PDF mit professionellem Plankopf für den Kunden. Fertig, bevor Sie das Gebäude verlassen."
     }
   },
   "cta": {
@@ -52,7 +52,7 @@
       "button": "Kostenlos herunterladen"
     },
     "final": {
-      "title": "Beginnen Sie mit Aufmaßen vor Ort",
+      "title": "Beginnen Sie mit dem Aufmaß ab dem ersten Termin",
       "subtitle": "Kostenloser Download. Kein Abo. Kein Konto.",
       "button": "Im App Store laden",
       "note": "DXF- und PDF-Export als In-App-Kauf verfügbar"
@@ -99,7 +99,7 @@
     }
   },
   "audience": {
-    "title": "Entwickelt für Fachleute vor Ort",
+    "title": "Entwickelt für Architekten, Ingenieure und Techniker",
     "subtitle": "YOSIDI ist das tägliche Arbeitswerkzeug von:",
     "architects": {
       "title": "Architekten",
@@ -111,7 +111,7 @@
     },
     "engineers": {
       "title": "Ingenieure",
-      "description": "Installationen, Energieausweise und technische Felddokumentation mit sofortigem Export."
+      "description": "Installationen, Energieausweise und technische Dokumentation vor Ort mit sofortigem Export."
     },
     "appraisers": {
       "title": "Gutachter und Sachverständige",
@@ -119,7 +119,7 @@
     },
     "builders": {
       "title": "Bauunternehmer und Renovierer",
-      "description": "Dokumentieren Sie den Ist-Zustand der Baustelle und nehmen Sie den Plan fehlerfrei mit. Vergessen Sie Stift und Papier."
+      "description": "Dokumentieren Sie den Ist-Zustand des Gebäudes und nehmen Sie den Plan fehlerfrei mit. Vergessen Sie Stift und Papier."
     },
     "trades": {
       "title": "Installateure und Handwerker",

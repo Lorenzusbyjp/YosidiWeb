@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "YOSIDI CAD — CAD plans from your first site visit | iPad & iPhone",
-    "description": "As-built surveys from your first site visit. Measure with Bluetooth laser on iPad/iPhone, dimension and export to DXF/DWG. For architects, renovation and remodel.",
+    "description": "As-built surveys from your first site visit. Measure with Bluetooth laser on iPad/iPhone, dimension and export to DXF/DWG. For architects, engineers, renovation and remodel.",
     "og_title": "YOSIDI CAD — CAD plans from your first site visit",
     "og_description": "Measure with Bluetooth laser, draw, dimension and export to DXF/DWG. Professional CAD on iPad and iPhone.",
     "twitter_title": "YOSIDI CAD — CAD plans from your first site visit",
@@ -52,7 +52,7 @@
       "button": "Download free"
     },
     "final": {
-      "title": "Start surveying plans on-site",
+      "title": "Start surveying plans from your first site visit",
       "subtitle": "Free download. No subscription. No account.",
       "button": "Download on App Store",
       "note": "DXF and PDF export available as in-app purchase"
@@ -99,7 +99,7 @@
     }
   },
   "audience": {
-    "title": "Designed for field professionals",
+    "title": "Designed for architects, engineers and technicians",
     "subtitle": "YOSIDI is the daily work tool of:",
     "architects": {
       "title": "Architects",

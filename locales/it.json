@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "YOSIDI CAD — Planimetrie CAD dal primo sopralluogo | iPad e iPhone",
-    "description": "Rilievo professionale dal primo sopralluogo. Misura con laser Bluetooth su iPad/iPhone, quota ed esporta in DXF/DWG. Architettura, ristrutturazione, interni.",
+    "description": "Rilievo professionale dal primo sopralluogo. Misura con laser Bluetooth su iPad/iPhone, quota ed esporta in DXF/DWG. Architettura, ingegneria, ristrutturazione, interni.",
     "og_title": "YOSIDI CAD — Planimetrie CAD dal primo sopralluogo",
     "og_description": "Misura con laser Bluetooth, disegna, quota ed esporta in DXF/DWG. CAD professionale su iPad e iPhone.",
     "twitter_title": "YOSIDI CAD — Planimetrie CAD dal primo sopralluogo",
@@ -43,7 +43,7 @@
     },
     "step3": {
       "title": "Esporta e continua",
-      "description": "DXF per continuare sul tuo CAD desktop. PDF con cartiglio professionale per il cliente. Pronto prima di lasciare il cantiere."
+      "description": "DXF per continuare sul tuo CAD desktop. PDF con cartiglio professionale per il cliente. Pronto prima di lasciare l'immobile."
     }
   },
   "cta": {
@@ -52,14 +52,14 @@
       "button": "Scarica gratis"
     },
     "final": {
-      "title": "Inizia a rilevare planimetrie sul posto",
+      "title": "Inizia a rilevare planimetrie dal primo sopralluogo",
       "subtitle": "Download gratuito. Senza abbonamento. Senza account.",
       "button": "Scarica dall'App Store",
       "note": "Esportazione DXF e PDF disponibile come acquisto in-app"
     }
   },
   "features": {
-    "title": "Tutto cio che serve in cantiere",
+    "title": "Tutto cio che serve in loco",
     "subtitle": "Strumenti CAD professionali progettati per lavorare fuori dall'ufficio",
     "tools": {
       "title": "Strumenti CAD completi",
@@ -99,7 +99,7 @@
     }
   },
   "audience": {
-    "title": "Progettata per i professionisti in cantiere",
+    "title": "Progettata per architetti, ingegneri e tecnici",
     "subtitle": "YOSIDI e lo strumento di lavoro quotidiano di:",
     "architects": {
       "title": "Architetti",
@@ -111,7 +111,7 @@
     },
     "engineers": {
       "title": "Ingegneri",
-      "description": "Installazioni, certificati energetici e documentazione tecnica di cantiere con esportazione immediata."
+      "description": "Installazioni, certificati energetici e documentazione tecnica in loco con esportazione immediata."
     },
     "appraisers": {
       "title": "Periti e valutatori",
@@ -119,7 +119,7 @@
     },
     "builders": {
       "title": "Costruttori e ristrutturatori",
-      "description": "Documenta lo stato attuale del cantiere e portati la planimetria senza errori. Dimentica matita e carta."
+      "description": "Documenta lo stato attuale dell'immobile e portati la planimetria senza errori. Dimentica matita e carta."
     },
     "trades": {
       "title": "Installatori e artigiani",

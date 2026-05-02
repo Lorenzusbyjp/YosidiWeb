@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "YOSIDI CAD — Plans CAO des la premiere visite | iPad et iPhone",
-    "description": "Leve professionnel des la premiere visite. Mesurez au laser Bluetooth sur iPad/iPhone, cotez et exportez en DXF/DWG. Architecture, renovation et interieur.",
+    "description": "Leve professionnel des la premiere visite. Mesurez au laser Bluetooth sur iPad/iPhone, cotez et exportez en DXF/DWG. Architecture, ingenierie, renovation et interieur.",
     "og_title": "YOSIDI CAD — Plans CAO des la premiere visite",
     "og_description": "Mesurez au laser Bluetooth, dessinez, cotez et exportez en DXF/DWG. CAO professionnelle sur iPad et iPhone.",
     "twitter_title": "YOSIDI CAD — Plans CAO des la premiere visite",
@@ -43,7 +43,7 @@
     },
     "step3": {
       "title": "Exportez et continuez",
-      "description": "DXF pour continuer sur votre CAO de bureau. PDF avec cartouche professionnel pour le client. Pret avant de quitter le chantier."
+      "description": "DXF pour continuer sur votre CAO de bureau. PDF avec cartouche professionnel pour le client. Pret avant de quitter les lieux."
     }
   },
   "cta": {
@@ -52,14 +52,14 @@
       "button": "Telecharger gratuitement"
     },
     "final": {
-      "title": "Commencez a relever des plans sur site",
+      "title": "Commencez a relever des plans des la premiere visite",
       "subtitle": "Telechargement gratuit. Sans abonnement. Sans compte.",
       "button": "Telecharger sur l'App Store",
       "note": "Export DXF et PDF disponible en achat integre"
     }
   },
   "features": {
-    "title": "Tout ce qu'il vous faut sur le terrain",
+    "title": "Tout ce qu'il vous faut sur site",
     "subtitle": "Outils CAO professionnels concus pour travailler hors du bureau",
     "tools": {
       "title": "Outils CAO complets",
@@ -99,7 +99,7 @@
     }
   },
   "audience": {
-    "title": "Concue pour les professionnels de terrain",
+    "title": "Concue pour architectes, ingenieurs et techniciens",
     "subtitle": "YOSIDI est l'outil de travail quotidien de :",
     "architects": {
       "title": "Architectes",
@@ -111,7 +111,7 @@
     },
     "engineers": {
       "title": "Ingenieurs",
-      "description": "Installations, certificats energetiques et documentation technique de terrain avec export immediat."
+      "description": "Installations, certificats energetiques et documentation technique sur site avec export immediat."
     },
     "appraisers": {
       "title": "Experts et diagnostiqueurs",
@@ -119,7 +119,7 @@
     },
     "builders": {
       "title": "Constructeurs et renovateurs",
-      "description": "Documentez l'etat actuel du chantier et repartez avec le plan, sans erreurs. Oubliez le crayon et le papier."
+      "description": "Documentez l'etat actuel des lieux et repartez avec le plan, sans erreurs. Oubliez le crayon et le papier."
     },
     "trades": {
       "title": "Installateurs et artisans",

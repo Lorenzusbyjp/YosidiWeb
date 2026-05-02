@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "YOSIDI CAD — Planos CAD desde la primera visita | iPad e iPhone",
-    "description": "Levantamiento profesional desde la primera visita. Mide con láser Bluetooth en iPad/iPhone, acota y exporta a DXF/DWG. Arquitectura, reforma e interiorismo.",
+    "description": "Levantamiento profesional desde la primera visita. Mide con láser Bluetooth en iPad/iPhone, acota y exporta a DXF/DWG. Arquitectura, ingeniería, reforma e interiorismo.",
     "og_title": "YOSIDI CAD — Planos CAD desde la primera visita",
     "og_description": "Mide con láser Bluetooth, dibuja, acota y exporta a DXF/DWG. CAD profesional en iPad e iPhone.",
     "twitter_title": "YOSIDI CAD — Planos CAD desde la primera visita",
@@ -43,7 +43,7 @@
     },
     "step3": {
       "title": "Exporta y sigue",
-      "description": "DXF para continuar en tu CAD de escritorio. PDF con cajetín profesional para entregar al cliente. Listo antes de salir de la obra."
+      "description": "DXF para continuar en tu CAD de escritorio. PDF con cajetín profesional para entregar al cliente. Listo antes de salir del inmueble."
     }
   },
   "cta": {
@@ -52,14 +52,14 @@
       "button": "Descargar gratis"
     },
     "final": {
-      "title": "Empieza a levantar planos desde obra",
+      "title": "Empieza a levantar planos desde la primera visita",
       "subtitle": "Descarga gratuita. Sin suscripción. Sin cuenta.",
       "button": "Descargar en App Store",
       "note": "Exportación DXF y PDF disponible como compra dentro de la app"
     }
   },
   "features": {
-    "title": "Todo lo que necesitas en campo",
+    "title": "Todo lo que necesitas in situ",
     "subtitle": "Herramientas CAD profesionales diseñadas para trabajar fuera de la oficina",
     "tools": {
       "title": "Herramientas CAD completas",
@@ -99,7 +99,7 @@
     }
   },
   "audience": {
-    "title": "Diseñada para profesionales de campo",
+    "title": "Diseñada para arquitectos, ingenieros y técnicos",
     "subtitle": "YOSIDI es la herramienta de trabajo diario de:",
     "architects": {
       "title": "Arquitectos",
@@ -111,7 +111,7 @@
     },
     "engineers": {
       "title": "Ingenieros",
-      "description": "Instalaciones, certificados energéticos y documentación técnica de campo con exportación inmediata."
+      "description": "Instalaciones, certificados energéticos y documentación técnica del estado actual con exportación inmediata."
     },
     "appraisers": {
       "title": "Tasadores y peritos",
@@ -119,7 +119,7 @@
     },
     "builders": {
       "title": "Constructores y reformistas",
-      "description": "Documenta el estado actual de la obra y llévate el plano sin errores. Olvídate del lápiz y papel."
+      "description": "Documenta el estado actual del inmueble y llévate el plano sin errores. Olvídate del lápiz y papel."
     },
     "trades": {
       "title": "Instaladores y oficios",
