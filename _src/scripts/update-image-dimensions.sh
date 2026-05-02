@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Actualiza width/height en index.html para las imágenes de images/optimized/.
+# Actualiza width/height en _src/templates/index.html para las imágenes de
+# images/optimized/. Tras correrlo, ejecuta `python3 build.py` para regenerar
+# las páginas con las nuevas dimensiones.
 #
 # Uso:
-#   bash scripts/update-image-dimensions.sh
-#   bash scripts/update-image-dimensions.sh <html_file> <optimized_dir>
+#   bash _src/scripts/update-image-dimensions.sh
+#   bash _src/scripts/update-image-dimensions.sh <html_file> <optimized_dir>
 
 print_help() {
     cat <<'EOF'
@@ -29,8 +31,8 @@ if [[ "${1:-}" == "-h" || "${1:-}" == "--help" ]]; then
     exit 0
 fi
 
-ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-HTML_FILE="${1:-"$ROOT_DIR/index.html"}"
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+HTML_FILE="${1:-"$ROOT_DIR/_src/templates/index.html"}"
 OPTIMIZED_DIR="${2:-"$ROOT_DIR/images/optimized"}"
 
 if ! command -v sips >/dev/null 2>&1; then
@@ -73,7 +75,7 @@ for image_path in "${files[@]}"; do
     image_name="$(basename "$image_path")"
 
     # Skip images that are not currently referenced in HTML.
-    if ! rg -q "src=\"\\./images/optimized/${image_name}\"" "$HTML_FILE"; then
+    if ! grep -q "src=\"\\./images/optimized/${image_name}\"" "$HTML_FILE"; then
         echo "- $image_name -> not referenced in HTML (skipped)"
         continue
     fi

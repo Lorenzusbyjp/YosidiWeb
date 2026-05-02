@@ -1,255 +1,252 @@
-# YoSiDi CAD - Landing Page
+# YOSIDI CAD — Landing Page
 
-Landing page profesional y minimalista para la aplicación iOS **YoSiDi CAD**.
+Landing oficial de **YOSIDI CAD** (app iOS para levantamientos CAD profesionales en iPad e iPhone). Web estática, multi-idioma, hosteada en GitHub Pages bajo `www.yosidi.com`.
 
-## 🎯 Sobre YoSiDi CAD
+## Stack y filosofía
 
-YoSiDi CAD es una aplicación de dibujo CAD para iPad/iPhone enfocada en hacer levantamientos de espacios y edificios existentes de manera rápida y eficaz.
+- **Cero dependencias en producción.** HTML estático + un único `styles.css` + dos JS minimos. Sin frameworks, sin build de JS/CSS.
+- **Multi-URL por idioma.** Cada idioma tiene su URL real (`/`, `/es/`, `/fr/`, `/de/`, `/it/`, `/pt/`) → SEO multi-idioma real, sin parpadeo de traducción cliente.
+- **Hosting:** GitHub Pages + dominio `www.yosidi.com` (CNAME).
+- **Analítica:** Cloudflare Web Analytics (cookieless, sin banner GDPR).
 
-## ✨ Características de la Landing Page
-
-- ✅ Diseño minimalista y elegante
-- ✅ Totalmente responsive (móvil, tablet, desktop)
-- ✅ Animaciones sutiles al hacer scroll
-- ✅ Sistema de internacionalización (i18n) - Español e Inglés
-- ✅ Optimizada para SEO
-- ✅ Meta tags Open Graph y Twitter Cards
-- ✅ Sin dependencias (Vanilla JavaScript)
-- ✅ Accesible (WCAG 2.1)
-
-## 📁 Estructura del Proyecto
+## Estructura del proyecto
 
 ```
-yosidi-web/
-├── index.html              # Página principal
-├── css/
-│   └── styles.css          # Estilos CSS
+YosidiWeb/
+├── README.md                    ← Este archivo
+├── CNAME                        ← Dominio personalizado (www.yosidi.com)
+├── .nojekyll                    ← Desactiva Jekyll en GitHub Pages
+├── build.py                     ← Build script (genera todas las páginas)
+│
+├── _src/                        ← Source files (no se sirven en producción)
+│   ├── templates/               ← Plantillas HTML con [data-i18n] hooks
+│   │   ├── index.html
+│   │   ├── privacy.html
+│   │   ├── terms.html
+│   │   └── 404.html
+│   └── scripts/                 ← Herramientas de desarrollo
+│       ├── optimize-images.sh
+│       └── update-image-dimensions.sh
+│
+├── locales/                     ← Traducciones (source para el build)
+│   ├── en.json                  ← Inglés (idioma por defecto)
+│   ├── es.json                  ← Español
+│   ├── fr.json, de.json, it.json, pt.json
+│
+├── css/styles.css               ← Estilos compartidos (todos los idiomas)
 ├── js/
-│   ├── main.js             # JavaScript principal (animaciones, carrusel)
-│   └── i18n.js             # Sistema de internacionalización
+│   ├── i18n.js                  ← Toggle del switcher + persiste idioma elegido
+│   └── main.js                  ← Animaciones, carrusel, hamburguesa, etc.
+│
 ├── images/
-│   ├── logo.png            # Logo de la app
-│   ├── favicon.png         # Favicon
-│   ├── screenshot*.png     # Capturas originales (fuente)
-│   └── optimized/          # Capturas optimizadas para web (generadas)
-├── scripts/
-│   ├── optimize-images.sh        # Optimiza capturas y sincroniza width/height
-│   └── update-image-dimensions.sh # Sincroniza width/height en index.html
-├── locales/
-│   ├── es.json             # Traducciones en español
-│   └── en.json             # Traducciones en inglés
-├── .gitignore              # Archivos ignorados por Git
-└── README.md               # Este archivo
+│   ├── og/og_yosidi.png         ← Master OG (2400×1260)
+│   ├── og-image.png             ← Web OG (1200×630, lo que ven LinkedIn/FB)
+│   ├── og-image.webp
+│   ├── optimized/               ← PNGs+WebPs optimizados para la galería
+│   │   ├── IPAD SCREENSHOT.{png,webp}
+│   │   └── screenshot1..10.{png,webp}
+│   └── ...                      ← Originales App Store
+│
+├── index.html                   ← English (root + canonical EN)  ┐
+├── privacy.html                 ← Privacy Policy (EN)            │
+├── terms.html                   ← Terms of Use (EN)              │ Generadas
+├── 404.html                     ← Página 404 (universal)         │ por
+├── es/{index,privacy,terms}.html  ← Español                      │ build.py
+├── fr/{index,privacy,terms}.html  ← Francés                      │
+├── de/{index,privacy,terms}.html  ← Alemán                       │
+├── it/{index,privacy,terms}.html  ← Italiano                     │
+├── pt/{index,privacy,terms}.html  ← Portugués                    │
+├── sitemap.xml                  ← 18 URLs con hreflang alternates ┘
+└── robots.txt
 ```
 
-## 🚀 Instalación y Uso
+> ⚠️ **No edites a mano** los archivos HTML del root ni de `/<lang>/`. Son output del build. Edita `_src/templates/` o `locales/*.json` y corre `python3 build.py`.
 
-### Requisitos Previos
+## Arquitectura multi-idioma
 
-- Un navegador web moderno
-- (Opcional) Un servidor HTTP local para desarrollo
+### URLs
 
-### Instalación
+| URL | Idioma |
+|---|---|
+| `https://www.yosidi.com/` | English (canonical EN) |
+| `https://www.yosidi.com/es/` | Español |
+| `https://www.yosidi.com/fr/` | Français |
+| `https://www.yosidi.com/de/` | Deutsch |
+| `https://www.yosidi.com/it/` | Italiano |
+| `https://www.yosidi.com/pt/` | Português |
 
-1. Clona el repositorio:
+Cada idioma además tiene `<lang>/privacy.html` y `<lang>/terms.html`.
+
+### Detección automática
+
+El `<head>` del `index.html` (root) contiene un script inline que:
+
+1. Lee `localStorage.preferred-lang` si el usuario eligió antes un idioma.
+2. Si no hay preferencia, lee `navigator.language` del navegador.
+3. Si el idioma detectado es uno de los soportados (`es`, `fr`, `de`, `it`, `pt`) y el usuario está en `/`, redirige a `/<lang>/`.
+4. Si el idioma es inglés u otro no soportado, se queda en `/` (English).
+
+El switcher de idiomas en cualquier página es una lista de `<a>` que navegan a la versión equivalente; al hacer click, se persiste el idioma elegido en `localStorage`.
+
+### SEO técnico
+
+- **`hreflang`** real: cada página declara las 6 alternativas + `x-default` apuntando a `/`.
+- **`canonical`** auto-generado por idioma.
+- **`sitemap.xml`** con 18 URLs, cada una con sus 7 alternates (`xhtml:link`).
+- **OG/Twitter cards** localizadas: cada `/<lang>/` tiene su `og:title`, `og:description` y `og:locale` (e.g. `de_DE`) en el idioma correspondiente.
+- **JSON-LD** (SoftwareApplication) **siempre en inglés** — Google usa rich snippets de forma global, no por idioma.
+- **`og:image`** única (en inglés) para todas las versiones — la imagen es asset visual, no se localiza.
+
+## Trabajar con la web
+
+### 1. Cambiar copy de la home
+
+Edita el JSON del idioma correspondiente en `locales/`. Ejemplo:
+
 ```bash
-git clone https://github.com/tu-usuario/yosidi-web.git
-cd yosidi-web
+# Cambiar el subtítulo del hero en español
+$EDITOR locales/es.json
+# → buscar "hero" → "subtitle" → editar
 ```
 
-2. Abre el archivo `index.html` en tu navegador, o usa un servidor local:
+Luego regenera:
 
-**Opción 1: Servidor con Python**
 ```bash
-# Python 3
-python -m http.server 8000
-
-# Luego abre: http://localhost:8000
+python3 build.py
+git add -A && git commit -m "Update Spanish hero subtitle" && git push
 ```
 
-**Opción 2: Servidor con Node.js (http-server)**
+### 2. Cambiar estructura HTML
+
+Edita `_src/templates/<archivo>.html`. Los hooks de traducción son atributos:
+
+- `data-i18n="hero.title"` → reemplaza el contenido por la traducción de esa clave.
+- `data-i18n-aria-label="accessibility.carousel_next"` → reemplaza `aria-label` por la traducción.
+- Soporta placeholder `{n}` que se sustituye por `data-index + 1` (usado en los dots del carrusel).
+
+Tras editar la plantilla:
+
 ```bash
-npx http-server -p 8000
-
-# Luego abre: http://localhost:8000
+python3 build.py
 ```
 
-**Opción 3: Live Server (VS Code)**
-- Instala la extensión "Live Server" en VS Code
-- Click derecho en `index.html` → "Open with Live Server"
+### 3. Añadir un idioma nuevo
 
-## 🖼️ Flujo de Imágenes (Importante)
-
-La web usa dos niveles de capturas:
-
-1. `images/screenshot*.png`  
-   Archivos originales (alta calidad).
-2. `images/optimized/screenshot*.png`  
-   Versiones optimizadas para web (las que carga `index.html`).
-
-### Flujo recomendado cuando cambias capturas
-
-1. Sustituye o añade capturas en `images/` con este patrón de nombre:  
-   `screenshot1.png`, `screenshot2.png`, ..., `screenshotN.png`.
-2. Ejecuta el optimizador:
-   ```bash
-   bash scripts/optimize-images.sh
-   ```
-   Este comando también actualiza automáticamente `width` y `height` en `index.html`.
-3. Comprueba resultados visuales en móvil y desktop.
-4. Si añadiste o quitaste capturas, actualiza:
-   - Los `<div class="gallery-item">` en `index.html`
-   - Los `<button class="dot">` de la galería en `index.html`
-
-### Comandos útiles del script
-
-Ayuda:
-```bash
-bash scripts/optimize-images.sh --help
-```
-
-Uso por defecto:
-```bash
-bash scripts/optimize-images.sh
-```
-
-Con tamaño máximo distinto (lado mayor en px):
-```bash
-bash scripts/optimize-images.sh images images/optimized 1400
-```
-
-Sincronizar solo dimensiones (sin re-optimizar):
-```bash
-bash scripts/update-image-dimensions.sh
-```
-
-### Qué hace el script exactamente
-
-- Toma `images/screenshot*.png`.
-- Copia cada imagen a `images/optimized/`.
-- Redimensiona la copia con `sips -Z` al tamaño máximo indicado (por defecto `1200`).
-- Imprime dimensiones y peso final por archivo.
-- Sincroniza `width`/`height` en `index.html` usando los tamaños reales en `images/optimized/`.
-- No toca los originales.
-
-### Reglas para no romper la landing
-
-- No edites manualmente `images/optimized/`; regénéralo con el script.
-- Mantén el patrón `screenshotN.png` para que el script las detecte.
-- Si cambia la proporción de una captura, ejecuta de nuevo el script para que `width`/`height` quede actualizado.
-- Si no ejecutas el script tras cambiar capturas, la web seguirá mostrando versiones antiguas optimizadas.
-
-## 🌍 Agregar Nuevos Idiomas
-
-1. Crea un nuevo archivo JSON en la carpeta `locales/`:
-   ```bash
-   # Ejemplo para francés
-   locales/fr.json
-   ```
-
-2. Copia la estructura de `es.json` o `en.json` y traduce los textos.
-
-3. Actualiza el array de idiomas soportados en `js/i18n.js`:
-   ```javascript
-   const supportedLangs = ['es', 'en', 'fr'];
-   ```
-
-4. Añade el botón de idioma en `index.html`:
+1. Crea `locales/<lang>.json` copiando la estructura de `locales/en.json` y traduciendo todos los valores.
+2. En `build.py`, añade el código a la lista `LANGUAGES`.
+3. Añade el botón al switcher en `_src/templates/index.html`, `privacy.html` y `terms.html`:
    ```html
-   <button id="lang-fr" class="lang-btn">FR</button>
+   <button id="lang-XX" class="lang-btn notranslate">XX</button>
    ```
+4. En `build.py`, añade su locale BCP-47 al diccionario `OG_LOCALE`.
+5. En el script de redirect inline (en `_src/templates/index.html`), añade el código del idioma a la lista `supported`.
+6. `python3 build.py`.
 
-## 🎨 Personalización
+### 4. Cambiar imágenes del carrusel
 
-### Colores
+```bash
+# Reemplaza los originales en images/screenshotN.png e IPAD SCREENSHOT.png
+# Luego optimiza y actualiza dimensiones en el template:
+bash _src/scripts/optimize-images.sh
 
-Los colores principales se definen en `css/styles.css` usando variables CSS:
-
-```css
-:root {
-    --color-primary: #007AFF;        /* Color principal */
-    --color-primary-dark: #0051D5;   /* Color principal oscuro */
-    --color-text: #1d1d1f;           /* Color del texto */
-    --color-text-secondary: #6e6e73; /* Color del texto secundario */
-    /* ... más variables ... */
-}
+# Regenera HTMLs
+python3 build.py
 ```
 
-### Tipografía
+### 5. Cambiar la imagen OG
 
-Cambia la fuente en `css/styles.css`:
-
-```css
-:root {
-    --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, ...;
-}
+```bash
+# El master 2400×1260 vive en images/og/og_yosidi.png
+# Genera versión web 1200×630:
+sips -Z 1200 images/og/og_yosidi.png --out images/og-image.png
+cwebp -q 85 images/og-image.png -o images/og-image.webp
 ```
 
-## 📤 Desplegar en GitHub Pages
+Tras pushear, invalida la caché en:
+- Facebook: https://developers.facebook.com/tools/debug/
+- LinkedIn: https://www.linkedin.com/post-inspector/
 
-1. **Sube tu repositorio a GitHub**:
-   ```bash
-   git remote add origin https://github.com/tu-usuario/yosidi-web.git
-   git branch -M main
-   git push -u origin main
-   ```
+## Build pipeline
 
-2. **Configura GitHub Pages**:
-   - Ve a Settings → Pages
-   - En "Source", selecciona la rama `main`
-   - Carpeta: `/ (root)`
-   - Click en "Save"
+```bash
+python3 build.py
+```
 
-3. **Dominio personalizado** (opcional):
-   - En Settings → Pages → Custom domain
-   - Ingresa tu dominio (ej: `www.yosidi.com`)
-   - Configura los DNS según las instrucciones de GitHub
+Hace, en orden:
 
-Tu sitio estará disponible en: `https://tu-usuario.github.io/yosidi-web/`
+1. Lee `_src/templates/*.html` y `locales/*.json`.
+2. Para cada idioma, para cada plantilla:
+   - Sustituye `[data-i18n]` y `[data-i18n-aria-label]` por la traducción.
+   - Convierte los `<button class="lang-btn">` del switcher en `<a>` con `href` apuntando a la versión equivalente.
+   - Ajusta `<html lang>`, `canonical`, `og:url`, `og:locale`, `og:title`, `og:description`, `twitter:*` (los traducibles desde el locale).
+   - Añade hreflang completo (6 alternates + x-default).
+   - Reescribe paths a absolutos (`./css/` → `/css/`).
+   - Limpia atributos `data-i18n*` del output.
+3. Escribe la salida en `/` (English) o `/<lang>/` (resto).
+4. Genera `sitemap.xml` con todas las URLs y sus alternates.
 
-## 🔗 Enlaces
+Dependencias:
 
-- **App Store**: https://apps.apple.com/es/app/yosidi-cad/id6743679420
-- **YouTube**: https://www.youtube.com/@YoSiDi-CAD
-- **TikTok**: https://www.tiktok.com/@yosidi_cad
+```bash
+pip3 install beautifulsoup4
+```
 
-## 📝 Tecnologías Utilizadas
+## Scripts auxiliares
 
-- HTML5
-- CSS3 (Variables CSS, Flexbox, Grid)
-- JavaScript (ES6+, Vanilla)
-- SVG (para iconos y placeholders)
+### `_src/scripts/optimize-images.sh`
 
-## 🐛 Solución de Problemas
+Toma los PNGs de `images/` y genera versiones optimizadas a `images/optimized/` (max 1200px). Tras eso ejecuta `update-image-dimensions.sh` para sincronizar `width`/`height` en el template del index.
 
-### Las traducciones no se cargan
+```bash
+bash _src/scripts/optimize-images.sh
+# o con argumentos custom:
+bash _src/scripts/optimize-images.sh images images/optimized 1400
+```
 
-- Verifica que los archivos JSON estén en la carpeta `locales/`
-- Comprueba la consola del navegador para errores
-- Asegúrate de estar usando un servidor HTTP (no `file://`)
+Requiere `sips` (incluido en macOS).
 
-### Las animaciones no funcionan
+### `_src/scripts/update-image-dimensions.sh`
 
-- Verifica que `main.js` se cargue correctamente
-- Comprueba la consola del navegador
-- Algunos navegadores antiguos pueden no soportar las animaciones
+Actualiza atributos `width`/`height` de `<img>` en `_src/templates/index.html` leyendo dimensiones reales con `sips`. Útil tras un resize manual.
 
-### El carrusel no responde
+## Hosting, dominio, analítica
 
-- Asegúrate de que las imágenes existan en `images/optimized/`
-- Verifica que los selectores en `main.js` coincidan con el HTML
+- **Hosting:** GitHub Pages, branch `main`, root del repo.
+- **Dominio personalizado:** `www.yosidi.com` (configurado vía `CNAME`).
+- **Analítica:** Cloudflare Web Analytics, snippet incluido en los 4 HTMLs del root y los 15 de los subidiomas. Sin cookies, sin banner GDPR.
+- **Política de privacidad** declara explícitamente el uso de Cloudflare Web Analytics en los 6 idiomas.
 
-## 📄 Licencia
+## Workflow Git habitual
 
-© 2026 YoSiDi CAD. Todos los derechos reservados.
+```bash
+# 1. Editar fuente
+$EDITOR locales/es.json   # o _src/templates/...
 
-## 🤝 Contribuir
+# 2. Regenerar
+python3 build.py
 
-Si encuentras algún problema o tienes sugerencias:
+# 3. Verificar localmente (opcional)
+python3 -m http.server 8000
+# → abrir http://localhost:8000/ y http://localhost:8000/es/
 
-1. Abre un Issue en GitHub
-2. Envía un Pull Request con mejoras
+# 4. Commit y push
+git add -A
+git commit -m "Tu mensaje"
+git push origin main
+```
+
+GitHub Pages tarda **30 segundos – 3 minutos** en publicar tras el push. Hard refresh (`Cmd + Shift + R`) en el navegador para ignorar caché.
+
+## Pendientes / mejoras futuras opcionales
+
+- **GitHub Action que ejecute `build.py` en cada push** — ahora hay que recordar correrlo manualmente. Una Action que detecte cambios en `_src/` o `locales/` y regenere automáticamente eliminaría ese paso.
+- **`aggregateRating` en JSON-LD** — cuando haya reviews en App Store con número significativo, añadir las estrellas para opt-in a rich snippets de Google.
+
+## Contacto
+
+- Web: https://www.yosidi.com
+- Email: support@yosidi.com
+- App Store: https://apps.apple.com/app/yosidi-cad/id6743679420
 
 ---
-
-**Desarrollado con ❤️ para YoSiDi CAD**
+© YOSIDI CAD. Todos los derechos reservados.

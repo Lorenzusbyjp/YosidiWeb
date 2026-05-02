@@ -2,13 +2,15 @@
 set -euo pipefail
 
 # Optimiza capturas PNG para web usando sips (macOS).
-# Mantiene los originales en images/ y genera versiones ligeras en images/optimized/.
-# Luego sincroniza automáticamente width/height en index.html.
+# Mantiene los originales en images/ y genera versiones ligeras en
+# images/optimized/. Luego sincroniza width/height en
+# _src/templates/index.html. Tras correrlo, ejecuta `python3 build.py` para
+# que las nuevas dimensiones lleguen a las páginas generadas.
 #
 # Uso:
-#   bash scripts/optimize-images.sh
-#   bash scripts/optimize-images.sh <source_dir> <output_dir> <max_dimension>
-#   bash scripts/optimize-images.sh -h | --help
+#   bash _src/scripts/optimize-images.sh
+#   bash _src/scripts/optimize-images.sh <source_dir> <output_dir> <max_dimension>
+#   bash _src/scripts/optimize-images.sh -h | --help
 
 print_help() {
     cat <<'EOF'
@@ -43,7 +45,7 @@ if [[ "${1:-}" == "-h" || "${1:-}" == "--help" ]]; then
     exit 0
 fi
 
-ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 SOURCE_DIR="${1:-"$ROOT_DIR/images"}"
 OUTPUT_DIR="${2:-"$ROOT_DIR/images/optimized"}"
 MAX_DIMENSION="${3:-1200}"
@@ -92,8 +94,9 @@ done
 
 echo "Done. Optimized files written to: $OUTPUT_DIR"
 
-if [ -x "$ROOT_DIR/scripts/update-image-dimensions.sh" ]; then
-    bash "$ROOT_DIR/scripts/update-image-dimensions.sh" "$ROOT_DIR/index.html" "$OUTPUT_DIR"
+UPDATE_SCRIPT="$ROOT_DIR/_src/scripts/update-image-dimensions.sh"
+if [ -x "$UPDATE_SCRIPT" ]; then
+    bash "$UPDATE_SCRIPT" "$ROOT_DIR/_src/templates/index.html" "$OUTPUT_DIR"
 else
-    echo "Warning: scripts/update-image-dimensions.sh not found or not executable; width/height were not updated."
+    echo "Warning: _src/scripts/update-image-dimensions.sh not found or not executable; width/height were not updated."
 fi
