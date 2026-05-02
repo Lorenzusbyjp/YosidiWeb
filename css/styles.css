@@ -103,6 +103,31 @@ ul {
 }
 
 /* ========================================
+   Global Focus Styles (keyboard navigation)
+   ======================================== */
+:focus {
+    outline: none;
+}
+
+:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+button:focus-visible,
+a:focus-visible,
+[role="button"]:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 3px;
+}
+
+.dot:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 4px;
+}
+
+/* ========================================
    Container & Layout
    ======================================== */
 .container {
