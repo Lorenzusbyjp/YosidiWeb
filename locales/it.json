@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "YOSIDI CAD — Planimetrie CAD dal primo sopralluogo | iPad e iPhone",
-    "description": "Rileva planimetrie CAD dal primo sopralluogo. Laser Bluetooth su iPad/iPhone, esporta in DXF/DWG. Architetti, ingegneri, interior designer.",
+    "description": "Rileva planimetrie CAD dal primo sopralluogo. Laser Bluetooth su iPad/iPhone, esporta in DXF/PDF. Architetti, ingegneri, interior designer.",
     "og_title": "YOSIDI CAD — Planimetrie CAD dal primo sopralluogo",
-    "og_description": "Planimetrie CAD dal primo sopralluogo. Laser Bluetooth, iPad/iPhone, export DXF/DWG.",
+    "og_description": "Planimetrie CAD dal primo sopralluogo. Laser Bluetooth, iPad/iPhone, export DXF/PDF.",
     "twitter_title": "YOSIDI CAD — Planimetrie CAD dal primo sopralluogo",
-    "twitter_description": "Planimetrie CAD dal primo sopralluogo. Laser Bluetooth, iPad/iPhone, export DXF/DWG."
+    "twitter_description": "Planimetrie CAD dal primo sopralluogo. Laser Bluetooth, iPad/iPhone, export DXF/PDF."
   },
   "accessibility": {
     "skip": "Vai al contenuto",

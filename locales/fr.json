@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "YOSIDI CAD — Plans CAO dès la première visite | iPad et iPhone",
-    "description": "Relevez vos plans CAO dès la première visite. Laser Bluetooth sur iPad/iPhone, exportez en DXF/DWG. Architectes, ingénieurs, architectes d'intérieur.",
+    "description": "Relevez vos plans CAO dès la première visite. Laser Bluetooth sur iPad/iPhone, exportez en DXF/PDF. Architectes, ingénieurs, architectes d'intérieur.",
     "og_title": "YOSIDI CAD — Plans CAO dès la première visite",
-    "og_description": "Plans CAO dès la première visite. Laser Bluetooth, iPad/iPhone, export DXF/DWG.",
+    "og_description": "Plans CAO dès la première visite. Laser Bluetooth, iPad/iPhone, export DXF/PDF.",
     "twitter_title": "YOSIDI CAD — Plans CAO dès la première visite",
-    "twitter_description": "Plans CAO dès la première visite. Laser Bluetooth, iPad/iPhone, export DXF/DWG."
+    "twitter_description": "Plans CAO dès la première visite. Laser Bluetooth, iPad/iPhone, export DXF/PDF."
   },
   "accessibility": {
     "skip": "Aller au contenu",

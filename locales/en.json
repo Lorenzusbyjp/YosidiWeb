@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "YOSIDI CAD — CAD plans from your first site visit | iPad & iPhone",
-    "description": "Deliver CAD plans from your first site visit. Bluetooth laser on iPad/iPhone, export to DXF/DWG. Architects, engineers, interior designers.",
+    "description": "Deliver CAD plans from your first site visit. Bluetooth laser on iPad/iPhone, export to DXF/PDF. Architects, engineers, interior designers.",
     "og_title": "YOSIDI CAD — CAD plans from your first site visit",
-    "og_description": "Deliver CAD plans from your first site visit. Bluetooth laser, iPad/iPhone, DXF/DWG export.",
+    "og_description": "Deliver CAD plans from your first site visit. Bluetooth laser, iPad/iPhone, DXF/PDF export.",
     "twitter_title": "YOSIDI CAD — CAD plans from your first site visit",
-    "twitter_description": "Deliver CAD plans from your first site visit. Bluetooth laser, iPad/iPhone, DXF/DWG export."
+    "twitter_description": "Deliver CAD plans from your first site visit. Bluetooth laser, iPad/iPhone, DXF/PDF export."
   },
   "accessibility": {
     "skip": "Skip to content",
