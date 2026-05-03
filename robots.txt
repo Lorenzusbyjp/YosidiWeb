@@ -3,3 +3,4 @@ Allow: /
 Disallow: /_src/
 
 Sitemap: https://www.yosidi.com/sitemap.xml
+Sitemap: https://www.yosidi.com/sitemap-images.xml

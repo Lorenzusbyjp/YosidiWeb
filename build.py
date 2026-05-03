@@ -377,6 +377,11 @@ def main():
     (ROOT / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     generated.append(Path("sitemap.xml"))
 
+    # Generate sitemap-images.xml: hero + 10 gallery shots, captions per language.
+    img_sitemap = build_image_sitemap(translations_by_lang)
+    (ROOT / "sitemap-images.xml").write_text(img_sitemap, encoding="utf-8")
+    generated.append(Path("sitemap-images.xml"))
+
     print(f"Generated {len(generated)} files:")
     for p in generated:
         print(f"  - {p}")
@@ -408,6 +413,38 @@ def build_sitemap() -> str:
             lines.append(f"    <changefreq>{changefreq_for[page]}</changefreq>")
             lines.append(f"    <priority>{priority_for[page]}</priority>")
             lines.append("  </url>")
+    lines.append("</urlset>")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def build_image_sitemap(translations_by_lang: dict) -> str:
+    """Generate sitemap-images.xml: each language home page with its 11 images
+    (hero + 10 gallery shots), each with the localized caption from the locale."""
+    image_files = ["IPAD%20SCREENSHOT.png"] + [f"screenshot{i}.png" for i in range(1, 11)]
+    keys = ["images.hero_alt"] + [f"images.gallery.shot{i}" for i in range(1, 11)]
+
+    def xml_escape(s: str) -> str:
+        return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+        '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">',
+    ]
+    for lang in LANGUAGES:
+        translations = translations_by_lang[lang]
+        page_url = url_for(lang, "index.html")
+        lines.append("  <url>")
+        lines.append(f"    <loc>{page_url}</loc>")
+        for fname, key in zip(image_files, keys):
+            caption = t(translations, key) or ""
+            lines.append("    <image:image>")
+            lines.append(f"      <image:loc>{SITE_URL}/images/optimized/{fname}</image:loc>")
+            if caption:
+                lines.append(f"      <image:caption>{xml_escape(caption)}</image:caption>")
+            lines.append("    </image:image>")
+        lines.append("  </url>")
     lines.append("</urlset>")
     lines.append("")
     return "\n".join(lines)
