@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "YOSIDI CAD — Plantas CAD desde a primeira visita | iPad e iPhone",
-    "description": "Levantamento profissional desde a primeira visita. Mede com laser Bluetooth no iPad/iPhone, cota e exporta para DXF/DWG. Arquitetura, engenharia, remodelacao, interior.",
+    "description": "Levantamento profissional desde a primeira visita. Mede com laser Bluetooth no iPad/iPhone, cota e exporta para DXF/DWG. Arquitetura, engenharia, remodelação, interiores.",
     "og_title": "YOSIDI CAD — Plantas CAD desde a primeira visita",
     "og_description": "Mede com laser Bluetooth, desenha, cota e exporta para DXF/DWG. CAD profissional em iPad e iPhone.",
     "twitter_title": "YOSIDI CAD — Plantas CAD desde a primeira visita",
     "twitter_description": "Mede com laser Bluetooth, desenha, cota e exporta para DXF/DWG. CAD profissional em iPad e iPhone."
   },
   "accessibility": {
-    "skip": "Ir para o conteudo",
+    "skip": "Ir para o conteúdo",
     "change_language": "Mudar idioma",
     "open_menu": "Abrir menu",
     "trust_list": "Vantagens YOSIDI CAD",
@@ -26,7 +26,7 @@
     "title": "Plantas CAD desde a primeira visita",
     "subtitle": "Mede com o teu laser Bluetooth. Desenha, cota e exporta para DXF a partir do iPad ou iPhone.",
     "countries_prefix": "Utilizado em",
-    "countries_suffix": "paises",
+    "countries_suffix": "países",
     "download_btn": "Descarregar na App Store",
     "learn_more": "Saber mais",
     "trust": {
@@ -37,103 +37,103 @@
     }
   },
   "workflow": {
-    "title": "Da visita a planta em 3 passos",
+    "title": "Da visita à planta em 3 passos",
     "subtitle": "Sem croquis em papel. Sem passar a limpo. Sem erros. Sem perder tempo.",
     "step1": {
       "title": "Aponta e desenha",
-      "description": "Liga o teu medidor laser ou introduz as medidas manualmente. Geometrias irregulares, paredes fora de esquadro — a planta constroi-se sem erros enquanto trabalhas."
+      "description": "Liga o teu medidor laser ou introduz as medidas manualmente. Geometrias irregulares, paredes fora de esquadro — a planta constrói-se sem erros enquanto trabalhas."
     },
     "step2": {
-      "title": "Calcula superficies",
-      "description": "As areas sao calculadas automaticamente. Adiciona cotas, etiquetas e toda a informacao necessaria para a planta."
+      "title": "Calcula superfícies",
+      "description": "As áreas são calculadas automaticamente. Adiciona cotas, etiquetas e toda a informação necessária à planta."
     },
     "step3": {
       "title": "Exporta e continua",
-      "description": "DXF para continuares no teu CAD de escritorio. PDF com legenda profissional para o cliente. Pronto antes de saires do imovel."
+      "description": "DXF para continuares no teu CAD de escritório. PDF com legenda profissional para o cliente. Pronto antes de saíres do imóvel."
     }
   },
   "cta": {
     "mid": {
-      "title": "Sem lapis, sem erros, sem perder tempo",
-      "button": "Descarregar gratis"
+      "title": "Sem lápis, sem erros, sem perder tempo",
+      "button": "Descarregar grátis"
     },
     "final": {
-      "title": "Comeca a levantar plantas desde a primeira visita",
-      "subtitle": "Download gratuito. Sem subscricao. Sem conta.",
+      "title": "Começa a levantar plantas desde a primeira visita",
+      "subtitle": "Download gratuito. Sem subscrição. Sem conta.",
       "button": "Descarregar na App Store",
-      "note": "Exportacao DXF e PDF disponivel como compra na app"
+      "note": "Exportação DXF e PDF disponível como compra na app"
     }
   },
   "features": {
     "title": "Tudo o que precisas no local",
-    "subtitle": "Ferramentas CAD profissionais concebidas para trabalhar fora do escritorio",
+    "subtitle": "Ferramentas CAD profissionais concebidas para trabalhar fora do escritório",
     "tools": {
       "title": "Ferramentas CAD completas",
-      "description": "Paralela, concordancia, cortar, prolongar, copiar, mover, esticar, rodar, medir e mais. Sistema de camadas com visibilidade, cor e tipo de linha."
+      "description": "Paralela, concordância, cortar, prolongar, copiar, mover, esticar, rodar, medir e mais. Sistema de camadas com visibilidade, cor e tipo de linha."
     },
     "areas": {
-      "title": "Calculo automatico de areas",
-      "description": "Obtem areas brutas, uteis e por divisao instantaneamente. Coloca etiquetas de area com um toque."
+      "title": "Cálculo automático de áreas",
+      "description": "Obtém áreas brutas, úteis e por divisão instantaneamente. Coloca etiquetas de área com um toque."
     },
     "openings": {
-      "title": "Vaos inteligentes",
-      "description": "Coloca portas e janelas com um clique. Ajusta dimensoes, abertura e tipo. O que no CAD de escritorio sao varios passos, aqui e um toque."
+      "title": "Vãos inteligentes",
+      "description": "Coloca portas e janelas com um clique. Ajusta dimensões, abertura e tipo. O que no CAD de escritório são vários passos, aqui é um toque."
     },
     "blocks": {
       "title": "Biblioteca de blocos",
-      "description": "Mobiliario, sanitarios, electrodomesticos e elementos arquitectonicos prontos a inserir no teu levantamento."
+      "description": "Mobiliário, sanitários, eletrodomésticos e elementos arquitetónicos prontos a inserir no teu levantamento."
     },
     "formats": {
       "title": "Formatos com legenda",
-      "description": "Formatos padrao ISO, ANSI e Arch com legenda personalizavel. Adiciona o teu logotipo, dados do projeto e assinatura."
+      "description": "Formatos padrão ISO, ANSI e Arch com legenda personalizável. Adiciona o teu logótipo, dados do projeto e assinatura."
     },
     "tutorials": {
       "title": "Tutoriais integrados",
-      "description": "Guias passo a passo dentro da app. Se ja usas CAD, em 5 minutos estas a trabalhar. Se nao, os tutoriais acompanham-te."
+      "description": "Guias passo a passo dentro da app. Se já usas CAD, em 5 minutos estás a trabalhar. Se não, os tutoriais acompanham-te."
     },
     "export": {
-      "title": "Exportacao DXF e PDF",
-      "description": "Exporta para DXF e continua no teu CAD de escritorio. Ou gera PDFs com legenda profissional prontos para o cliente."
+      "title": "Exportação DXF e PDF",
+      "description": "Exporta para DXF e continua no teu CAD de escritório. Ou gera PDFs com legenda profissional prontos para o cliente."
     },
     "bluetooth": {
       "title": "Medidores laser Bluetooth",
       "description": "Liga o teu medidor laser por Bluetooth. As medidas passam diretamente para o desenho sem teclar."
     },
     "units": {
-      "title": "Metrico e imperial",
-      "description": "Trabalha em metros, pes, polegadas ou fracoes. Muda de sistema a qualquer momento sem perder precisao."
+      "title": "Métrico e imperial",
+      "description": "Trabalha em metros, pés, polegadas ou frações. Muda de sistema a qualquer momento sem perder precisão."
     }
   },
   "audience": {
-    "title": "Concebida para arquitetos, engenheiros e tecnicos",
-    "subtitle": "YOSIDI e a ferramenta de trabalho diario de:",
+    "title": "Concebida para arquitetos, engenheiros e técnicos",
+    "subtitle": "YOSIDI é a ferramenta de trabalho diário de:",
     "architects": {
       "title": "Arquitetos",
-      "description": "Levantamentos, reabilitacoes e certificados energeticos. Plantas DXF prontas para o atelier."
+      "description": "Levantamentos, reabilitações e certificados energéticos. Plantas DXF prontas para o atelier."
     },
     "designers": {
       "title": "Designers de interiores",
-      "description": "Medicao de espacos, disposicao de mobiliario e propostas de design diretamente em casa do cliente."
+      "description": "Medição de espaços, disposição de mobiliário e propostas de design diretamente em casa do cliente."
     },
     "engineers": {
       "title": "Engenheiros",
-      "description": "Instalacoes, certificados energeticos e documentacao tecnica do estado atual com exportacao imediata."
+      "description": "Instalações, certificados energéticos e documentação técnica do estado atual com exportação imediata."
     },
     "appraisers": {
       "title": "Peritos e avaliadores",
-      "description": "Plantas rapidas com calculo de areas brutas e uteis. PDF profissional na propria visita."
+      "description": "Plantas rápidas com cálculo de áreas brutas e úteis. PDF profissional na própria visita."
     },
     "builders": {
       "title": "Construtores e remodeladores",
-      "description": "Documenta o estado atual do imovel e leva a planta sem erros. Esquece o lapis e o papel."
+      "description": "Documenta o estado atual do imóvel e leva a planta sem erros. Esquece o lápis e o papel."
     },
     "trades": {
-      "title": "Instaladores e oficios",
-      "description": "Mede o espaco do cliente e leva a planta para trabalhar. Cozinhas, armarios, carpintaria, serralharia."
+      "title": "Instaladores e ofícios",
+      "description": "Mede o espaço do cliente e leva a planta para trabalhar. Cozinhas, armários, carpintaria, serralharia."
     }
   },
   "gallery": {
-    "title": "Ve YOSIDI em acao",
+    "title": "Vê YOSIDI em ação",
     "subtitle": "Interface limpa e profissional, pensada para trabalhar depressa"
   },
   "download": {
@@ -141,29 +141,29 @@
     "follow": "Segue-nos em:"
   },
   "privacy": {
-    "title": "Politica de privacidade",
-    "intro": "A tua privacidade e a nossa prioridade. YOSIDI nao requer conta nem envia as tuas plantas para servidores externos.",
+    "title": "Política de privacidade",
+    "intro": "A tua privacidade é a nossa prioridade. YOSIDI não requer conta nem envia as tuas plantas para servidores externos.",
     "no_data": {
-      "title": "Dados que nao recolhemos",
-      "description": "YOSIDI nao recolhe dados identificativos como nome, endereco de e-mail, numero de telefone, localizacao, contactos, fotografias, desenhos ou ficheiros. Os teus desenhos e ficheiros sao guardados unicamente no teu dispositivo."
+      "title": "Dados que não recolhemos",
+      "description": "YOSIDI não recolhe dados identificativos como nome, endereço de e-mail, número de telefone, localização, contactos, fotografias, desenhos ou ficheiros. Os teus desenhos e ficheiros são guardados unicamente no teu dispositivo."
     },
     "no_permissions": {
-      "title": "Sem permissoes desnecessarias",
-      "description": "A aplicacao nao acede a tua localizacao, contactos, microfone, camara nem a quaisquer outros dados pessoais. Nao e necessario criar conta nem iniciar sessao."
+      "title": "Sem permissões desnecessárias",
+      "description": "A aplicação não acede à tua localização, contactos, microfone, câmara nem a quaisquer outros dados pessoais. Não é necessário criar conta nem iniciar sessão."
     },
     "payments": {
       "title": "Pagamentos seguros",
-      "description": "Todas as compras na aplicacao sao geridas de forma segura pela App Store. Nao armazenamos nem processamos diretamente qualquer informacao de pagamento."
+      "description": "Todas as compras na aplicação são geridas de forma segura pela App Store. Não armazenamos nem processamos diretamente qualquer informação de pagamento."
     },
     "website": {
       "title": "Site web",
-      "description": "O nosso site (www.yosidi.com) utiliza o Cloudflare Web Analytics, um servico que respeita a privacidade e mede o trafego de forma agregada sem cookies, sem fingerprinting e sem guardar dados pessoais identificaveis. A tua navegacao continua privada e anonima."
+      "description": "O nosso site (www.yosidi.com) utiliza o Cloudflare Web Analytics, um serviço que respeita a privacidade e mede o tráfego de forma agregada sem cookies, sem fingerprinting e sem guardar dados pessoais identificáveis. A tua navegação continua privada e anónima."
     },
-    "contact": "Para qualquer questao ou duvida, contacta-nos em",
-    "terms_link": "Os nossos Termos de Utilizacao estao disponiveis em"
+    "contact": "Para qualquer questão ou dúvida, contacta-nos em",
+    "terms_link": "Os nossos Termos de Utilização estão disponíveis em"
   },
   "contact": {
-    "title": "Tens duvidas?",
+    "title": "Tens dúvidas?",
     "description": "Escreve-nos para",
     "email": "support@yosidi.com"
   },
@@ -176,116 +176,131 @@
     "rights": "Todos os direitos reservados."
   },
   "privacy_page": {
-    "back": "Voltar ao inicio",
-    "title": "Politica de Privacidade",
-    "intro": "A tua privacidade e a nossa prioridade. YOSIDI CAD nao recolhe dados identificativos do utilizador nem envia as tuas plantas para servidores externos.",
+    "back": "Voltar ao início",
+    "title": "Política de Privacidade",
+    "intro": "A tua privacidade é a nossa prioridade. YOSIDI CAD não recolhe dados identificativos do utilizador nem envia as tuas plantas para servidores externos.",
     "no_data": {
-      "title": "Dados que nao recolhemos",
-      "description": "Nao recolhemos dados identificativos como nome, endereco de e-mail, numero de telefone, localizacao, contactos, fotografias, desenhos ou ficheiros. As tuas plantas e definicoes sao armazenadas localmente no teu dispositivo e nao sao enviadas para os nossos servidores."
+      "title": "Dados que não recolhemos",
+      "description": "Não recolhemos dados identificativos como nome, endereço de e-mail, número de telefone, localização, contactos, fotografias, desenhos ou ficheiros. As tuas plantas e definições são armazenadas localmente no teu dispositivo e não são enviadas para os nossos servidores."
     },
     "analytics": {
-      "title": "Dados de interacao e analise",
-      "description": "A app pode recolher dados limitados de interacao com a app, historico de compras e dados tecnicos basicos atraves do Firebase/Google Analytics. Estes dados sao usados para analise, melhoria do produto e funcionamento da app. Nao sao usados para publicidade, nao sao vendidos, nao sao partilhados com brokers de dados e nao sao usados para seguimento."
+      "title": "Dados de interação e análise",
+      "description": "A app pode recolher dados limitados de interação com a app, histórico de compras e dados técnicos básicos através do Firebase/Google Analytics. Estes dados são usados para análise, melhoria do produto e funcionamento da app. Não são usados para publicidade, não são vendidos, não são partilhados com brokers de dados e não são usados para seguimento."
     },
     "no_permissions": {
-      "title": "Sem Permissoes Desnecessarias",
-      "description": "A aplicacao nao acede a tua localizacao, contactos, microfone, camara, fotografias nem a quaisquer outros dados pessoais. Nao e necessario criar conta, fornecer endereco de e-mail ou iniciar sessao. Podes utilizar YOSIDI CAD de forma completamente anonima."
+      "title": "Sem Permissões Desnecessárias",
+      "description": "A aplicação não acede à tua localização, contactos, microfone, câmara, fotografias nem a quaisquer outros dados pessoais. Não é necessário criar conta, fornecer endereço de e-mail ou iniciar sessão. Podes utilizar YOSIDI CAD de forma completamente anónima."
     },
     "data_storage": {
       "title": "Armazenamento de Dados",
-      "description": "Todos os teus desenhos e definicoes sao armazenados localmente no teu dispositivo iOS no sistema de ficheiros local da aplicacao. Estes dados permanecem no teu dispositivo e apenas tu tens acesso. Se desinstalares a aplicacao, todos os dados armazenados serao automaticamente eliminados."
+      "description": "Todos os teus desenhos e definições são armazenados localmente no teu dispositivo iOS no sistema de ficheiros local da aplicação. Estes dados permanecem no teu dispositivo e apenas tu tens acesso. Se desinstalares a aplicação, todos os dados armazenados serão automaticamente eliminados."
     },
     "payments": {
       "title": "Pagamentos Seguros",
-      "description": "Todas as compras na aplicacao (exportacoes DXF/PDF) sao processadas de forma segura pela Apple atraves da App Store. Nao armazenamos, processamos nem temos acesso a qualquer informacao de pagamento como numeros de cartao de credito ou dados bancarios. Toda a informacao de pagamento e gerida exclusivamente pela Apple."
+      "description": "Todas as compras na aplicação (exportações DXF/PDF) são processadas de forma segura pela Apple através da App Store. Não armazenamos, processamos nem temos acesso a qualquer informação de pagamento como números de cartão de crédito ou dados bancários. Toda a informação de pagamento é gerida exclusivamente pela Apple."
     },
     "bluetooth": {
       "title": "Medidores Laser Bluetooth",
-      "description": "Se utilizares a funcao de ligacao a medidores laser Bluetooth, a aplicacao ira solicitar permissao para aceder ao Bluetooth do teu dispositivo. Esta ligacao e utilizada unicamente para receber medicoes do medidor laser compativel. Nenhum dado pessoal e transmitido por Bluetooth e a ligacao e local entre o teu iPad/iPhone e o medidor laser."
+      "description": "Se utilizares a função de ligação a medidores laser Bluetooth, a aplicação irá solicitar permissão para aceder ao Bluetooth do teu dispositivo. Esta ligação é utilizada unicamente para receber medições do medidor laser compatível. Nenhum dado pessoal é transmitido por Bluetooth e a ligação é local entre o teu iPad/iPhone e o medidor laser."
     },
     "website": {
       "title": "Site Web",
-      "description": "O nosso site (www.yosidi.com) utiliza o Cloudflare Web Analytics para medir o trafego de forma agregada sem cookies, sem fingerprinting e sem guardar dados pessoais identificaveis. Pode guardar localmente no teu navegador a preferencia de idioma; esta informacao nao e enviada a terceiros."
+      "description": "O nosso site (www.yosidi.com) utiliza o Cloudflare Web Analytics para medir o tráfego de forma agregada sem cookies, sem fingerprinting e sem guardar dados pessoais identificáveis. Pode guardar localmente no teu navegador a preferência de idioma; esta informação não é enviada a terceiros."
     },
     "children": {
       "title": "Privacidade de Menores",
-      "description": "YOSIDI CAD nao e dirigida especificamente a menores. A app nao requer conta, endereco de e-mail nem dados identificativos, e nao solicitamos conscientemente informacao pessoal de menores."
+      "description": "YOSIDI CAD não é dirigida especificamente a menores. A app não requer conta, endereço de e-mail nem dados identificativos, e não solicitamos conscientemente informação pessoal de menores."
     },
     "changes": {
-      "title": "Alteracoes a Esta Politica",
-      "description": "Poderemos atualizar esta politica de privacidade ocasionalmente. As alteracoes serao publicadas nesta pagina. Recomendamos que consultes esta politica periodicamente."
+      "title": "Alterações a Esta Política",
+      "description": "Poderemos atualizar esta política de privacidade ocasionalmente. As alterações serão publicadas nesta página. Recomendamos que consultes esta política periodicamente."
     },
     "contact": {
       "title": "Contacto",
-      "description": "Se tiveres qualquer questao ou duvida sobre esta politica de privacidade, podes contactar-nos em:"
+      "description": "Se tiveres qualquer questão ou dúvida sobre esta política de privacidade, podes contactar-nos em:"
     },
-    "meta_title": "Politica de Privacidade — YOSIDI CAD"
+    "meta_title": "Política de Privacidade — YOSIDI CAD"
   },
   "terms_page": {
-    "back": "Voltar ao inicio",
-    "title": "Termos de Utilizacao",
-    "intro": "Ao utilizar YOSIDI CAD, aceitas os seguintes termos e condicoes.",
+    "back": "Voltar ao início",
+    "title": "Termos de Utilização",
+    "intro": "Ao utilizar YOSIDI CAD, aceitas os seguintes termos e condições.",
     "acceptance": {
-      "title": "Aceitacao dos Termos",
-      "description": "Ao descarregar, instalar ou utilizar YOSIDI CAD, aceitas ficar vinculado a estes Termos de Utilizacao. Se nao concordares com estes termos, nao utilizes a aplicacao."
+      "title": "Aceitação dos Termos",
+      "description": "Ao descarregar, instalar ou utilizar YOSIDI CAD, aceitas ficar vinculado a estes Termos de Utilização. Se não concordares com estes termos, não utilizes a aplicação."
     },
     "license": {
-      "title": "Licenca de Utilizacao",
-      "description": "Concedemos-te uma licenca nao exclusiva, intransferivel e revogavel para utilizar YOSIDI CAD para fins pessoais e profissionais, sujeita a estes termos. Esta licenca nao te confere quaisquer direitos sobre o codigo-fonte, design ou propriedade intelectual da aplicacao."
+      "title": "Licença de Utilização",
+      "description": "Concedemos-te uma licença não exclusiva, intransferível e revogável para utilizar YOSIDI CAD para fins pessoais e profissionais, sujeita a estes termos. Esta licença não te confere quaisquer direitos sobre o código-fonte, design ou propriedade intelectual da aplicação."
     },
     "ownership": {
-      "title": "Propriedade do Conteudo",
-      "description": "Manténs a propriedade total e todos os direitos sobre os desenhos, plantas e ficheiros que criares com YOSIDI CAD. Nao reivindicamos qualquer direito sobre o teu conteudo."
+      "title": "Propriedade do Conteúdo",
+      "description": "Manténs a propriedade total e todos os direitos sobre os desenhos, plantas e ficheiros que criares com YOSIDI CAD. Não reivindicamos qualquer direito sobre o teu conteúdo."
     },
     "as_is": {
-      "title": "Aplicacao \"Tal Como Esta\"",
-      "description": "YOSIDI CAD e disponibilizada \"tal como esta\" e \"conforme disponibilidade\", sem garantias de qualquer tipo, expressas ou implicitas. Nao garantimos que a aplicacao esteja isenta de erros, seja ininterrupta ou cumpra requisitos especificos."
+      "title": "Aplicação \"Tal Como Está\"",
+      "description": "YOSIDI CAD é disponibilizada \"tal como está\" e \"conforme disponibilidade\", sem garantias de qualquer tipo, expressas ou implícitas. Não garantimos que a aplicação esteja isenta de erros, seja ininterrupta ou cumpra requisitos específicos."
     },
     "liability": {
-      "title": "Limitacao de Responsabilidade",
-      "description": "Nao somos responsaveis por qualquer perda de dados, danos ou prejuizos decorrentes da utilizacao de YOSIDI CAD. E da tua responsabilidade manter copias de seguranca dos teus ficheiros e desenhos importantes."
+      "title": "Limitação de Responsabilidade",
+      "description": "Não somos responsáveis por qualquer perda de dados, danos ou prejuízos decorrentes da utilização de YOSIDI CAD. É da tua responsabilidade manter cópias de segurança dos teus ficheiros e desenhos importantes."
     },
     "purchases": {
-      "title": "Compras na Aplicacao",
-      "description": "As compras na aplicacao (exportacao DXF/PDF) sao geridas de forma segura atraves da App Store da Apple e estao sujeitas aos termos da Apple. Todas as compras sao definitivas e nao reembolsaveis, exceto quando exigido pela lei aplicavel."
+      "title": "Compras na Aplicação",
+      "description": "As compras na aplicação (exportação DXF/PDF) são geridas de forma segura através da App Store da Apple e estão sujeitas aos termos da Apple. Todas as compras são definitivas e não reembolsáveis, exceto quando exigido pela lei aplicável."
     },
     "prohibited": {
-      "title": "Utilizacoes Proibidas",
-      "description": "E estritamente proibido:",
-      "item1": "Efetuar engenharia reversa, descompilar ou desmontar a aplicacao.",
-      "item2": "Distribuir, vender ou sublicenciar a aplicacao sem autorizacao.",
-      "item3": "Utilizar a aplicacao para fins ilegais ou nao autorizados.",
-      "item4": "Tentar aceder a funcionalidades nao documentadas ou restritas.",
+      "title": "Utilizações Proibidas",
+      "description": "É estritamente proibido:",
+      "item1": "Efetuar engenharia reversa, descompilar ou desmontar a aplicação.",
+      "item2": "Distribuir, vender ou sublicenciar a aplicação sem autorização.",
+      "item3": "Utilizar a aplicação para fins ilegais ou não autorizados.",
+      "item4": "Tentar aceder a funcionalidades não documentadas ou restritas.",
       "item5": "Remover ou modificar avisos de direitos de autor ou marcas registadas."
     },
     "privacy": {
       "title": "Privacidade",
-      "description_part1": "Ao utilizar esta aplicacao, aceitas tambem a nossa",
-      "link": "Politica de Privacidade",
-      "description_part2": ". YOSIDI CAD nao requer conta nem recolhe dados identificativos do utilizador; pode apenas recolher dados limitados de interacao, compras e funcionamento para analise e melhoria do produto."
+      "description_part1": "Ao utilizar esta aplicação, aceitas também a nossa",
+      "link": "Política de Privacidade",
+      "description_part2": ". YOSIDI CAD não requer conta nem recolhe dados identificativos do utilizador; pode apenas recolher dados limitados de interação, compras e funcionamento para análise e melhoria do produto."
     },
     "updates": {
-      "title": "Atualizacoes da Aplicacao",
-      "description": "Poderemos publicar atualizacoes periodicas de YOSIDI CAD para adicionar funcionalidades, corrigir erros ou melhorar o desempenho. Estas atualizacoes podem modificar ou remover determinadas funcionalidades. Nao somos obrigados a fornecer atualizacoes ou suporte continuo."
+      "title": "Atualizações da Aplicação",
+      "description": "Poderemos publicar atualizações periódicas de YOSIDI CAD para adicionar funcionalidades, corrigir erros ou melhorar o desempenho. Estas atualizações podem modificar ou remover determinadas funcionalidades. Não somos obrigados a fornecer atualizações ou suporte contínuo."
     },
     "termination": {
-      "title": "Cancelamento do Servico",
-      "description": "Poderemos suspender ou cancelar o teu acesso a YOSIDI CAD a qualquer momento se infringires estes termos. Ao desinstalar a aplicacao, esta licenca termina automaticamente."
+      "title": "Cancelamento do Serviço",
+      "description": "Poderemos suspender ou cancelar o teu acesso a YOSIDI CAD a qualquer momento se infringires estes termos. Ao desinstalar a aplicação, esta licença termina automaticamente."
     },
     "changes": {
-      "title": "Alteracoes aos Termos",
-      "description": "Poderemos atualizar estes Termos de Utilizacao ocasionalmente. As alteracoes serao publicadas nesta pagina. Recomendamos que consultes estes termos periodicamente."
+      "title": "Alterações aos Termos",
+      "description": "Poderemos atualizar estes Termos de Utilização ocasionalmente. As alterações serão publicadas nesta página. Recomendamos que consultes estes termos periodicamente."
     },
     "law": {
-      "title": "Lei Aplicavel e Jurisdicao",
-      "description": "Estes termos regem-se pelas leis de Espanha. Qualquer litigio decorrente destes termos sera resolvido nos tribunais espanhois."
+      "title": "Lei Aplicável e Jurisdição",
+      "description": "Estes termos regem-se pelas leis de Espanha. Qualquer litígio decorrente destes termos será resolvido nos tribunais espanhóis."
     },
     "contact": {
       "title": "Contacto",
-      "description": "Se tiveres questoes sobre estes Termos de Utilizacao, podes contactar-nos em:"
+      "description": "Se tiveres questões sobre estes Termos de Utilização, podes contactar-nos em:"
     },
-    "developer_part1": "Esta aplicacao e desenvolvida e propriedade de",
+    "developer_part1": "Esta aplicação é desenvolvida e propriedade de",
     "developer_part2": "Todos os direitos reservados.",
-    "meta_title": "Termos de Utilizacao — YOSIDI CAD"
+    "meta_title": "Termos de Utilização — YOSIDI CAD"
+  },
+  "images": {
+    "hero_alt": "iPad com YOSIDI CAD a mostrar uma planta profissional levantada no local",
+    "gallery": {
+      "shot1": "Levantamento profissional no local: do espaço real à planta CAD",
+      "shot2": "Medidor laser Bluetooth: as distâncias entram diretamente na planta",
+      "shot3": "Deteção automática do contorno da divisão e cálculo de área num toque",
+      "shot4": "Colocação de vãos num toque, posição exata a arrastar ou digitando",
+      "shot5": "Cotagem inteligente da planta num único gesto",
+      "shot6": "Biblioteca paramétrica de portas e janelas: simples, duplas, de correr, embutidas",
+      "shot7": "Mobiliário, mapas de áreas e legendas DIN profissionais num toque",
+      "shot8": "Exportação para DXF, PDF e PNG, pronta para o teu fluxo CAD",
+      "shot9": "Compatível com o teu medidor laser Bluetooth com emparelhamento automático",
+      "shot10": "Personalização profissional: modelos de camadas, textos rápidos, unidades e decimais"
+    }
   }
 }

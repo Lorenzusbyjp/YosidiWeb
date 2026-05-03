@@ -101,6 +101,16 @@ def translate_aria_labels(soup: BeautifulSoup, translations: dict):
         del el["data-i18n-aria-label"]
 
 
+def translate_alt_attrs(soup: BeautifulSoup, translations: dict):
+    """Replace alt attribute for [data-i18n-alt]."""
+    for el in soup.select("[data-i18n-alt]"):
+        key = el.get("data-i18n-alt")
+        text = t(translations, key)
+        if text is not None:
+            el["alt"] = text
+        del el["data-i18n-alt"]
+
+
 def rewrite_resource_paths(html: str) -> str:
     """Rewrite ./css/, ./images/, ./js/ to absolute /css/, /images/, /js/."""
     # Limit to known resource folders to avoid breaking inter-page links.
@@ -256,6 +266,7 @@ def render(template_html: str, translations: dict, lang: str, page: str) -> str:
     set_html_lang(soup, lang)
     translate_data_i18n(soup, translations)
     translate_aria_labels(soup, translations)
+    translate_alt_attrs(soup, translations)
     update_canonical(soup, lang, page)
     update_og_meta(soup, lang, page, translations)
     remove_existing_alternates(soup)

@@ -287,5 +287,20 @@
     "developer_part1": "This app is developed and owned by",
     "developer_part2": "All rights reserved.",
     "meta_title": "Terms of Use — YOSIDI CAD"
+  },
+  "images": {
+    "hero_alt": "iPad showing YOSIDI CAD with a professional as-built plan surveyed on-site",
+    "gallery": {
+      "shot1": "Professional on-site survey: from real space to CAD floor plan",
+      "shot2": "Bluetooth laser meter: distances flow straight into the plan",
+      "shot3": "Automatic room outline detection and area calculation in one tap",
+      "shot4": "Place doors and windows with one tap, fine-tune by dragging or typing",
+      "shot5": "Smart dimensioning of the plan with a single gesture",
+      "shot6": "Parametric library of doors and windows: single, double, sliding, pocket",
+      "shot7": "Furniture, area schedules and professional DIN title blocks in one tap",
+      "shot8": "Export to DXF, PDF and PNG, ready for your CAD workflow",
+      "shot9": "Compatible with your Bluetooth laser distance meter with automatic pairing",
+      "shot10": "Professional customization: layer templates, quick text, units and decimals"
+    }
   }
 }

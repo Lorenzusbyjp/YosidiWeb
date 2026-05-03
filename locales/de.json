@@ -287,5 +287,20 @@
     "developer_part1": "Diese App wird entwickelt und ist Eigentum von",
     "developer_part2": "Alle Rechte vorbehalten.",
     "meta_title": "Nutzungsbedingungen — YOSIDI CAD"
+  },
+  "images": {
+    "hero_alt": "iPad mit YOSIDI CAD und einem professionellen Aufmaß-Plan vor Ort",
+    "gallery": {
+      "shot1": "Professionelles Aufmaß vor Ort: vom realen Raum zum CAD-Plan",
+      "shot2": "Bluetooth-Laser-Entfernungsmesser: Maße fließen direkt in den Plan",
+      "shot3": "Automatische Raumkontur-Erkennung und Flächenberechnung mit einer Berührung",
+      "shot4": "Türen und Fenster mit einer Berührung setzen, exakte Position per Ziehen oder Eingabe",
+      "shot5": "Intelligente Bemaßung des Plans mit einer einzigen Geste",
+      "shot6": "Parametrische Bibliothek für Türen und Fenster: einfach, doppelt, Schiebe- und Wandschiebetür",
+      "shot7": "Möbel, Flächentabellen und professioneller DIN-Plankopf in einer Berührung",
+      "shot8": "Export zu DXF, PDF und PNG, bereit für Ihren CAD-Workflow",
+      "shot9": "Kompatibel mit Ihrem Bluetooth-Laser-Entfernungsmesser mit automatischer Kopplung",
+      "shot10": "Professionelle Anpassung: Ebenenvorlagen, Schnelltexte, Einheiten und Dezimalstellen"
+    }
   }
 }

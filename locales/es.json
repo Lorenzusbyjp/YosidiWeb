@@ -287,5 +287,20 @@
     "developer_part1": "Esta aplicación es desarrollada y propiedad de",
     "developer_part2": "Todos los derechos reservados.",
     "meta_title": "Términos de Uso — YOSIDI CAD"
+  },
+  "images": {
+    "hero_alt": "iPad con YOSIDI CAD mostrando un plano profesional levantado in situ",
+    "gallery": {
+      "shot1": "Levantamiento profesional in situ: del espacio real al plano CAD",
+      "shot2": "Medidor láser por Bluetooth: las distancias entran directas al plano",
+      "shot3": "Detección automática del contorno y cálculo de área de la estancia con un toque",
+      "shot4": "Colocación de huecos con un toque y posición exacta arrastrando o tecleando",
+      "shot5": "Acotación inteligente del plano con un solo gesto",
+      "shot6": "Biblioteca paramétrica de puertas y ventanas: simples, dobles, correderas, de bolsillo",
+      "shot7": "Mobiliario, cuadros de superficies y cajetines DIN profesionales en un toque",
+      "shot8": "Exportación a DXF, PDF y PNG, lista para tu flujo CAD",
+      "shot9": "Compatible con tu medidor láser por Bluetooth con emparejamiento automático",
+      "shot10": "Personalización profesional: plantillas de capas, textos rápidos, unidades y decimales"
+    }
   }
 }
