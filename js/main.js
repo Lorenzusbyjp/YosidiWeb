@@ -218,10 +218,10 @@ function initSmoothScroll() {
 // Set Current Year in Footer
 // ========================================
 function setCurrentYear() {
-    const yearElement = document.getElementById('current-year');
-    if (yearElement) {
-        yearElement.textContent = new Date().getFullYear();
-    }
+    const year = new Date().getFullYear();
+    document.querySelectorAll('#current-year, .current-year').forEach(el => {
+        el.textContent = year;
+    });
 }
 
 // ========================================

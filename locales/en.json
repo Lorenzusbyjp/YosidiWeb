@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "YOSIDI CAD — CAD plans from your first site visit | iPad & iPhone",
-    "description": "As-built surveys from your first site visit. Measure with Bluetooth laser on iPad/iPhone, dimension and export to DXF/DWG. For architects, engineers, renovation and remodel.",
+    "description": "Deliver CAD plans from your first site visit. Bluetooth laser on iPad/iPhone, export to DXF/DWG. Architects, engineers, interior designers.",
     "og_title": "YOSIDI CAD — CAD plans from your first site visit",
     "og_description": "Measure with Bluetooth laser, draw, dimension and export to DXF/DWG. Professional CAD on iPad and iPhone.",
     "twitter_title": "YOSIDI CAD — CAD plans from your first site visit",
@@ -24,7 +24,7 @@
   },
   "hero": {
     "title": "CAD plans from your first site visit",
-    "subtitle": "Measure with your Bluetooth laser. Draw, dimension and export to DXF on your iPad or iPhone.",
+    "subtitle": "Measure with your Bluetooth laser. Draw, dimension, and export to DXF on your iPad or iPhone.",
     "countries_prefix": "Used in",
     "countries_suffix": "countries",
     "download_btn": "Download on App Store",
@@ -41,7 +41,7 @@
     "subtitle": "No paper sketches. No redrawing. No errors. No wasted time.",
     "step1": {
       "title": "Point and draw",
-      "description": "Connect your laser meter or enter measurements manually. Irregular shapes, out-of-square walls — the plan builds accurately as you work."
+      "description": "Connect your laser meter or enter measurements manually. Irregular shapes, out-of-square walls — your plan stays accurate as you go."
     },
     "step2": {
       "title": "Calculate areas",
@@ -49,7 +49,7 @@
     },
     "step3": {
       "title": "Export and continue",
-      "description": "DXF to continue on your desktop CAD. PDF with professional title block for the client. Done before you leave the site."
+      "description": "DXF to keep working in your desktop CAD. PDF with a professional title block for the client. Done before you leave the site."
     }
   },
   "cta": {
@@ -58,7 +58,7 @@
       "button": "Download free"
     },
     "final": {
-      "title": "Start surveying plans from your first site visit",
+      "title": "Start delivering plans from your first site visit",
       "subtitle": "Free download. No subscription. No account.",
       "button": "Download on App Store",
       "note": "DXF and PDF export available as in-app purchase"
@@ -73,7 +73,7 @@
     },
     "areas": {
       "title": "Automatic area calculation",
-      "description": "Get built, usable, and per-room areas instantly. Place area labels with a single tap."
+      "description": "Get gross, net, and per-room areas instantly. Place area labels with a single tap."
     },
     "openings": {
       "title": "Smart openings",
@@ -93,7 +93,7 @@
     },
     "export": {
       "title": "DXF and PDF export",
-      "description": "Export to DXF and continue on your desktop CAD. Or generate PDFs with professional title block for the client."
+      "description": "Export to DXF and keep working in your desktop CAD. Or generate PDFs with a professional title block for the client."
     },
     "bluetooth": {
       "title": "Bluetooth laser meters",
@@ -105,11 +105,11 @@
     }
   },
   "audience": {
-    "title": "Designed for architects, engineers and technicians",
+    "title": "Designed for architects, engineers, and technicians",
     "subtitle": "YOSIDI is the daily work tool of:",
     "architects": {
       "title": "Architects",
-      "description": "As-built surveys, renovations and energy certificates. DXF plans ready for the studio."
+      "description": "As-built surveys, renovations, and energy certificates. DXF plans ready for the office."
     },
     "designers": {
       "title": "Interior designers",
@@ -121,15 +121,15 @@
     },
     "appraisers": {
       "title": "Appraisers and surveyors",
-      "description": "Quick plans with built and usable area calculation. Professional PDF in the same visit."
+      "description": "Quick plans with gross and net area calculation. Professional PDF in the same visit."
     },
     "builders": {
       "title": "Builders and renovators",
-      "description": "Document the current state of the site and take the plan with you, error-free. Forget pencil and paper."
+      "description": "Document the existing conditions and take the plan with you, error-free. Forget pencil and paper."
     },
     "trades": {
       "title": "Installers and trades",
-      "description": "Measure the client's space and take the plan with you. Kitchens, wardrobes, carpentry, metalwork."
+      "description": "Measure the client's space and take the plan with you. Kitchens, closets, carpentry, metalwork."
     }
   },
   "gallery": {
@@ -141,7 +141,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "intro": "Your privacy is our priority. YOSIDI does not require an account or upload your plans to external servers.",
+    "intro": "Your privacy is our priority. YOSIDI does not require an account and does not upload your plans to external servers.",
     "no_data": {
       "title": "Data we do not collect",
       "description": "YOSIDI does not collect identifying data such as your name, email address, phone number, location, contacts, photos, drawings, or files. Your drawings and files are saved only on your device."
@@ -177,7 +177,7 @@
   "privacy_page": {
     "back": "Back to home",
     "title": "Privacy Policy",
-    "intro": "Your privacy is our priority. YOSIDI CAD does not collect identifying user data or upload your plans to external servers.",
+    "intro": "Your privacy is our priority. YOSIDI CAD does not collect identifying user data and does not upload your plans to external servers.",
     "no_data": {
       "title": "Data We Do Not Collect",
       "description": "We do not collect identifying data such as your name, email address, phone number, location, contacts, photos, drawings, or files. Your plans and settings are stored locally on your device and are not uploaded to our servers."
@@ -199,7 +199,7 @@
       "description": "All in-app purchases (DXF/PDF exports) are processed securely by Apple through the App Store. We do not store, process, or have access to any payment information such as credit card numbers or banking details. All payment information is managed exclusively by Apple."
     },
     "bluetooth": {
-      "title": "Bluetooth Laser Measures",
+      "title": "Bluetooth Laser Meters",
       "description": "If you use the Bluetooth laser measure connection feature, the app will request permission to access your device's Bluetooth. This connection is used solely to receive measurements from compatible laser devices. No personal data is transmitted via Bluetooth, and the connection is local between your iPad/iPhone and the laser measure."
     },
     "website": {
@@ -296,9 +296,9 @@
       "shot4": "Place doors and windows with one tap, fine-tune by dragging or typing",
       "shot5": "Smart dimensioning of the plan with a single gesture",
       "shot6": "Parametric library of doors and windows: single, double, sliding, pocket",
-      "shot7": "Furniture, area schedules and professional DIN title blocks in one tap",
-      "shot8": "Export to DXF, PDF and PNG, ready for your CAD workflow",
-      "shot9": "Compatible with your Bluetooth laser distance meter with automatic pairing",
+      "shot7": "Furniture, area schedules, and professional DIN title blocks in one tap",
+      "shot8": "Export to DXF, PDF, and PNG, ready for your CAD workflow",
+      "shot9": "Compatible with Bluetooth laser distance meters — automatic pairing",
       "shot10": "Professional customization: layer templates, quick text, units and decimals"
     }
   },

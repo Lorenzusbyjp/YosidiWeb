@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "YOSIDI CAD — Planimetrie CAD dal primo sopralluogo | iPad e iPhone",
-    "description": "Rilievo professionale dal primo sopralluogo. Misura con laser Bluetooth su iPad/iPhone, quota ed esporta in DXF/DWG. Architettura, ingegneria, ristrutturazione, interni.",
+    "description": "Rileva planimetrie CAD dal primo sopralluogo. Laser Bluetooth su iPad/iPhone, esporta in DXF/DWG. Architetti, ingegneri, interior designer.",
     "og_title": "YOSIDI CAD — Planimetrie CAD dal primo sopralluogo",
     "og_description": "Misura con laser Bluetooth, disegna, quota ed esporta in DXF/DWG. CAD professionale su iPad e iPhone.",
     "twitter_title": "YOSIDI CAD — Planimetrie CAD dal primo sopralluogo",
@@ -49,7 +49,7 @@
     },
     "step3": {
       "title": "Esporta e continua",
-      "description": "DXF per continuare sul tuo CAD desktop. PDF con cartiglio professionale per il cliente. Pronto prima di lasciare l'immobile."
+      "description": "DXF per continuare sul tuo CAD desktop. PDF con cartiglio professionale per il cliente. Pronto prima di lasciare il luogo."
     }
   },
   "cta": {
@@ -65,19 +65,19 @@
     }
   },
   "features": {
-    "title": "Tutto ciò che serve in cantiere",
-    "subtitle": "Strumenti CAD professionali progettati per lavorare fuori dall'ufficio",
+    "title": "Tutto ciò che serve in loco",
+    "subtitle": "Strumenti CAD professionali progettati per il lavoro in loco",
     "tools": {
       "title": "Strumenti CAD completi",
-      "description": "Parallela, raccordo, taglia, estendi, copia, sposta, stira, ruota, misura e altro ancora. Sistema di livelli con visibilità, colore e tipo di linea."
+      "description": "Parallela, raccordo, taglio, estensione, copia, spostamento, stiramento, rotazione, misurazione e altro ancora. Sistema di livelli con visibilità, colore e tipo di linea."
     },
     "areas": {
       "title": "Calcolo automatico delle superfici",
-      "description": "Ottieni superfici lorde, nette e per ambiente istantaneamente. Posiziona etichette di superficie con un tocco."
+      "description": "Ottieni superfici lorde, nette e per ambiente all'istante. Posiziona etichette di superficie con un tocco."
     },
     "openings": {
       "title": "Aperture intelligenti",
-      "description": "Posiziona porte e finestre con un clic. Regola dimensioni, apertura e tipo. Quello che nel CAD desktop richiede più passaggi, qui è un tocco."
+      "description": "Posiziona porte e finestre con un tocco. Regola dimensioni, verso di apertura e tipo. Quello che nel CAD desktop richiede più passaggi, qui è un tocco."
     },
     "blocks": {
       "title": "Libreria di blocchi",
@@ -89,7 +89,7 @@
     },
     "tutorials": {
       "title": "Tutorial integrati",
-      "description": "Guide passo passo integrate nell'app. Se usi già il CAD, in 5 minuti stai lavorando. Se no, i tutorial ti accompagnano passo per passo."
+      "description": "Guide passo passo integrate nell'app. Se usi già il CAD, in 5 minuti sei operativo. Altrimenti, i tutorial ti accompagnano passo per passo."
     },
     "export": {
       "title": "Esportazione DXF e PDF",
@@ -120,16 +120,16 @@
       "description": "Impianti, attestati energetici e documentazione tecnica in loco con esportazione immediata."
     },
     "appraisers": {
-      "title": "Periti e valutatori",
+      "title": "Periti e stimatori",
       "description": "Planimetrie rapide con calcolo delle superfici lorde e nette. PDF professionale durante il sopralluogo."
     },
     "builders": {
       "title": "Costruttori e ristrutturatori",
-      "description": "Documenta lo stato attuale dell'immobile e portati la planimetria senza errori. Dimentica matita e carta."
+      "description": "Documenta lo stato attuale dell'edificio e portati la planimetria senza errori. Dimentica matita e carta."
     },
     "trades": {
       "title": "Installatori e artigiani",
-      "description": "Misura lo spazio del cliente e portati la planimetria per lavorare. Cucine, armadi, falegnameria, fabbro."
+      "description": "Misura lo spazio a casa del cliente e portati la planimetria per lavorare. Cucine, armadi, falegnameria, fabbro."
     }
   },
   "gallery": {
@@ -152,7 +152,7 @@
     },
     "payments": {
       "title": "Pagamenti sicuri",
-      "description": "Tutti gli acquisti in-app sono gestiti in modo sicuro dall'App Store. Non memorizziamo né elaboriamo direttamente alcuna informazione di pagamento."
+      "description": "Tutti gli acquisti in-app sono gestiti in modo sicuro tramite l'App Store. Non memorizziamo né elaboriamo direttamente alcuna informazione di pagamento."
     },
     "website": {
       "title": "Sito web",
@@ -187,31 +187,31 @@
       "description": "L'app può raccogliere dati limitati di interazione con l'app, cronologia degli acquisti e dati tecnici di base tramite Firebase/Google Analytics. Questi dati vengono usati per analisi, miglioramento del prodotto e funzionamento dell'app. Non vengono usati per pubblicità, non vengono venduti, non vengono condivisi con broker di dati e non vengono usati per il tracciamento."
     },
     "no_permissions": {
-      "title": "Nessun Permesso Superfluo",
+      "title": "Nessun permesso superfluo",
       "description": "L'applicazione non accede alla tua posizione, contatti, microfono, fotocamera, foto né ad altri dati personali. Non è richiesta la creazione di un account, un indirizzo e-mail o l'accesso. Puoi utilizzare YOSIDI CAD in modo completamente anonimo."
     },
     "data_storage": {
-      "title": "Archiviazione dei Dati",
+      "title": "Archiviazione dei dati",
       "description": "Tutti i tuoi disegni e le impostazioni vengono archiviati localmente sul tuo dispositivo iOS nel file system locale dell'applicazione. Questi dati rimangono sul tuo dispositivo e solo tu puoi accedervi. Se disinstalli l'applicazione, tutti i dati archiviati verranno eliminati automaticamente."
     },
     "payments": {
-      "title": "Pagamenti Sicuri",
+      "title": "Pagamenti sicuri",
       "description": "Tutti gli acquisti in-app (esportazioni DXF/PDF) vengono elaborati in modo sicuro da Apple tramite l'App Store. Non memorizziamo, elaboriamo né abbiamo accesso ad alcuna informazione di pagamento come numeri di carta di credito o dati bancari. Tutte le informazioni di pagamento sono gestite esclusivamente da Apple."
     },
     "bluetooth": {
-      "title": "Distanziometri Laser Bluetooth",
+      "title": "Distanziometri laser Bluetooth",
       "description": "Se utilizzi la funzione di connessione ai distanziometri laser Bluetooth, l'applicazione richiederà il permesso di accedere al Bluetooth del tuo dispositivo. Questa connessione viene utilizzata esclusivamente per ricevere le misurazioni dal distanziometro laser compatibile. Nessun dato personale viene trasmesso via Bluetooth e la connessione è locale tra il tuo iPad/iPhone e il distanziometro laser."
     },
     "website": {
-      "title": "Sito Web",
+      "title": "Sito web",
       "description": "Il nostro sito web (www.yosidi.com) utilizza Cloudflare Web Analytics per misurare il traffico in forma aggregata senza cookie, senza fingerprinting e senza memorizzare dati personali identificabili. Può salvare localmente nel tuo browser la preferenza della lingua; questa informazione non viene inviata a terzi."
     },
     "children": {
-      "title": "Privacy dei Minori",
+      "title": "Privacy dei minori",
       "description": "YOSIDI CAD non è destinata specificamente ai minori. L'app non richiede un account, un indirizzo e-mail o dati identificativi, e non richiediamo consapevolmente informazioni personali ai minori."
     },
     "changes": {
-      "title": "Modifiche a Questa Informativa",
+      "title": "Modifiche a questa informativa",
       "description": "Potremmo aggiornare questa informativa sulla privacy occasionalmente. Le modifiche verranno pubblicate su questa pagina. Ti consigliamo di consultare questa informativa periodicamente."
     },
     "contact": {
@@ -225,23 +225,23 @@
     "title": "Termini di Utilizzo",
     "intro": "Utilizzando YOSIDI CAD, accetti i seguenti termini e condizioni.",
     "acceptance": {
-      "title": "Accettazione dei Termini",
+      "title": "Accettazione dei termini",
       "description": "Scaricando, installando o utilizzando YOSIDI CAD, accetti di essere vincolato da questi Termini di Utilizzo. Se non accetti questi termini, non utilizzare l'applicazione."
     },
     "license": {
-      "title": "Licenza d'Uso",
+      "title": "Licenza d'uso",
       "description": "Ti concediamo una licenza non esclusiva, non trasferibile e revocabile per utilizzare YOSIDI CAD per scopi personali e professionali, nel rispetto di questi termini. Questa licenza non ti conferisce alcun diritto sul codice sorgente, il design o la proprietà intellettuale dell'applicazione."
     },
     "ownership": {
-      "title": "Proprietà dei Contenuti",
+      "title": "Proprietà dei contenuti",
       "description": "Mantieni la piena proprietà e tutti i diritti sui disegni, planimetrie e file che crei con YOSIDI CAD. Non rivendichiamo alcun diritto sui tuoi contenuti."
     },
     "as_is": {
-      "title": "Applicazione \"Così Com'è\"",
+      "title": "Applicazione \"così com'è\"",
       "description": "YOSIDI CAD viene fornita \"così com'è\" e \"secondo disponibilità\", senza garanzie di alcun tipo, esplicite o implicite. Non garantiamo che l'applicazione sia priva di errori, ininterrotta o che soddisfi requisiti specifici."
     },
     "liability": {
-      "title": "Limitazione di Responsabilità",
+      "title": "Limitazione di responsabilità",
       "description": "Non siamo responsabili per alcuna perdita di dati, danni o pregiudizi derivanti dall'uso di YOSIDI CAD. È tua responsabilità mantenere copie di backup dei tuoi file e disegni importanti."
     },
     "purchases": {
@@ -249,7 +249,7 @@
       "description": "Gli acquisti in-app (esportazione DXF/PDF) vengono gestiti in modo sicuro tramite l'App Store di Apple e sono soggetti ai termini di Apple. Tutti gli acquisti sono definitivi e non rimborsabili, salvo quanto previsto dalla legge applicabile."
     },
     "prohibited": {
-      "title": "Usi Vietati",
+      "title": "Usi vietati",
       "description": "È severamente vietato:",
       "item1": "Effettuare reverse engineering, decompilare o disassemblare l'applicazione.",
       "item2": "Distribuire, vendere o sublicenziare l'applicazione senza autorizzazione.",
@@ -264,19 +264,19 @@
       "description_part2": ". YOSIDI CAD non richiede un account e non raccoglie dati identificativi dell'utente; può raccogliere solo dati limitati di interazione, acquisti e funzionamento per analisi e miglioramento del prodotto."
     },
     "updates": {
-      "title": "Aggiornamenti dell'Applicazione",
+      "title": "Aggiornamenti dell'applicazione",
       "description": "Potremmo pubblicare aggiornamenti periodici di YOSIDI CAD per aggiungere funzionalità, correggere bug o migliorare le prestazioni. Questi aggiornamenti possono modificare o rimuovere determinate funzionalità. Non siamo obbligati a fornire aggiornamenti o supporto continuo."
     },
     "termination": {
-      "title": "Risoluzione del Servizio",
+      "title": "Risoluzione del servizio",
       "description": "Potremmo sospendere o risolvere il tuo accesso a YOSIDI CAD in qualsiasi momento in caso di violazione di questi termini. Disinstallando l'applicazione, questa licenza termina automaticamente."
     },
     "changes": {
-      "title": "Modifiche ai Termini",
+      "title": "Modifiche ai termini",
       "description": "Potremmo aggiornare questi Termini di Utilizzo occasionalmente. Le modifiche verranno pubblicate su questa pagina. Ti consigliamo di consultare questi termini periodicamente."
     },
     "law": {
-      "title": "Legge Applicabile e Giurisdizione",
+      "title": "Legge applicabile e giurisdizione",
       "description": "Questi termini sono regolati dalle leggi della Spagna. Qualsiasi controversia derivante da questi termini sarà risolta presso i tribunali spagnoli."
     },
     "contact": {
@@ -298,7 +298,7 @@
       "shot6": "Libreria parametrica di porte e finestre: semplici, doppie, scorrevoli, a scomparsa",
       "shot7": "Arredi, quadri delle superfici e cartigli DIN professionali in un tocco",
       "shot8": "Esportazione in DXF, PDF e PNG, pronta per il tuo flusso CAD",
-      "shot9": "Compatibile con il tuo distanziometro laser Bluetooth con accoppiamento automatico",
+      "shot9": "Compatibile con i distanziometri laser Bluetooth — accoppiamento automatico",
       "shot10": "Personalizzazione professionale: modelli di livelli, testi rapidi, unità e decimali"
     }
   },

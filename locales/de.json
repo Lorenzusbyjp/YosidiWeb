@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "YOSIDI CAD — CAD-Pläne ab dem ersten Termin | iPad und iPhone",
-    "description": "Professionelles Aufmaß ab dem ersten Termin. Messen mit Bluetooth-Laser auf iPad/iPhone, bemaßen und als DXF/DWG exportieren. Architektur, Ingenieurwesen, Sanierung, Innenarchitektur.",
-    "og_title": "YOSIDI CAD — CAD-Pläne ab dem ersten Termin",
+    "title": "YOSIDI CAD — CAD-Pläne ab der ersten Begehung | iPad und iPhone",
+    "description": "Erstellen Sie CAD-Pläne ab der ersten Begehung. Bluetooth-Laser auf iPad/iPhone, DXF/DWG-Export. Architekten, Ingenieure, Innenarchitekten.",
+    "og_title": "YOSIDI CAD — CAD-Pläne ab der ersten Begehung",
     "og_description": "Mit Bluetooth-Laser messen, zeichnen, bemaßen und als DXF/DWG exportieren. Professionelles CAD auf iPad und iPhone.",
-    "twitter_title": "YOSIDI CAD — CAD-Pläne ab dem ersten Termin",
+    "twitter_title": "YOSIDI CAD — CAD-Pläne ab der ersten Begehung",
     "twitter_description": "Mit Bluetooth-Laser messen, zeichnen, bemaßen und als DXF/DWG exportieren. Professionelles CAD auf iPad und iPhone."
   },
   "accessibility": {
@@ -23,14 +23,14 @@
     "audience": "Für wen"
   },
   "hero": {
-    "title": "CAD-Pläne ab dem ersten Termin",
-    "subtitle": "Messen Sie mit Ihrem Bluetooth-Laser. Zeichnen, bemaßen und als DXF exportieren — auf iPad oder iPhone.",
+    "title": "CAD-Pläne ab der ersten Begehung",
+    "subtitle": "Mit Bluetooth-Laser messen. Zeichnen, bemaßen und als DXF exportieren — auf iPad oder iPhone.",
     "countries_prefix": "Genutzt in",
     "countries_suffix": "Ländern",
     "download_btn": "Im App Store laden",
     "learn_more": "Mehr erfahren",
     "trust": {
-      "bluetooth": "Laser-Entfernungsmesser verbinden",
+      "bluetooth": "Laser-Distanzmesser koppeln",
       "offline": "Funktioniert offline",
       "local_data": "Pläne auf Ihrem Gerät",
       "no_account": "Kein Konto nötig"
@@ -38,18 +38,18 @@
   },
   "workflow": {
     "title": "Vom Ortstermin zum Plan in 3 Schritten",
-    "subtitle": "Keine Handskizzen. Kein Reinzeichnen. Keine Fehler. Keine Zeitverschwendung.",
+    "subtitle": "Keine Handskizzen. Kein Übertragen ins Reine. Keine Fehler. Keine Zeitverschwendung.",
     "step1": {
-      "title": "Anvisieren und zeichnen",
-      "description": "Verbinden Sie Ihren Laser-Entfernungsmesser oder geben Sie Maße manuell ein. Unregelmäßige Grundrisse, schiefe Wände — der Plan entsteht fehlerfrei, während Sie arbeiten."
+      "title": "Anpeilen und zeichnen",
+      "description": "Verbinden Sie Ihren Laser-Distanzmesser oder geben Sie Maße manuell ein. Unregelmäßige Grundrisse, schiefe Wände — der Plan entsteht fehlerfrei, während Sie arbeiten."
     },
     "step2": {
       "title": "Flächen berechnen",
-      "description": "Flächen werden automatisch berechnet. Fügen Sie Maße, Beschriftungen und alle erforderlichen Informationen in den Plan ein."
+      "description": "Flächen werden automatisch berechnet. Ergänzen Sie Bemaßungen, Beschriftungen und alle erforderlichen Informationen direkt im Plan."
     },
     "step3": {
       "title": "Exportieren und weiterarbeiten",
-      "description": "DXF für die Weiterarbeit in Ihrer Desktop-CAD-Software. PDF mit professionellem Plankopf für den Kunden. Fertig, bevor Sie das Gebäude verlassen."
+      "description": "DXF zur Weiterverarbeitung in Ihrer Desktop-CAD-Software. PDF mit professionellem Schriftfeld für den Kunden. Fertig, bevor Sie das Objekt verlassen."
     }
   },
   "cta": {
@@ -58,50 +58,50 @@
       "button": "Kostenlos herunterladen"
     },
     "final": {
-      "title": "Beginnen Sie mit dem Aufmaß ab dem ersten Termin",
+      "title": "Beginnen Sie mit dem Aufmaß ab der ersten Begehung",
       "subtitle": "Kostenloser Download. Kein Abo. Kein Konto.",
       "button": "Im App Store laden",
       "note": "DXF- und PDF-Export als In-App-Kauf verfügbar"
     }
   },
   "features": {
-    "title": "Alles was Sie vor Ort brauchen",
-    "subtitle": "Professionelle CAD-Werkzeuge für die Arbeit ausserhalb des Büros",
+    "title": "Alles, was Sie vor Ort brauchen",
+    "subtitle": "Professionelle CAD-Werkzeuge für den Einsatz vor Ort",
     "tools": {
       "title": "Vollständige CAD-Werkzeuge",
-      "description": "Parallele, Verrundung, Stutzen, Verlängern, Kopieren, Verschieben, Dehnen, Drehen, Messen und mehr. Ebenensystem mit Sichtbarkeit, Farbe und Linientyp."
+      "description": "Versatz, Abrunden, Trimmen, Verlängern, Kopieren, Verschieben, Dehnen, Drehen, Messen und mehr. Ebenensystem mit Sichtbarkeit, Farbe und Linientyp."
     },
     "areas": {
       "title": "Automatische Flächenberechnung",
-      "description": "Erhalten Sie Brutto-, Netto- und Raumflächen sofort. Platzieren Sie Flächenbeschriftungen mit einer Berührung."
+      "description": "Brutto-, Netto- und Raumflächen werden sofort berechnet (DIN 277). Flächenbeschriftungen mit einer Berührung platzieren."
     },
     "openings": {
-      "title": "Intelligente Oeffnungen",
-      "description": "Platzieren Sie Türen und Fenster mit einem Klick. Passen Sie Maße, Öffnungsrichtung und Typ an. Was in Desktop-CAD mehrere Schritte braucht, ist hier ein Fingertipp."
+      "title": "Intelligente Öffnungen",
+      "description": "Setzen Sie Türen und Fenster mit einem Tippen. Passen Sie Maße, Öffnungsrichtung und Typ an. Was im Desktop-CAD mehrere Schritte braucht, ist hier nur einen Fingertipp entfernt."
     },
     "blocks": {
       "title": "Blockbibliothek",
-      "description": "Möbel, Sanitärobjekte, Haushaltsgeräte und Architekturelemente — fertig zum Einfügen in Ihre Aufnahme."
+      "description": "Möbel, Sanitärobjekte, Haushaltsgeräte und Architekturelemente — bereit zum Einfügen in Ihr Aufmaß."
     },
     "formats": {
-      "title": "Formate mit Plankopf",
-      "description": "Standardformate ISO, ANSI und Arch mit anpassbarem Plankopf. Fügen Sie Ihr Logo, Projektdaten und Ihre Unterschrift hinzu."
+      "title": "Formate mit Schriftfeld",
+      "description": "Standardformate ISO, ANSI und Arch mit anpassbarem Schriftfeld. Fügen Sie Ihr Logo, Projektdaten und Ihre Unterschrift hinzu."
     },
     "tutorials": {
       "title": "Integrierte Tutorials",
-      "description": "Schritt-für-Schritt-Anleitungen in der App. Wenn Sie bereits CAD nutzen, arbeiten Sie in 5 Minuten. Wenn nicht, führen die Tutorials Sie durch alles."
+      "description": "Schritt-für-Schritt-Anleitungen direkt in der App. Wer bereits mit CAD arbeitet, ist in 5 Minuten startklar. Alle anderen begleiten die Tutorials Schritt für Schritt."
     },
     "export": {
       "title": "DXF- und PDF-Export",
-      "description": "Exportieren Sie als DXF und arbeiten Sie in Ihrem Desktop-CAD weiter. Oder erzeugen Sie PDFs mit professionellem Plankopf, fertig für den Kunden."
+      "description": "Exportieren Sie als DXF und arbeiten Sie in Ihrem Desktop-CAD weiter. Oder erzeugen Sie PDFs mit professionellem Schriftfeld, fertig für den Kunden."
     },
     "bluetooth": {
-      "title": "Bluetooth-Laser-Entfernungsmesser",
-      "description": "Verbinden Sie Ihren Laser-Entfernungsmesser per Bluetooth. Die Messwerte werden direkt in die Zeichnung übertragen — ohne Tippen."
+      "title": "Bluetooth-Laser-Distanzmesser",
+      "description": "Koppeln Sie Ihren Laser-Distanzmesser per Bluetooth. Die Messwerte fließen direkt in die Zeichnung — ohne Tippen."
     },
     "units": {
-      "title": "Metrisch und imperial",
-      "description": "Arbeiten Sie in Metern, Fuss, Zoll oder Brüchen. Wechseln Sie jederzeit das Einheitensystem ohne Präzisionsverlust."
+      "title": "Metrisch und angloamerikanisch",
+      "description": "Arbeiten Sie in Metern, Fuß, Zoll oder Brüchen. Wechseln Sie jederzeit das Einheitensystem ohne Präzisionsverlust."
     }
   },
   "audience": {
@@ -124,12 +124,12 @@
       "description": "Schnelle Pläne mit Berechnung von Brutto- und Nettoflächen. Professionelles PDF noch während des Ortstermins."
     },
     "builders": {
-      "title": "Bauunternehmer und Renovierer",
-      "description": "Dokumentieren Sie den Ist-Zustand des Gebäudes und nehmen Sie den Plan fehlerfrei mit. Vergessen Sie Stift und Papier."
+      "title": "Bauunternehmer und Sanierer",
+      "description": "Dokumentieren Sie den Bestand des Objekts und nehmen Sie den Plan fehlerfrei mit. Vergessen Sie Stift und Papier."
     },
     "trades": {
       "title": "Installateure und Handwerker",
-      "description": "Vermessen Sie den Kundenraum und nehmen Sie den Plan mit. Küchen, Schränke, Schreinerei, Metallbau."
+      "description": "Messen Sie beim Kunden vor Ort und nehmen Sie den Plan direkt mit. Küchenbau, Möbelbau, Tischlerei, Metallbau."
     }
   },
   "gallery": {
@@ -144,7 +144,7 @@
     "intro": "Ihr Datenschutz hat für uns höchste Priorität. YOSIDI erfordert kein Konto und lädt Ihre Pläne nicht auf externe Server hoch.",
     "no_data": {
       "title": "Daten, die wir nicht erfassen",
-      "description": "YOSIDI erfasst keine identifizierenden Daten wie Name, E-Mail-Adresse, Telefonnummer, Standort, Kontakte, Fotos, Zeichnungen oder Dateien. Ihre Zeichnungen und Dateien werden ausschliesslich auf Ihrem Gerät gespeichert."
+      "description": "YOSIDI erfasst keine identifizierenden Daten wie Name, E-Mail-Adresse, Telefonnummer, Standort, Kontakte, Fotos, Zeichnungen oder Dateien. Ihre Zeichnungen und Dateien werden ausschließlich auf Ihrem Gerät gespeichert."
     },
     "no_permissions": {
       "title": "Keine unnötigen Berechtigungen",
@@ -187,7 +187,7 @@
       "description": "Die App kann begrenzte App-Interaktionsdaten, Kaufhistorie und grundlegende technische Daten über Firebase/Google Analytics erfassen. Diese Daten werden für Analysen, Produktverbesserungen und die App-Funktionalität verwendet. Sie werden nicht für Werbung genutzt, nicht verkauft, nicht mit Datenbrokern geteilt und nicht für Tracking verwendet."
     },
     "no_permissions": {
-      "title": "Keine Unnötigen Berechtigungen",
+      "title": "Keine unnötigen Berechtigungen",
       "description": "Die App greift nicht auf Ihren Standort, Kontakte, Mikrofon, Kamera, Fotos oder andere persönliche Daten zu. Es ist weder eine Kontoerstellung, eine E-Mail-Adresse noch eine Anmeldung erforderlich. Sie können YOSIDI CAD vollständig anonym nutzen."
     },
     "data_storage": {
@@ -196,11 +196,11 @@
     },
     "payments": {
       "title": "Sichere Zahlungen",
-      "description": "Alle In-App-Käufe (DXF-/PDF-Export) werden sicher von Apple über den App Store abgewickelt. Wir speichern, verarbeiten oder haben keinen Zugriff auf Zahlungsinformationen wie Kreditkartennummern oder Bankdaten. Alle Zahlungsinformationen werden ausschliesslich von Apple verwaltet."
+      "description": "Alle In-App-Käufe (DXF-/PDF-Export) werden sicher von Apple über den App Store abgewickelt. Wir speichern, verarbeiten oder haben keinen Zugriff auf Zahlungsinformationen wie Kreditkartennummern oder Bankdaten. Alle Zahlungsinformationen werden ausschließlich von Apple verwaltet."
     },
     "bluetooth": {
-      "title": "Bluetooth-Laser-Entfernungsmesser",
-      "description": "Wenn Sie die Bluetooth-Laser-Entfernungsmesser-Funktion nutzen, wird die App um Erlaubnis bitten, auf das Bluetooth Ihres Geräts zuzugreifen. Diese Verbindung wird ausschliesslich zum Empfang von Messwerten des kompatiblen Laser-Entfernungsmessers verwendet. Es werden keine persönlichen Daten über Bluetooth übertragen, und die Verbindung ist lokal zwischen Ihrem iPad/iPhone und dem Laser-Entfernungsmesser."
+      "title": "Bluetooth-Laser-Distanzmesser",
+      "description": "Wenn Sie die Funktion zur Kopplung mit einem Bluetooth-Laser-Distanzmesser nutzen, fragt die App um Erlaubnis, auf das Bluetooth Ihres Geräts zuzugreifen. Diese Verbindung wird ausschließlich zum Empfang von Messwerten des kompatiblen Laser-Distanzmessers verwendet. Es werden keine persönlichen Daten über Bluetooth übertragen; die Verbindung bleibt lokal zwischen Ihrem iPad/iPhone und dem Laser-Distanzmesser."
     },
     "website": {
       "title": "Website",
@@ -223,7 +223,7 @@
   "terms_page": {
     "back": "Zurück zur Startseite",
     "title": "Nutzungsbedingungen",
-    "intro": "Durch die Nutzung von YOSIDI CAD akzeptieren Sie die folgenden Geschäftsbedingungen.",
+    "intro": "Durch die Nutzung von YOSIDI CAD akzeptieren Sie die folgenden Nutzungsbedingungen.",
     "acceptance": {
       "title": "Annahme der Bedingungen",
       "description": "Durch das Herunterladen, Installieren oder Nutzen von YOSIDI CAD erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie diesen Bedingungen nicht zustimmen, nutzen Sie die App bitte nicht."
@@ -237,8 +237,8 @@
       "description": "Sie behalten das vollständige Eigentum und alle Rechte an den Zeichnungen, Plänen und Dateien, die Sie mit YOSIDI CAD erstellen. Wir erheben keinerlei Anspruch auf Ihre Inhalte."
     },
     "as_is": {
-      "title": "App \"Wie Besehen\"",
-      "description": "YOSIDI CAD wird \"wie besehen\" und \"nach Verfügbarkeit\" bereitgestellt, ohne jegliche ausdrückliche oder stillschweigende Gewährleistung. Wir garantieren nicht, dass die App fehlerfrei, ununterbrochen oder bestimmten Anforderungen entsprechend funktioniert."
+      "title": "Bereitstellung ohne Gewähr",
+      "description": "YOSIDI CAD wird „wie sie ist\" und „soweit verfügbar\" bereitgestellt, ohne jegliche ausdrückliche oder stillschweigende Gewährleistung. Wir garantieren nicht, dass die App fehlerfrei, ununterbrochen oder für bestimmte Anforderungen geeignet funktioniert."
     },
     "liability": {
       "title": "Haftungsbeschränkung",
@@ -255,7 +255,7 @@
       "item2": "Verbreitung, Verkauf oder Unterlizenzierung der App ohne Genehmigung.",
       "item3": "Nutzung der App für illegale oder nicht autorisierte Zwecke.",
       "item4": "Versuch, auf nicht dokumentierte oder eingeschränkte Funktionen zuzugreifen.",
-      "item5": "Entfernung oder Aenderung von Urheberrechts- oder Markenhinweisen."
+      "item5": "Entfernung oder Änderung von Urheberrechts- oder Markenhinweisen."
     },
     "privacy": {
       "title": "Datenschutz",
@@ -269,7 +269,7 @@
     },
     "termination": {
       "title": "Kündigung des Dienstes",
-      "description": "Wir können Ihren Zugang zu YOSIDI CAD jederzeit aussetzen oder kündigen, wenn Sie gegen diese Bedingungen verstossen. Bei Deinstallation der App endet diese Lizenz automatisch."
+      "description": "Wir können Ihren Zugang zu YOSIDI CAD jederzeit aussetzen oder kündigen, wenn Sie gegen diese Bedingungen verstoßen. Bei Deinstallation der App endet diese Lizenz automatisch."
     },
     "changes": {
       "title": "Änderungen der Bedingungen",
@@ -291,14 +291,14 @@
     "hero_alt": "iPad mit YOSIDI CAD und einem professionellen Aufmaß-Plan vor Ort",
     "gallery": {
       "shot1": "Professionelles Aufmaß vor Ort: vom realen Raum zum CAD-Plan",
-      "shot2": "Bluetooth-Laser-Entfernungsmesser: Maße fließen direkt in den Plan",
+      "shot2": "Bluetooth-Laser-Distanzmesser: Maße fließen direkt in den Plan",
       "shot3": "Automatische Raumkontur-Erkennung und Flächenberechnung mit einer Berührung",
       "shot4": "Türen und Fenster mit einer Berührung setzen, exakte Position per Ziehen oder Eingabe",
       "shot5": "Intelligente Bemaßung des Plans mit einer einzigen Geste",
       "shot6": "Parametrische Bibliothek für Türen und Fenster: einfach, doppelt, Schiebe- und Wandschiebetür",
-      "shot7": "Möbel, Flächentabellen und professioneller DIN-Plankopf in einer Berührung",
-      "shot8": "Export zu DXF, PDF und PNG, bereit für Ihren CAD-Workflow",
-      "shot9": "Kompatibel mit Ihrem Bluetooth-Laser-Entfernungsmesser mit automatischer Kopplung",
+      "shot7": "Möbel, Flächentabellen und professionelles DIN-Schriftfeld mit einer Berührung",
+      "shot8": "Export als DXF, PDF und PNG, bereit für Ihren CAD-Workflow",
+      "shot9": "Kompatibel mit Bluetooth-Laser-Distanzmessern — automatische Kopplung",
       "shot10": "Professionelle Anpassung: Ebenenvorlagen, Schnelltexte, Einheiten und Dezimalstellen"
     }
   },

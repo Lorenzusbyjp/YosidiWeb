@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "YOSIDI CAD — Plans CAO dès la première visite | iPad et iPhone",
-    "description": "Relevé professionnel dès la première visite. Mesurez au laser Bluetooth sur iPad/iPhone, cotez et exportez en DXF/DWG. Architecture, ingénierie, rénovation et architecture d'intérieur.",
+    "description": "Relevez vos plans CAO dès la première visite. Laser Bluetooth sur iPad/iPhone, exportez en DXF/DWG. Architectes, ingénieurs, architectes d'intérieur.",
     "og_title": "YOSIDI CAD — Plans CAO dès la première visite",
     "og_description": "Mesurez au laser Bluetooth, dessinez, cotez et exportez en DXF/DWG. CAO professionnelle sur iPad et iPhone.",
     "twitter_title": "YOSIDI CAD — Plans CAO dès la première visite",
@@ -69,19 +69,19 @@
     "subtitle": "Outils CAO professionnels conçus pour travailler en dehors du bureau",
     "tools": {
       "title": "Outils CAO complets",
-      "description": "Parallèle, raccord, ajuster, prolonger, copier, déplacer, étirer, pivoter, mesurer et bien plus. Système de calques avec visibilité, couleur et type de ligne."
+      "description": "Décaler, raccorder, ajuster, prolonger, copier, déplacer, étirer, faire pivoter, mesurer et bien plus. Système de calques avec visibilité, couleur et type de ligne."
     },
     "areas": {
       "title": "Calcul automatique des surfaces",
       "description": "Obtenez les surfaces construites, utiles et par pièce instantanément. Placez des étiquettes de surface en un geste."
     },
     "openings": {
-      "title": "Huisseries intelligentes",
-      "description": "Placez portes et fenêtres en un clic. Ajustez les dimensions, le sens d'ouverture et le type. Ce qui prend plusieurs étapes en CAO de bureau se fait ici en un geste."
+      "title": "Ouvertures intelligentes",
+      "description": "Placez portes et fenêtres en un toucher. Ajustez les dimensions, le sens d'ouverture et le type. Ce qui prend plusieurs étapes en CAO de bureau se fait ici en un geste."
     },
     "blocks": {
       "title": "Bibliothèque de blocs",
-      "description": "Mobilier, sanitaires, électroménagers et éléments architecturaux prêts à insérer dans votre relevé."
+      "description": "Mobilier, sanitaires, électroménager et éléments architecturaux prêts à insérer dans votre relevé."
     },
     "formats": {
       "title": "Formats avec cartouche",
@@ -89,7 +89,7 @@
     },
     "tutorials": {
       "title": "Tutoriels intégrés",
-      "description": "Guides pas à pas intégrés dans l'app. Si vous utilisez déjà un logiciel CAO, vous travaillez en 5 minutes. Sinon, les tutoriels vous accompagnent."
+      "description": "Guides pas à pas intégrés dans l'app. Si vous utilisez déjà un logiciel CAO, vous serez opérationnel en 5 minutes. Sinon, les tutoriels vous accompagnent pas à pas."
     },
     "export": {
       "title": "Export DXF et PDF",
@@ -124,12 +124,12 @@
       "description": "Plans rapides avec calcul des surfaces construites et utiles. PDF professionnel dès la visite."
     },
     "builders": {
-      "title": "Constructeurs et rénovateurs",
+      "title": "Constructeurs et entreprises de rénovation",
       "description": "Documentez l'état actuel des lieux et repartez avec le plan, sans erreur. Oubliez le crayon et le papier."
     },
     "trades": {
       "title": "Installateurs et artisans",
-      "description": "Mesurez l'espace du client et repartez avec le plan. Cuisines, placards, menuiserie, serrurerie."
+      "description": "Mesurez l'espace chez le client et repartez avec le plan. Cuisines, placards, menuiserie, serrurerie."
     }
   },
   "gallery": {
@@ -152,7 +152,7 @@
     },
     "payments": {
       "title": "Paiements sécurisés",
-      "description": "Tous les achats intégrés sont gérés de manière sécurisée par l'App Store. Nous ne stockons ni ne traitons aucune information de paiement directement."
+      "description": "Tous les achats intégrés sont gérés de manière sécurisée via l'App Store. Nous ne stockons ni ne traitons aucune information de paiement directement."
     },
     "website": {
       "title": "Site web",
@@ -187,31 +187,31 @@
       "description": "L'application peut collecter des données limitées d'interaction avec l'app, l'historique des achats et des données techniques de base via Firebase/Google Analytics. Ces données sont utilisées pour l'analyse, l'amélioration du produit et le fonctionnement de l'app. Elles ne sont pas utilisées pour la publicité, ne sont pas vendues, ne sont pas partagées avec des courtiers en données et ne sont pas utilisées à des fins de suivi."
     },
     "no_permissions": {
-      "title": "Aucune Autorisation Superflue",
+      "title": "Aucune autorisation superflue",
       "description": "L'application n'accède pas à votre localisation, vos contacts, votre microphone, votre caméra, vos photos ni à aucune autre donnée personnelle. Aucune création de compte, adresse e-mail ou connexion n'est requise. Vous pouvez utiliser YOSIDI CAD de manière entièrement anonyme."
     },
     "data_storage": {
-      "title": "Stockage des Données",
+      "title": "Stockage des données",
       "description": "Tous vos dessins et paramètres sont stockés localement sur votre appareil iOS dans le système de fichiers local de l'application. Ces données restent sur votre appareil et vous seul y avez accès. Si vous désinstallez l'application, toutes les données stockées seront automatiquement supprimées."
     },
     "payments": {
-      "title": "Paiements Sécurisés",
+      "title": "Paiements sécurisés",
       "description": "Tous les achats intégrés (exports DXF/PDF) sont traités de manière sécurisée par Apple via l'App Store. Nous ne stockons, ne traitons ni n'avons accès à aucune information de paiement telle que numéros de carte de crédit ou coordonnées bancaires. Toutes les informations de paiement sont gérées exclusivement par Apple."
     },
     "bluetooth": {
-      "title": "Télémètres Laser Bluetooth",
+      "title": "Télémètres laser Bluetooth",
       "description": "Si vous utilisez la fonction de connexion aux télémètres laser Bluetooth, l'application demandera l'autorisation d'accéder au Bluetooth de votre appareil. Cette connexion est utilisée uniquement pour recevoir les mesures du télémètre laser compatible. Aucune donnée personnelle n'est transmise via Bluetooth et la connexion est locale entre votre iPad/iPhone et le télémètre laser."
     },
     "website": {
-      "title": "Site Web",
+      "title": "Site web",
       "description": "Notre site web (www.yosidi.com) utilise Cloudflare Web Analytics pour mesurer le trafic de manière agrégée sans cookies, sans empreinte numérique et sans stocker de données personnelles identifiables. Il peut enregistrer localement dans votre navigateur votre préférence de langue ; cette information n'est pas envoyée à des tiers."
     },
     "children": {
-      "title": "Protection des Mineurs",
+      "title": "Protection des mineurs",
       "description": "YOSIDI CAD n'est pas destinée spécifiquement aux mineurs. L'app ne requiert pas de compte, d'adresse e-mail ni de données identificatrices, et nous ne demandons pas sciemment d'informations personnelles à des mineurs."
     },
     "changes": {
-      "title": "Modifications de Cette Politique",
+      "title": "Modifications de cette politique",
       "description": "Nous pouvons mettre à jour cette politique de confidentialité occasionnellement. Les modifications seront publiées sur cette page. Nous vous recommandons de consulter cette politique périodiquement."
     },
     "contact": {
@@ -225,31 +225,31 @@
     "title": "Conditions d'Utilisation",
     "intro": "En utilisant YOSIDI CAD, vous acceptez les conditions générales suivantes.",
     "acceptance": {
-      "title": "Acceptation des Conditions",
+      "title": "Acceptation des conditions",
       "description": "En téléchargeant, installant ou utilisant YOSIDI CAD, vous acceptez d'être lié par ces Conditions d'Utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser l'application."
     },
     "license": {
-      "title": "Licence d'Utilisation",
+      "title": "Licence d'utilisation",
       "description": "Nous vous accordons une licence non exclusive, non transférable et révocable pour utiliser YOSIDI CAD à des fins personnelles et professionnelles, sous réserve de ces conditions. Cette licence ne vous confère aucun droit sur le code source, le design ou la propriété intellectuelle de l'application."
     },
     "ownership": {
-      "title": "Propriété du Contenu",
+      "title": "Propriété du contenu",
       "description": "Vous conservez la propriété totale et tous les droits sur les dessins, plans et fichiers que vous créez avec YOSIDI CAD. Nous ne revendiquons aucun droit sur votre contenu."
     },
     "as_is": {
-      "title": "Application « En l'État »",
+      "title": "Application « en l'état »",
       "description": "YOSIDI CAD est fournie « en l'état » et « selon disponibilité », sans garantie d'aucune sorte, expresse ou implicite. Nous ne garantissons pas que l'application sera exempte d'erreurs, ininterrompue ou qu'elle répondra à des exigences spécifiques."
     },
     "liability": {
-      "title": "Limitation de Responsabilité",
+      "title": "Limitation de responsabilité",
       "description": "Nous ne sommes pas responsables de toute perte de données, dommage ou préjudice résultant de l'utilisation de YOSIDI CAD. Il vous incombe de maintenir des copies de sauvegarde de vos fichiers et dessins importants."
     },
     "purchases": {
-      "title": "Achats Intégrés",
+      "title": "Achats intégrés",
       "description": "Les achats intégrés (export DXF/PDF) sont gérés de manière sécurisée via l'App Store d'Apple et sont soumis aux conditions d'Apple. Tous les achats sont définitifs et non remboursables, sauf lorsque la loi applicable l'exige."
     },
     "prohibited": {
-      "title": "Usages Interdits",
+      "title": "Usages interdits",
       "description": "Il est strictement interdit de :",
       "item1": "Effectuer de l'ingénierie inverse, décompiler ou désassembler l'application.",
       "item2": "Distribuer, vendre ou sous-licencier l'application sans autorisation.",
@@ -264,19 +264,19 @@
       "description_part2": ". YOSIDI CAD ne requiert pas de compte et ne collecte pas de données utilisateur identificatrices ; elle peut seulement collecter des données limitées d'interaction, d'achats et de fonctionnement pour l'analyse et l'amélioration du produit."
     },
     "updates": {
-      "title": "Mises à Jour de l'Application",
+      "title": "Mises à jour de l'application",
       "description": "Nous pouvons publier des mises à jour périodiques de YOSIDI CAD pour ajouter des fonctionnalités, corriger des bugs ou améliorer les performances. Ces mises à jour peuvent modifier ou supprimer certaines fonctionnalités. Nous ne sommes pas tenus de fournir des mises à jour ou un support continu."
     },
     "termination": {
-      "title": "Résiliation du Service",
+      "title": "Résiliation du service",
       "description": "Nous pouvons suspendre ou résilier votre accès à YOSIDI CAD à tout moment si vous enfreignez ces conditions. La désinstallation de l'application met automatiquement fin à cette licence."
     },
     "changes": {
-      "title": "Modifications des Conditions",
+      "title": "Modifications des conditions",
       "description": "Nous pouvons mettre à jour ces Conditions d'Utilisation occasionnellement. Les modifications seront publiées sur cette page. Nous vous recommandons de consulter ces conditions périodiquement."
     },
     "law": {
-      "title": "Loi Applicable et Juridiction",
+      "title": "Loi applicable et juridiction",
       "description": "Ces conditions sont régies par les lois de l'Espagne. Tout litige découlant de ces conditions sera résolu devant les tribunaux espagnols."
     },
     "contact": {
@@ -293,12 +293,12 @@
       "shot1": "Relevé professionnel sur site : de l'espace réel au plan CAO",
       "shot2": "Télémètre laser Bluetooth : les distances entrent directement dans le plan",
       "shot3": "Détection automatique du contour de la pièce et calcul de surface en un geste",
-      "shot4": "Pose des huisseries en un geste, position exacte en glissant ou en saisissant",
+      "shot4": "Pose des portes et fenêtres en un geste, position exacte en glissant ou en saisissant",
       "shot5": "Cotation intelligente du plan en un seul geste",
       "shot6": "Bibliothèque paramétrique de portes et fenêtres : simples, doubles, coulissantes, à galandage",
       "shot7": "Mobilier, tableaux de surfaces et cartouches DIN professionnels en un geste",
       "shot8": "Export vers DXF, PDF et PNG, prêt pour votre flux CAO",
-      "shot9": "Compatible avec votre télémètre laser Bluetooth avec appairage automatique",
+      "shot9": "Compatible avec les télémètres laser Bluetooth — appairage automatique",
       "shot10": "Personnalisation professionnelle : modèles de calques, textes rapides, unités et décimales"
     }
   },
