@@ -302,5 +302,10 @@
       "shot9": "Compatible with your Bluetooth laser distance meter with automatic pairing",
       "shot10": "Professional customization: layer templates, quick text, units and decimals"
     }
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
   }
 }

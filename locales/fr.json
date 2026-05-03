@@ -302,5 +302,10 @@
       "shot9": "Compatible avec votre télémètre laser Bluetooth avec appairage automatique",
       "shot10": "Personnalisation professionnelle : modèles de calques, textes rapides, unités et décimales"
     }
+  },
+  "breadcrumb": {
+    "home": "Accueil",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation"
   }
 }

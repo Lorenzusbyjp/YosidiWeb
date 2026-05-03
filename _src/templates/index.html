@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#007AFF">
 
     <!-- Auto-redirect to user's language at root (skipped on /<lang>/ paths) -->
     <script>
@@ -45,14 +46,15 @@
     <meta property="og:image:type" content="image/png">
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.yosidi.com/">
-    <meta property="twitter:title" content="YOSIDI CAD — CAD plans from your first site visit">
-    <meta property="twitter:description" content="Measure with Bluetooth laser, draw, dimension and export to DXF/DWG. Professional CAD on iPad and iPhone.">
-    <meta property="twitter:image" content="https://www.yosidi.com/images/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.yosidi.com/">
+    <meta name="twitter:title" content="YOSIDI CAD — CAD plans from your first site visit">
+    <meta name="twitter:description" content="Measure with Bluetooth laser, draw, dimension and export to DXF/DWG. Professional CAD on iPad and iPhone.">
+    <meta name="twitter:image" content="https://www.yosidi.com/images/og-image.png">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
 
     <!-- Preload hero image -->
     <link rel="preload" as="image" href="./images/optimized/IPAD SCREENSHOT.webp" type="image/webp">
@@ -110,6 +112,29 @@
                 "@type": "Organization",
                 "name": "YOSIDI CAD",
                 "url": "https://www.yosidi.com/"
+            }
+        }
+    </script>
+
+    <!-- Organization (knowledge panel) -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "YOSIDI CAD",
+            "url": "https://www.yosidi.com/",
+            "logo": "https://www.yosidi.com/images/logo.png",
+            "email": "support@yosidi.com",
+            "sameAs": [
+                "https://apps.apple.com/app/yosidi-cad/id6743679420",
+                "https://www.youtube.com/@YOSIDI-CAD",
+                "https://www.tiktok.com/@yosidi_cad"
+            ],
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "support@yosidi.com",
+                "contactType": "customer support",
+                "availableLanguage": ["en", "es", "fr", "de", "it", "pt"]
             }
         }
     </script>

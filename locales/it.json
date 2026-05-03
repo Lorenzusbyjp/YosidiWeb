@@ -302,5 +302,10 @@
       "shot9": "Compatibile con il tuo distanziometro laser Bluetooth con accoppiamento automatico",
       "shot10": "Personalizzazione professionale: modelli di livelli, testi rapidi, unità e decimali"
     }
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "privacy": "Informativa sulla Privacy",
+    "terms": "Termini di Utilizzo"
   }
 }

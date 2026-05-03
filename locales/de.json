@@ -302,5 +302,10 @@
       "shot9": "Kompatibel mit Ihrem Bluetooth-Laser-Entfernungsmesser mit automatischer Kopplung",
       "shot10": "Professionelle Anpassung: Ebenenvorlagen, Schnelltexte, Einheiten und Dezimalstellen"
     }
+  },
+  "breadcrumb": {
+    "home": "Startseite",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen"
   }
 }

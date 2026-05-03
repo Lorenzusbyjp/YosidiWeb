@@ -16,6 +16,7 @@ Usage:
 import json
 import re
 import shutil
+import subprocess
 import sys
 from pathlib import Path
 
@@ -70,6 +71,30 @@ def path_for(lang: str, page: str) -> str:
     return f"/{lang}/" if page == "index.html" else f"/{lang}/{page}"
 
 
+def get_lastmod(lang: str, page: str) -> str:
+    """ISO date (YYYY-MM-DD) of the latest commit touching template+locale of
+    this (lang, page). Falls back to today if not in a git repo or no commits."""
+    sources = [TEMPLATES_DIR / page, LOCALES_DIR / f"{lang}.json"]
+    dates = []
+    for src in sources:
+        if not src.exists():
+            continue
+        try:
+            result = subprocess.run(
+                ["git", "log", "-1", "--format=%cI", "--", str(src.relative_to(ROOT))],
+                capture_output=True, text=True, cwd=ROOT, check=False,
+            )
+            d = result.stdout.strip()
+            if d:
+                dates.append(d.split("T")[0])
+        except FileNotFoundError:
+            pass
+    if dates:
+        return max(dates)
+    from datetime import date
+    return date.today().isoformat()
+
+
 def translate_data_i18n(soup: BeautifulSoup, translations: dict):
     """Replace text/content of all [data-i18n] elements."""
     for el in soup.select("[data-i18n]"):
@@ -109,6 +134,26 @@ def translate_alt_attrs(soup: BeautifulSoup, translations: dict):
         if text is not None:
             el["alt"] = text
         del el["data-i18n-alt"]
+
+
+def add_breadcrumb_jsonld(soup: BeautifulSoup, lang: str, page: str, translations: dict):
+    """Inject BreadcrumbList JSON-LD for non-home pages (Home → Page)."""
+    if page == "index.html" or soup.head is None:
+        return
+    page_key = page.replace(".html", "")
+    home_name = t(translations, "breadcrumb.home") or "Home"
+    page_name = t(translations, f"breadcrumb.{page_key}") or page_key.title()
+    breadcrumb = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": home_name, "item": url_for(lang, "index.html")},
+            {"@type": "ListItem", "position": 2, "name": page_name, "item": url_for(lang, page)},
+        ],
+    }
+    script = soup.new_tag("script", type="application/ld+json")
+    script.string = json.dumps(breadcrumb, ensure_ascii=False, indent=2)
+    soup.head.append(script)
 
 
 def rewrite_resource_paths(html: str) -> str:
@@ -272,6 +317,7 @@ def render(template_html: str, translations: dict, lang: str, page: str) -> str:
     remove_existing_alternates(soup)
     add_hreflang(soup, page, lang)
     build_lang_switcher(soup, lang, page)
+    add_breadcrumb_jsonld(soup, lang, page, translations)
 
     # Pretty output (str() preserves original formatting reasonably).
     rendered = str(soup)
@@ -333,9 +379,6 @@ def main():
 
 def build_sitemap() -> str:
     """Generate sitemap.xml listing all (lang, page) URLs with hreflang alternates."""
-    from datetime import date
-    today = date.today().isoformat()
-
     priority_for = {"index.html": "1.0", "privacy.html": "0.3", "terms.html": "0.3"}
     changefreq_for = {"index.html": "weekly", "privacy.html": "monthly", "terms.html": "monthly"}
 
@@ -356,7 +399,7 @@ def build_sitemap() -> str:
             lines.append(
                 f'    <xhtml:link rel="alternate" hreflang="x-default" href="{url_for(DEFAULT_LANG, page)}"/>'
             )
-            lines.append(f"    <lastmod>{today}</lastmod>")
+            lines.append(f"    <lastmod>{get_lastmod(lang, page)}</lastmod>")
             lines.append(f"    <changefreq>{changefreq_for[page]}</changefreq>")
             lines.append(f"    <priority>{priority_for[page]}</priority>")
             lines.append("  </url>")

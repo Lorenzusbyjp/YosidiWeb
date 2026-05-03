@@ -302,5 +302,10 @@
       "shot9": "Compatible con tu medidor láser por Bluetooth con emparejamiento automático",
       "shot10": "Personalización profesional: plantillas de capas, textos rápidos, unidades y decimales"
     }
+  },
+  "breadcrumb": {
+    "home": "Inicio",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Uso"
   }
 }
