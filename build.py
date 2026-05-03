@@ -194,17 +194,22 @@ def update_og_meta(soup: BeautifulSoup, lang: str, page: str, translations: dict
     set_meta("twitter:url", url)
     set_meta("og:locale", OG_LOCALE[lang])
 
-    # For the home page, use translated meta.og_title etc. from locale.
-    if page == "index.html":
-        og_title = t(translations, "meta.og_title")
-        og_desc = t(translations, "meta.og_description")
+    # Localize og:title / og:description per page+language using locale keys.
+    page_keys = {
+        "index.html": ("meta.og_title", "meta.og_description"),
+        "privacy.html": ("privacy_page.meta_title", "privacy_page.intro"),
+        "terms.html": ("terms_page.meta_title", "terms_page.intro"),
+    }
+    if page in page_keys:
+        title_key, desc_key = page_keys[page]
+        og_title = t(translations, title_key)
+        og_desc = t(translations, desc_key)
         if og_title:
             set_meta("og:title", og_title)
             set_meta("twitter:title", og_title)
         if og_desc:
             set_meta("og:description", og_desc)
             set_meta("twitter:description", og_desc)
-    # For privacy/terms, keep the static OG content (per-page already set in templates).
 
 
 def remove_existing_alternates(soup: BeautifulSoup):
