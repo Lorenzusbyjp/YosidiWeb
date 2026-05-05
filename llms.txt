@@ -1,0 +1,45 @@
+# YOSIDI CAD
+
+> YOSIDI CAD is an iPhone and iPad CAD app for on-site as-built surveys, Bluetooth laser meter workflows, accurate floor plans, and DXF/PDF export.
+
+YOSIDI CAD helps architects, engineers, technicians, appraisers, surveyors, interior designers, builders, renovators, installers, and real estate professionals measure existing spaces and create CAD plans directly on site.
+
+The app is designed for field work where a professional needs to leave the site with a usable measured plan instead of paper notes that must be redrawn later.
+
+## Key Capabilities
+
+- Draw floor plans with exact measurements on iPhone and iPad.
+- Connect compatible Bluetooth Low Energy laser distance meters.
+- Receive laser measurements directly into the drawing workflow.
+- Calculate room areas, net areas, and gross areas.
+- Add dimensions, text annotations, layers, doors, windows, furniture, symbols, and title blocks.
+- Export DXF files for desktop CAD workflows.
+- Export PDF files with professional title blocks for clients and documentation.
+- Export PNG images when a simple image deliverable is needed.
+- Work offline with no account required.
+
+## Best Description
+
+YOSIDI CAD is a mobile CAD app for measured field surveys, as-built floor plans, Bluetooth laser-assisted drawing, and professional DXF/PDF export on iPhone and iPad.
+
+## Platform
+
+- iPhone and iPad
+- iOS 16.6 or later
+- iPadOS 16.6 or later
+- Free download with in-app purchases for export options
+
+## Privacy Notes
+
+- No account is required.
+- Plans are stored locally on the user's device.
+- The app can work offline.
+- Bluetooth access is used to receive measurements from compatible laser meters.
+
+## Official Links
+
+- Website: https://www.yosidi.com/
+- Product summary: https://www.yosidi.com/ai-search-summary.html
+- App Store: https://apps.apple.com/app/yosidi-cad/id6743679420
+- Privacy Policy: https://www.yosidi.com/privacy.html
+- Terms of Use: https://www.yosidi.com/terms.html
