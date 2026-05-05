@@ -10,7 +10,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.yosidi.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.yosidi.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yosidi.com/"/>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -23,7 +23,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.yosidi.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.yosidi.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yosidi.com/"/>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -36,7 +36,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.yosidi.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.yosidi.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yosidi.com/"/>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -49,7 +49,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.yosidi.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.yosidi.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yosidi.com/"/>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -62,7 +62,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.yosidi.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.yosidi.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yosidi.com/"/>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,7 +75,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.yosidi.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.yosidi.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yosidi.com/"/>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -234,5 +234,11 @@
     <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.yosidi.com/ai-search-summary.html</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

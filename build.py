@@ -40,6 +40,7 @@ OG_LOCALE = {
 
 # Pages with localized navigation (have a lang switcher / nav)
 PAGES = ["index.html", "privacy.html", "terms.html"]
+ROOT_ONLY_PAGES = ["ai-search-summary.html"]
 
 
 def t(translations: dict, key: str):
@@ -91,6 +92,23 @@ def get_lastmod(lang: str, page: str) -> str:
             pass
     if dates:
         return max(dates)
+    from datetime import date
+    return date.today().isoformat()
+
+
+def get_file_lastmod(path: Path) -> str:
+    """ISO date (YYYY-MM-DD) of the latest commit touching a static file.
+    Falls back to today if not in git or the file is not committed yet."""
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--format=%cI", "--", str(path.relative_to(ROOT))],
+            capture_output=True, text=True, cwd=ROOT, check=False,
+        )
+        d = result.stdout.strip()
+        if d:
+            return d.split("T")[0]
+    except (FileNotFoundError, ValueError):
+        pass
     from datetime import date
     return date.today().isoformat()
 
@@ -413,6 +431,14 @@ def build_sitemap() -> str:
             lines.append(f"    <changefreq>{changefreq_for[page]}</changefreq>")
             lines.append(f"    <priority>{priority_for[page]}</priority>")
             lines.append("  </url>")
+    for page in ROOT_ONLY_PAGES:
+        path = ROOT / page
+        lines.append("  <url>")
+        lines.append(f"    <loc>{SITE_URL}/{page}</loc>")
+        lines.append(f"    <lastmod>{get_file_lastmod(path)}</lastmod>")
+        lines.append("    <changefreq>monthly</changefreq>")
+        lines.append("    <priority>0.7</priority>")
+        lines.append("  </url>")
     lines.append("</urlset>")
     lines.append("")
     return "\n".join(lines)
