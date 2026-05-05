@@ -87,6 +87,8 @@ function initCountriesCounter() {
     if (!counterElement) return;
 
     const target = parseInt(counterElement.getAttribute('data-target'), 10);
+    const initialValue = parseInt(counterElement.textContent, 10);
+    const startValue = Number.isFinite(initialValue) ? initialValue : 0;
     const duration = 2000;
     let hasAnimated = false;
 
@@ -108,7 +110,7 @@ function initCountriesCounter() {
             const elapsed = currentTime - startTime;
             const progress = Math.min(elapsed / duration, 1);
             const easeOut = 1 - Math.pow(1 - progress, 3);
-            const current = Math.floor(easeOut * target);
+            const current = Math.floor(startValue + easeOut * (target - startValue));
 
             counterElement.textContent = current;
 
