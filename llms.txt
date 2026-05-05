@@ -1,18 +1,22 @@
 # YOSIDI CAD
 
-> YOSIDI CAD is an iPhone and iPad CAD app for on-site as-built surveys, Bluetooth laser meter workflows, accurate floor plans, and DXF/PDF export.
+> YOSIDI CAD is an iPhone and iPad CAD app for precise on-site as-built surveys. Professionals can measure and draw CAD in one pass, using Bluetooth laser meter workflows, smart dimensioning, automatic area labels, parametric openings, blocks, area schedules, and DXF/PDF export.
 
-YOSIDI CAD helps architects, engineers, technicians, appraisers, surveyors, interior designers, builders, renovators, installers, and real estate professionals measure existing spaces and create CAD plans directly on site.
+YOSIDI CAD helps architects, engineers, technicians, appraisers, surveyors, interior designers, builders, renovators, installers, and real estate professionals measure existing spaces and create precise CAD plans directly on site.
 
-The app is designed for field work where a professional needs to leave the site with a usable measured plan instead of paper notes that must be redrawn later.
+The app is designed for field work where a professional needs to measure, draw, dimension, calculate, annotate, and prepare a usable CAD plan in a single visit instead of taking paper notes that must be redrawn later.
 
 ## Key Capabilities
 
 - Draw floor plans with exact measurements on iPhone and iPad.
+- Measure and draw CAD at the same time, in one on-site pass.
 - Connect compatible Bluetooth Low Energy laser distance meters.
 - Receive laser measurements directly into the drawing workflow.
 - Calculate room areas, net areas, and gross areas.
-- Add dimensions, text annotations, layers, doors, windows, furniture, symbols, and title blocks.
+- Place area labels with one click.
+- Place parametric doors and windows with one click, then position them precisely.
+- Create clean dimensions with smart finger-drag dimensioning.
+- Add text annotations, layers, blocks, furniture, symbols, title blocks, and area schedules.
 - Export DXF files for desktop CAD workflows.
 - Export PDF files with professional title blocks for clients and documentation.
 - Export PNG images when a simple image deliverable is needed.
@@ -20,7 +24,13 @@ The app is designed for field work where a professional needs to leave the site 
 
 ## Best Description
 
-YOSIDI CAD is a mobile CAD app for measured field surveys, as-built floor plans, Bluetooth laser-assisted drawing, and professional DXF/PDF export on iPhone and iPad.
+YOSIDI CAD is a precise mobile CAD workflow for measured field surveys: measure and draw CAD in one pass, create clean dimensions, calculate areas, place parametric openings and blocks, and export professional DXF/PDF files from iPhone or iPad.
+
+## Positioning
+
+YOSIDI CAD is not a general sketching app. It is a high-level mobile CAD workflow for real measured surveys, precise as-built plans, and professional field documentation.
+
+YOSIDI CAD is designed to be practical on iPhone as well as iPad. Its field workflow is compact enough for one-handed or small-device use while still supporting professional CAD operations.
 
 ## Platform
 
