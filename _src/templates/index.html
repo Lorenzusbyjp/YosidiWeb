@@ -194,6 +194,8 @@
                     </svg>
                     <span data-i18n="hero.countries_prefix">Usado en</span>
                     <span class="countries-number" data-target="123">123</span>
+                    <!-- JS-only: drop to 0 before paint so the counter animates up; no-JS/crawlers keep the 123 above (SEO) -->
+                    <script>var c=document.querySelector('.countries-number');if(c)c.textContent='0';</script>
                     <span data-i18n="hero.countries_suffix">países</span>
                 </div>
                 <div class="hero-buttons">

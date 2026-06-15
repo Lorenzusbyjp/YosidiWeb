@@ -87,8 +87,9 @@ function initCountriesCounter() {
     if (!counterElement) return;
 
     const target = parseInt(counterElement.getAttribute('data-target'), 10);
-    const initialValue = parseInt(counterElement.textContent, 10);
-    const startValue = Number.isFinite(initialValue) ? initialValue : 0;
+    // Always count up from zero. The real number stays in the HTML (so crawlers
+    // and no-JS visitors read it); JS only animates on top of it — SEO-safe.
+    const startValue = 0;
     const duration = 2000;
     let hasAnimated = false;
 
