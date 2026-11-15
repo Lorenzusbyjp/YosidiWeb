@@ -57,6 +57,7 @@ YosidiWeb/
 ├── it/{index,privacy,terms}.html  ← Italiano                     │
 ├── pt/{index,privacy,terms}.html  ← Portugués                    │
 ├── sitemap.xml                  ← 18 URLs con hreflang alternates ┘
+├── laser-check/index.html       ← Herramienta de soporte, oculta y escrita a mano (ver abajo)
 └── robots.txt
 ```
 
@@ -248,6 +249,7 @@ Cosas que se decidieron por una razón concreta y no conviene revertir sin conte
 - **`update-image-dimensions.sh` usa `grep`, no `rg`.** Antes requería `ripgrep` instalado. Cambiado para no tener dependencia extra. No re-introducir `rg`.
 - **`locales/` vive en root, no en `_src/`.** Es source pero se edita con frecuencia (cambiar copy). Se prioriza accesibilidad sobre consistencia estricta.
 - **No editar a mano los HTMLs del root ni de `/<lang>/`.** Son output de `build.py`. Tu cambio se perderá la próxima vez que se regenere.
+- **`/laser-check/` es una herramienta de soporte oculta: no enlazarla ni meterla en el build.** Se comparte solo por correo con quien prueba un medidor láser: lee por Bluetooth lo que manda el medidor y genera un informe de texto que el usuario nos envía. Es la excepción a la regla anterior: un único HTML escrito a mano, con su CSS y su JS dentro, solo en inglés, que `build.py` no genera ni toca. Lleva `noindex,nofollow`. No añadirla a `sitemap.xml`, a `llms.txt`, a `ai-search-summary.html` ni a `robots.txt` (un `Disallow` anunciaría la ruta e impediría leer el `noindex`). El enlace que se manda lleva el principio del nombre Bluetooth del medidor (`/laser-check/?name=DISTO` para un Leica), para que la ventana de dispositivos del navegador enseñe ese medidor y nada más; sin parámetro lista todos los nombres de medidor conocidos. Solo funciona en Chrome o Edge de ordenador (Web Bluetooth); en Safari y en iPad/iPhone muestra un aviso. Nunca escribe en el medidor ni sube nada a un servidor. Los informes recibidos **no se guardan en este repo**: llevan el número de serie del medidor del usuario.
 
 ## Pendientes / mejoras futuras opcionales
 
