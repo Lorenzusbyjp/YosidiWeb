@@ -131,26 +131,19 @@
         .check { display: flex; gap: 0.5rem; align-items: flex-start; font-weight: 400; margin: 0; }
         .check input { margin-top: 0.3rem; }
         .error { color: var(--color-error); font-size: 0.9rem; }
-        /* A drawing of the browser's own device window, so it is no surprise. */
-        .chooser {
-            max-width: 340px;
-            border: 1px solid var(--color-border);
-            border-radius: var(--radius);
-            padding: 0.9rem 1rem;
-            margin-bottom: 0.6rem;
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-            font-size: 0.9rem;
+        /* The name of a button in the browser's own window, drawn as that button looks.
+           Kept small and inside the sentence: a full drawing of the window got clicked. */
+        .key {
+            display: inline-block;
+            padding: 0 11px;
+            border-radius: 14px;
+            background: var(--color-primary);
+            color: #fff;
+            font-size: 0.85em;
+            font-weight: 600;
+            cursor: default;
+            user-select: none;
         }
-        .chooser-title { font-weight: 600; margin-bottom: 0.6rem; }
-        .chooser-row { background: #e8f0fe; border-radius: 6px; padding: 6px 10px; margin-bottom: 0.8rem; }
-        .chooser-buttons { display: flex; justify-content: flex-end; gap: 0.5rem; }
-        .chooser-btn {
-            padding: 4px 14px;
-            border-radius: 16px;
-            border: 1px solid var(--color-border);
-            color: var(--color-text-secondary);
-        }
-        .chooser-btn.primary { background: var(--color-primary); border-color: var(--color-primary); color: #fff; }
         .tech {
             max-width: 600px;
             margin: 1.25rem auto 0;
@@ -202,13 +195,7 @@
                 <li>Close YOSIDI CAD and any other app that uses the meter.</li>
                 <li>If the meter is paired with your iPad or phone, turn Bluetooth off there for now. The meter talks to one device at a time.</li>
             </ol>
-            <p>When you press the button, your browser opens a small window like this one. Select the line with your meter's name and press <strong>Pair</strong>.</p>
-            <div class="chooser" aria-hidden="true">
-                <div class="chooser-title"><span id="chooser-host">www.yosidi.com</span> wants to pair</div>
-                <div class="chooser-row" id="chooser-name">Your meter's name</div>
-                <div class="chooser-buttons"><span class="chooser-btn">Cancel</span><span class="chooser-btn primary">Pair</span></div>
-            </div>
-            <p class="fine">That window belongs to the browser. It lists Bluetooth devices that are switched on near this computer, and gives this page access only to the one you select.</p>
+            <p>When you press the button below, your browser opens a small window listing the Bluetooth devices nearby. Select the line with your meter's name and press <span class="key">Pair</span> in that window.</p>
             <button id="connect" class="btn" type="button">Connect laser meter</button>
             <div id="nolist" class="hint" style="margin-top:1rem" hidden>
                 <p>No meter was selected. If yours was not in the window: press a key on the meter to wake it, check that Bluetooth is off on your iPad or phone, wait a few seconds and try again.</p>
@@ -820,7 +807,6 @@
         window.addEventListener('error', event => log(`PAGE ERROR: ${event.message}`));
         window.addEventListener('unhandledrejection', event => log(`PAGE ERROR: ${describe(event.reason)}`));
 
-        $('chooser-host').textContent = location.host || 'www.yosidi.com';
 
         log(`laser-check v${REPORT_VERSION} — ${startedAt.toISOString()}`);
         if (!navigator.bluetooth) {
