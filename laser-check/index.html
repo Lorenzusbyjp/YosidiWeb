@@ -202,7 +202,7 @@
                 <li>Close YOSIDI CAD and any other app that uses the meter.</li>
                 <li>If the meter is paired with your iPad or phone, turn Bluetooth off there for now. The meter talks to one device at a time.</li>
             </ol>
-            <p>When you press the button, your browser opens a small window like this one. <span id="pick-text">Select the line with your meter's name</span> and press <strong>Pair</strong>.</p>
+            <p>When you press the button, your browser opens a small window like this one. Select the line with your meter's name and press <strong>Pair</strong>.</p>
             <div class="chooser" aria-hidden="true">
                 <div class="chooser-title"><span id="chooser-host">www.yosidi.com</span> wants to pair</div>
                 <div class="chooser-row" id="chooser-name">Your meter's name</div>
@@ -271,47 +271,49 @@
         const REPORT_VERSION = 1;
 
         // A web page only sees the Bluetooth services it asks for up front.
-        // These are the ones YOSIDI CAD knows; add a brand's service here to check it.
-        const LEICA_SERVICE = '3ab10100-f831-4395-b29d-570977d5bf94';
-        const DECLARED_SERVICES = [
-            [LEICA_SERVICE, 'Leica DISTO'],
-            ['00005301-0000-0041-5253-534f46540000', 'Bosch (family 1)'],
-            ['02a6c0d0-0451-4000-b000-fb3210111989', 'Bosch (family 2)'],
-            ['0000fff0-0000-1000-8000-00805f9b34fb', 'Generic FFF0'],
-            ['0000ffe0-0000-1000-8000-00805f9b34fb', 'Generic FFE0'],
-            ['6e400001-b5a3-f393-e0a9-e50e24dcca9e', 'Nordic UART'],
-            ['0000180f-0000-1000-8000-00805f9b34fb', 'Battery'],
-            ['0000180a-0000-1000-8000-00805f9b34fb', 'Device Information'],
+        // These are the ones YOSIDI CAD knows; add a service here to check a new kind of meter.
+        // No maker or product name is written in this page: services go by their id only.
+        const APP_SERVICE = '3ab10100-f831-4395-b29d-570977d5bf94';
+        const BATTERY_SERVICE = '0000180f-0000-1000-8000-00805f9b34fb';
+        const DEVICE_INFORMATION_SERVICE = '0000180a-0000-1000-8000-00805f9b34fb';
+        const SERVICE_UUIDS = [
+            APP_SERVICE,
+            '00005301-0000-0041-5253-534f46540000',
+            '02a6c0d0-0451-4000-b000-fb3210111989',
+            '0000fff0-0000-1000-8000-00805f9b34fb',
+            '0000ffe0-0000-1000-8000-00805f9b34fb',
+            '6e400001-b5a3-f393-e0a9-e50e24dcca9e',
+            BATTERY_SERVICE,
+            DEVICE_INFORMATION_SERVICE,
         ];
-        const SERVICE_LABEL = new Map(DECLARED_SERVICES);
-        const SERVICE_UUIDS = DECLARED_SERVICES.map(([uuid]) => uuid);
-        // Battery and device information are logged but are not measurement data.
-        const QUIET_SERVICES = new Set([
-            '0000180f-0000-1000-8000-00805f9b34fb',
-            '0000180a-0000-1000-8000-00805f9b34fb',
+        const SERVICE_LABEL = new Map([
+            [BATTERY_SERVICE, 'Battery'],
+            [DEVICE_INFORMATION_SERVICE, 'Device Information'],
         ]);
+        // Battery and device information are logged but are not measurement data.
+        const QUIET_SERVICES = new Set([BATTERY_SERVICE, DEVICE_INFORMATION_SERVICE]);
 
-        // The only two characteristics YOSIDI CAD subscribes to on a Leica.
+        // The only two characteristics YOSIDI CAD subscribes to in APP_SERVICE.
         // Phase A listens to exactly these, to see what the app sees.
-        const APP_LEICA_CHARACTERISTICS = new Set([
+        const APP_CHARACTERISTICS = new Set([
             '3ab10101-f831-4395-b29d-570977d5bf94',
             '3ab1010d-f831-4395-b29d-570977d5bf94',
         ]);
 
-        // Name prefixes for the browser's device list (matching is case-sensitive).
-        const NAME_PREFIXES = [
-            'DISTO', 'Disto', 'Leica', 'LEICA', 'Bosch', 'BOSCH', 'GLM', 'PLR',
-            'STABILA', 'Stabila', 'LD', 'Stanley', 'STANLEY', 'TLM', 'Hilti', 'HILTI', 'PD',
-            'DEWALT', 'DeWalt', 'DW0', 'Makita', 'Milwaukee', 'Fluke', 'FLK',
-            'Mileseey', 'Huepar', 'Prexiso', 'Tacklife', 'SNDWAY', 'Sndway',
-        ];
-
-        // A link can carry the start of the meter's Bluetooth name, as in
-        // /laser-check/?name=DISTO (or ?name=DISTO,Leica when it is not known which),
-        // so the browser's window lists that meter and nothing else.
-        const wantedNames = (new URLSearchParams(location.search).get('name') || '')
-            .split(',').map(name => name.trim().slice(0, 30)).filter(Boolean).slice(0, 5);
-        const wantedText = wantedNames.map(name => `“${name}”`).join(' or ');
+        // The link can carry, encoded, how the meter's Bluetooth name starts
+        // (?m=<base64url>, several separated by commas), so the browser's window
+        // lists that meter and nothing else. Without it, the window lists every
+        // Bluetooth device nearby. Matching is case-sensitive.
+        function decodeName(token) {
+            try {
+                const text = atob(token.replace(/-/g, '+').replace(/_/g, '/'));
+                return /^[\x20-\x7e]{1,30}$/.test(text) ? text : '';
+            } catch (error) {
+                return '';
+            }
+        }
+        const wantedNames = (new URLSearchParams(location.search).get('m') || '')
+            .split(',').map(decodeName).filter(Boolean).slice(0, 5);
 
         const CONNECT_TIMEOUT = 20000;
         const DISCOVERY_TIMEOUT = 15000;
@@ -467,21 +469,20 @@
         async function chooseDevice(mode) {
             if (busy) return;
             hideBanner();
-            const prefixes = wantedNames.length ? wantedNames : NAME_PREFIXES;
-            const options = mode === 'all'
-                ? { acceptAllDevices: true, optionalServices: SERVICE_UUIDS }
-                : { filters: prefixes.map(namePrefix => ({ namePrefix })), optionalServices: SERVICE_UUIDS };
-            const shown = mode === 'all' ? 'all devices'
-                : wantedNames.length ? `names starting with ${wantedText}` : 'known meter names';
+            const filtered = mode !== 'all' && wantedNames.length > 0;
+            const options = filtered
+                ? { filters: wantedNames.map(namePrefix => ({ namePrefix })), optionalServices: SERVICE_UUIDS }
+                : { acceptAllDevices: true, optionalServices: SERVICE_UUIDS };
             let chosen;
             try {
-                log(`DEVICE LIST (${shown})`);
+                log(`DEVICE LIST (${filtered ? 'name filter from the link' : 'all devices'})`);
                 chosen = await navigator.bluetooth.requestDevice(options);
             } catch (error) {
                 log(`DEVICE LIST: ${describe(error)}`);
                 $('tech').hidden = false;
                 // Closing the window is not an error: most often the meter was not in it.
                 if (error && error.name === 'NotFoundError' && /cancel/i.test(error.message)) {
+                    $('connect-all').hidden = !filtered;  // already listing everything otherwise
                     $('nolist').hidden = false;
                     return;
                 }
@@ -593,7 +594,7 @@
 
         function appLikeCharacteristics() {
             return characteristics.filter(c =>
-                c.serviceUuid === LEICA_SERVICE && APP_LEICA_CHARACTERISTICS.has(c.uuid) && c.canNotify);
+                c.serviceUuid === APP_SERVICE && APP_CHARACTERISTICS.has(c.uuid) && c.canNotify);
         }
 
         function buildPlan() {
@@ -750,7 +751,7 @@
             out.push(`Meter:    ${device ? meterName() : '(none chosen)'}`);
             out.push('');
             out.push('Declared services (a web page only sees the services it asks for):');
-            for (const [uuid, label] of DECLARED_SERVICES) out.push(`  ${shortUuid(uuid)}  ${label}`);
+            for (const uuid of SERVICE_UUIDS) out.push(`  ${shortUuid(uuid)}  ${SERVICE_LABEL.get(uuid) || ''}`.trimEnd());
             out.push('');
             out.push('SUMMARY');
             if (!results.length) out.push('  No measurement was saved.');
@@ -820,10 +821,6 @@
         window.addEventListener('unhandledrejection', event => log(`PAGE ERROR: ${describe(event.reason)}`));
 
         $('chooser-host').textContent = location.host || 'www.yosidi.com';
-        if (wantedNames.length) {
-            $('pick-text').textContent = `Select the line that starts with ${wantedText}`;
-            $('chooser-name').textContent = `${wantedNames[0]} …`;
-        }
 
         log(`laser-check v${REPORT_VERSION} — ${startedAt.toISOString()}`);
         if (!navigator.bluetooth) {
